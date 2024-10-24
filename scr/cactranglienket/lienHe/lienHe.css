@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+/* header */
+header {
+  position: relative;
+  /* ảnh nền backgroud */
+  background: url(/img/ca_koi.jpg) no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+header::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 1;
+}
+nav.logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+nav.menu {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+nav.menu {
+  display: flex;
+  position: relative;
+  top: auto;
+}
+.menu ul {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  /* background-color: #999900; */
+}
+.menu ul li {
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 10px 10px 10px;
+  transition: all 0.3 ease;
+  border-radius: 20px;
+}
+.menu ul li.active a {
+  background: yellow;
+  color: #000;
+}
+.menu ul li a:hover {
+  background: yellow;
+  color: #000;
+}
+/* Logo tiêu đề */
+.logo h1 {
+  position: relative;
+  color: #9de081;
+  display: flex;
+  top: -1px;
+  margin-left: 30px;
+  text-align: center;
+}
+/* ==================================================== */
+/*Tạo kiểu cho nội dung*/
+.content {
+  /* background-color: #ddd; */
+  background-image: url(/img/ca_koi.jpg);
+  padding: 10px;
+  height: 200px; /* Nên loại bỏ. Chỉ mang tính chất trình diễn */
+}
+/* ==================================================== */
+/* Tạo kiểu cho phần chân trang */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
