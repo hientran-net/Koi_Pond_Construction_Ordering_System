@@ -1,0 +1,1864 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Enlink - Bootstrap Admin Template</title>
+        
+        <link rel="apple-touch-icon" href="assets/images/logo/apple-touch-icon.png">
+        <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="assets/css/materialdesignicons.min.css" />
+        <link rel="stylesheet" href="assets/css/themify-icons.css" />
+        <link rel="stylesheet" href="assets/css/prism.css" />
+        <link rel="stylesheet" href="assets/css/app.css" />
+
+
+        <style>
+            
+            
+            .fixed-top {
+                position: fixed;
+                top: 30px;
+                background-color: #fff;
+                margin-bottom: 30px;
+                -webkit-box-shadow: 1px 3px 15px 0px rgba(0, 0, 0, 0.1);
+                -moz-box-shadow: 1px 3px 15px 0px rgba(0, 0, 0, 0.1);
+                box-shadow: 1px 3px 15px 0px rgba(0, 0, 0, 0.1);
+                padding: 15px 30px;
+                z-index: 1;
+            }
+        
+            .loader-wrapper {
+                display: none;
+            }
+            
+            .header .title {
+                line-height: 65px;
+                font-size: 20px;
+            }
+    
+            .toc ul li > a {
+                color: #888da8;
+                font-weight: 500;
+                font-size: 15px;
+                padding: 10px 0px;
+                display: block;
+            }
+    
+            .toc ul li > a:hover,
+            .toc ul li > a:focus,
+            .toc ul li > a.active {
+                text-decoration: none;
+                color: #515365;
+            }	
+    
+            ul {
+                list-style: none;
+                margin-bottom: auto;
+                padding-left: 0;
+            }
+    
+            .font-weight-light {
+                font-weight: 300;
+            }
+    
+            code {
+                color: #cd4945;
+            }
+    
+            td.active {
+                background-color: #fafcff;
+            }
+
+            .wrapper {
+                max-width: 800px;
+            }
+            
+            .syntaxhighlighter .toolbar {
+                display: none;
+            }
+
+            pre {
+                display: block;
+                padding: 20px;
+                margin: 0 0 10px;
+                font-size: 13px;
+                word-wrap: break-word;
+                color: #b1c8d4;
+                background-color: #313644;
+                border: 1px solid #313644;
+                border-radius: 4px;
+                white-space: normal;
+                word-wrap: break-word;
+            }
+
+            .opacity {
+                opacity: 0.6;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.js"></script>
+        <script src="assets/js/prism.js"></script>
+        <script>
+           
+        </script> 
+        <div class="app header-success-info">
+            <div class="layout">
+
+                <div class="header navbar">
+                    <div class="header-container">
+                        <div class="nav-logo">
+                            <a href="index.html">
+                                <div class="logo logo-dark" style="background-image: url('assets/images/logo/logo.png')"></div>
+                            </a>
+                        </div>
+                        <ul class="nav-right">
+                            <li>
+                                <span class="font-size-20 lh-3 p-r-20">Docs v1.0.0</span>
+                            </li>
+                        </ul>
+                    </div>          
+                </div>
+                <div class="side-nav">
+                    <div class="side-nav-inner">
+                        <ul class="side-nav-menu nav d-block">
+                            <li class="nav-item">
+                                <a href="#introduction" data-toggle="tab">
+                                    <span class="icon-holder">
+                                        <i class="mdi mdi-bookmark-plus-outline text-primary"></i>
+                                    </span>
+                                    <span class="title">Introduction</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#getting-started" data-toggle="tab">
+                                    <span class="icon-holder">
+                                        <i class="mdi mdi-label-outline text-info"></i>
+                                    </span>
+                                    <span class="title">Getting Started</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#installation" data-toggle="tab">
+                                    <span class="icon-holder">
+                                            <i class="mdi mdi-verified text-success"></i>
+                                    </span>
+                                    <span class="title">Installation</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#folder-structure" data-toggle="tab">
+                                    <span class="icon-holder">
+                                        <i class="mdi mdi-folder icon-gradient-danger"></i>
+                                    </span>
+                                    <span class="title">Folder Structure</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#html-structure" data-toggle="tab">
+                                    <span class="icon-holder">
+                                        <i class="mdi mdi-language-html5 text-primary"></i>
+                                    </span>
+                                    <span class="title">HTML</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#styling-structure" data-toggle="tab">
+                                    <span class="icon-holder">
+                                        <i class="mdi mdi-language-css3 text-info"></i>
+                                    </span>
+                                    <span class="title">Styling</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#javascript-structure" data-toggle="tab">
+                                    <span class="icon-holder">
+                                        <i class="mdi mdi-language-javascript text-warning"></i>
+                                    </span>
+                                    <span class="title">JavaScript</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#ultility-class" data-toggle="tab">
+                                    <span class="icon-holder">
+                                        <i class="mdi mdi-image-filter-tilt-shift icon-gradient-info"></i>
+                                    </span>
+                                    <span class="title">Utility Classes</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#source-credit" data-toggle="tab">
+                                    <span class="icon-holder">
+                                        <i class="mdi mdi-git icon-gradient-warning"></i>
+                                    </span>
+                                    <span class="title">Sources & Credits</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#changelog" data-toggle="tab">
+                                    <span class="icon-holder">
+                                        <i class="mdi mdi-image-filter-none text-danger"></i>
+                                    </span>
+                                    <span class="title">Changelog</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>        
+                </div>
+                <div class="page-container">
+                    <div class="main-content">
+                        <div class="container">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="tab-content">
+
+                                        <!-- Introduction -->
+                                        <div role="tabpanel" class="tab-pane fade in active" id="introduction">
+                                            <h2>Introduction</h2>
+                                            <hr class="m-v-15">
+                                            <div class="wrapper">
+                                                <div class="m-t-30">
+                                                    <p>
+                                                        <strong class="text-dark">Enlink</strong> 
+                                                        is a modern dashboard template build with Bootstrap 4. It contains alot high flexibility and configurablue components. With a detailed documentation & clean code, it allow developers build any projects easily! 
+                                                    </p>
+                                                    <p class="m-b-25">Thank you for downloading Enlink - Bootstrap Admin Template. If you have any queries, please feel free to contact us.</p>
+                                                    <p><b class="text-dark">Author by: </b> <a href="" target="blank">Theme_Nate</a></p>
+                                                    <p><b class="text-dark">Support via Email: </b> <a href="mailto:jiasheng_93@hotmail.com" target="blank">jiasheng_93@hotmail.com</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Getting Start -->
+                                        <div role="tabpanel" class="tab-pane fade" id="getting-started">
+                                            <h2>Getting Started</h2>
+                                            <hr class="m-v-15">
+                                            <div class="wrapper">
+                                                <p>Once you have unzip the compressed file, you’ll see something like below</p>
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <ul class="m-t-10 m-l-15">
+                                                            <li class="m-b-10">
+                                                                <i class="mdi mdi-folder text-info"></i>
+                                                                <b class="p-l-10 text-dark">Enlink</b>
+                                                                <ul class="m-t-10 m-l-15">
+                                                                    <li class="m-b-10">
+                                                                        <i class="mdi mdi-folder text-info"></i>
+                                                                        <b class="p-l-10 text-dark">demo</b>
+                                                                    </li>
+                                                                    <li class="m-b-10">
+                                                                        <i class="mdi mdi-folder text-info"></i>
+                                                                        <b class="p-l-10 text-dark">starter</b>
+                                                                    </li>
+                                                                    <li class="m-b-10">
+                                                                        <i class="mdi mdi-folder text-info"></i>
+                                                                        <b class="p-l-10 text-dark">documentation</b>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>                
+                                                    </div>
+                                                </div>        
+                                                <p>Each directory contains <b class="text-dark">demo</b> &amp; <b class="text-dark">starter</b> folder.</p>                                     
+                                                <div class="m-v-20">
+                                                    <h4>template</h4>
+                                                    <p>This folder contains all demo source code of Espire, you may possible to import code to your project from code samples provided in this folder.</p>
+                                                </div>
+                                                <div class="m-v-20">
+                                                    <h4>starter</h4>
+                                                    <p>This is a starter pack for developer, it initialize the basic of the template. You can create pages and write your own code here, we highly recommend you copy this folder to your workspace for development.</p>
+                                                </div>
+                                                <p>You can see the following structure in the folders:</p>
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <ul class="m-t-10 m-l-15">
+                                                            <li class="m-b-10">
+                                                                <ul class="m-t-10 m-l-15">
+                                                                    <li class="m-b-10">
+                                                                        <i class="mdi mdi-folder text-info"></i>
+                                                                        <b class="p-l-10 text-dark">app</b>
+                                                                    </li>
+                                                                    <li class="m-b-10">
+                                                                        <i class="mdi mdi-file-outline text-info"></i>
+                                                                        <b class="p-l-10 text-dark">.babelrc</b>
+                                                                    </li>
+                                                                    <li class="m-b-10">
+                                                                        <i class="mdi mdi-file-outline text-info"></i>
+                                                                        <b class="p-l-10 text-dark">gulpfile.babel</b>
+                                                                    </li>
+                                                                    <li class="m-b-10">
+                                                                        <i class="mdi mdi-file-outline text-info"></i>
+                                                                        <b class="p-l-10 text-dark">package.json</b>
+                                                                    </li>
+                                                                    <li class="m-b-10">
+                                                                        <i class="mdi mdi-file-outline text-info"></i>
+                                                                        <b class="p-l-10 text-dark">package.lock.json</b>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Installation -->
+                                        <div role="tabpanel" class="tab-pane fade" id="installation">
+                                            <h2>Installation</h2>
+                                            <hr class="m-v-15">
+                                            <div class="wrapper">
+                                                <div class="m-t-30">
+                                                    <p>Enlink use <a href="http://gulpjs.com">Gulp</a> to handle complilation, minification & etc. To use it with the template, you may need to install the following things to get started</p>
+                                                    <div class="m-b-20 m-t-30">
+                                                        <h5 class=" m-b-15">Node & NPM</h5>
+                                                        <p>You can download Node.js from <a href="https://nodejs.org" target="_blank">https://nodejs.org/en/download/</a>. NPM comes bundled with Node.js.</p>
+                                                    </div>    
+                                                    <div class="m-b-20 m-t-30">
+                                                        <h5 class=" m-b-15">Gulp</h5>
+                                                        <p>Run the command below at your cmd as Administrator to install Gulp, make sure npm was installed before installing Gulp</p>
+                                                        <pre>npm install gulp-cli -g</pre>
+                                                    </div>    
+                                                    <hr class="m-v-15">
+                                                    <div class="m-b-20 m-t-30">
+                                                        <h5 class=" m-b-15">NPM Package</h5>
+                                                        <p>Run <code>npm install</code> from the root of your project<i>(where 
+                                                            <code>package.json </code>, <code>.babelrc</code>, <code>gulpfile.babel.js</code>
+                                                            located)</i> to install all the necessary dependencies. 
+                                                        </p>
+                                                    </div>
+                                                    <div class="m-b-20 m-t-30">
+                                                        <h5 class=" m-b-15">Main Commands</h5>
+                                                        <p>Once you have completed the steps above, you will be able to run the following commands and start working</p>
+                                                        <table class="table table-bordered m-t-25">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th width="200"><b>COMMAND</b></th>
+                                                                    <th><b>DESCRIPTION</b></th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <code>npm run start</code>
+                                                                    </td>
+                                                                    <td>
+                                                                        Start a local static HTML web server <a href="http://localhost:3000">http://localhost:3000</a> which will which auto update & refresh when any html, css, js files was changes.
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <code>npm run build</code>
+                                                                    </td>
+                                                                    <td>
+                                                                        It will create a <code>dist</code> folder & copy all compiled & minimized files into it for production ready.
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>  
+                                                    <div class="m-b-20 m-t-30">
+                                                        <h5 class=" m-b-15">Others Commands</h5>
+                                                        <table class="table table-bordered m-t-25">
+                                                                <thead>
+                                                                <tr>
+                                                                    <th width="200"><b>COMMAND</b></th>
+                                                                    <th><b>DESCRIPTION</b></th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <code>gulp scss-dev</code>
+                                                                    </td>
+                                                                    <td>
+                                                                        Compile SCSS to CSS. 
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <code>gulp watch-scss</code>
+                                                                    </td>
+                                                                    <td>
+                                                                        Watch SCSS Changes.
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <code>gulp js</code>
+                                                                    </td>
+                                                                    <td>
+                                                                        Compile ES6 to ES5 and concatnate core vendor JS.
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <code>gulp watch-js</code>
+                                                                    </td>
+                                                                    <td>
+                                                                        Watch ES6 Changes & auto compile to ES5
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div> 
+                                            </div>        
+                                        </div>
+
+                                        <!-- Folder Structure -->
+                                        <div role="tabpanel" class="tab-pane fade" id="folder-structure">
+                                            <h2>Folder Structure</h2>
+                                            <hr class="m-v-15">
+                                            <p>You can see the following folder structure once you have entered <code>starter</code> directory</p>
+                                            <div class="wrapper">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <ul class="m-t-10 m-l-15">
+                                                            <li class="m-b-10">
+                                                                <ul class="m-t-10 m-l-15">
+                                                                    <li class="m-b-10">
+                                                                        <i class="mdi mdi-folder text-info"></i>
+                                                                        <b class="p-l-10 text-dark">.babelrc</b>
+                                                                        <i class="font-size-13" style="margin-left: 144px">Babel config file</i>
+                                                                    </li>
+                                                                    <li class="m-b-10">
+                                                                        <i class="mdi mdi-folder text-info"></i>
+                                                                        <b class="p-l-10 text-dark">gulpfile.babel</b>
+                                                                        <i class="font-size-13" style="margin-left: 108px">Included all gulp tasks logic</i>
+                                                                    </li>
+                                                                    <li class="m-b-10">
+                                                                        <i class="mdi mdi-folder text-info"></i>
+                                                                        <b class="p-l-10 text-dark">package.json</b>
+                                                                        <i class="font-size-13" style="margin-left: 108px">npm entry file</i>
+                                                                    </li>
+                                                                    <li class="m-b-10">
+                                                                        <i class="mdi mdi-folder text-info"></i>
+                                                                        <b class="p-l-10 text-dark">app</b>
+                                                                        <ul class="m-t-10 m-l-15">
+                                                                            <li class="m-b-10">
+                                                                                <i class="mdi mdi-folder text-info"></i>
+                                                                                <b class="p-l-10 text-dark">assets</b>
+                                                                                <ul class="m-t-10 m-l-15">
+                                                                                    <li class="m-b-10">
+                                                                                        <i class="mdi mdi-folder text-info"></i>
+                                                                                        <b class="p-l-10 text-dark">css</b>
+                                                                                        <i class="font-size-13" style="margin-left: 144px">All vallina css files placed here</i>
+                                                                                    </li>
+                                                                                    <li class="m-b-10">
+                                                                                        <i class="mdi mdi-folder text-info"></i>
+                                                                                        <b class="p-l-10 text-dark">es6</b>
+                                                                                        <i class="font-size-13" style="margin-left: 142px">Included all ES6 files which will transpile <code style="font-style: normal">js</code> folder</i>
+                                                                                    </li>
+                                                                                    <li class="m-b-10">
+                                                                                        <i class="mdi mdi-folder text-info"></i>
+                                                                                        <b class="p-l-10 text-dark">fonts</b>
+                                                                                        <i class="font-size-13"  style="margin-left: 130px">Included all font files</i>
+                                                                                    </li>
+                                                                                    <li class="m-b-10">
+                                                                                        <i class="mdi mdi-folder text-info"></i>
+                                                                                        <b class="p-l-10 text-dark">images</b>
+                                                                                        <i class="font-size-13"  style="margin-left: 116px">Included all image files</i>
+                                                                                    </li>
+                                                                                    <li class="m-b-10">
+                                                                                        <i class="mdi mdi-folder text-info"></i>
+                                                                                        <b class="p-l-10 text-dark">js</b>
+                                                                                        <i class="font-size-13" style="margin-left: 148px">Included all transpiled JS files</i>
+                                                                                    </li>
+                                                                                    <li class="m-b-10">
+                                                                                        <i class="mdi mdi-folder text-info"></i>
+                                                                                        <b class="p-l-10 text-dark">scss</b>
+                                                                                        <i class="font-size-13"  style="margin-left: 130px">Included scss files which will output to <code style="font-style: normal">css</code> folder</i>
+                                                                                    </li>
+                                                                                    <li class="m-b-10">
+                                                                                        <i class="mdi mdi-folder text-info"></i>
+                                                                                        <b class="p-l-10 text-dark">vendors</b>
+                                                                                        <i class="font-size-13"  style="margin-left: 108px">Included all source files of 3rd party plugins</i>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="m-b-10">
+                                                                        <i class="mdi mdi-file-outline text-info"></i>
+                                                                        <b class="p-l-10 text-dark">index.html</b>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>    
+                                            </div>
+                                        </div>
+
+                                        <!-- HTML -->
+                                        <div role="tabpanel" class="tab-pane fade" id="html-structure">
+                                            <h2>Page Structure</h2>
+                                            <hr class="m-v-15">
+                                            <div class="wrapper">
+                                                <h4 class="font-weight-light m-b-15">HTML</h4>
+                                                <p>The HTML structure is the same throughout the template.</p>
+                                                <div class="code-example">
+                                                    <pre><code class="language-markup"><script type="text/plain"><body>
+    <div class="app">
+        <div class="layout">
+            <!-- Header START -->
+            <div class="header">
+                ...
+            </div>    
+            <!-- Header END -->
+
+            <!-- Side Nav START -->
+            <div class="side-nav">
+                ...
+            </div>
+            <!-- Side Nav END -->
+
+            <!-- Page Container START -->
+            <div class="page-container">
+                
+                <!-- Content Wrapper START -->
+                <div class="main-content">
+                    ...
+                </div>
+                <!-- Content Wrapper END -->
+
+                <!-- Footer START -->
+                <footer class="footer">
+                    ...
+                </footer>
+                <!-- Footer END -->
+
+            </div>
+            <!-- Page Container END -->
+
+            <!-- Search Start-->
+            <div class="modal modal-left fade search" id="search-drawer">
+                ...
+            </div>
+            <!-- Search End-->
+
+            <!-- Quick View START -->
+            <div class="modal modal-right fade quick-view" id="quick-view">
+                ...           
+            </div>
+            <!-- Quick View END -->
+        </div>
+    </div>
+</body></script></code></pre>
+                                                </div>
+                                                <div class="m-b-20 m-t-30">
+                                                    <p>You can config your theme or layout by adding classes below to <code>.app</code> tag</p>
+                                                    <table class="table table-bordered">
+                                                        <thead>
+                                                            <tr>
+                                                                <th width="200">Class</th>
+                                                                <th>Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="active" colspan="2">
+                                                                    Header
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.is-primary</code></td>
+                                                                <td>Set primary color to header</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.is-success</code></td>
+                                                                <td>Set success color to header</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.is-secondary</code></td>
+                                                                <td>Set secondary color to header</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.is-danger</code></td>
+                                                                <td>Set danger color to header</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="active" colspan="2">
+                                                                    SIDE NAV BACKGRUND
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.is-side-nav-dark</code></td>
+                                                                <td>Dark theme side navigation</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="active" colspan="2">
+                                                                    SIDE NAV LAYOUT
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.is-folded</code></td>
+                                                                <td>Set navigation folded as default</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Styling -->
+                                        <div role="tabpanel" class="tab-pane fade" id="styling-structure">
+                                            <h2>Styling</h2>
+                                            <hr class="m-v-15">
+                                            <div class="wrapper">
+                                                <h4 class="font-weight-light m-b-15">Sass</h4>
+                                                <p>
+                                                    Enlink was built with <a href="http://sass-lang.com/">Sass</a>, it is a CSS extension language which able you to create, edit or manage styling in a easy way. <br>
+                                                    All scss files will compile into a single css file named <code>app.min.css</code> output to <code>assets/css</code> folder.<br>
+                                                    If you like to add your own styling, you can add it into <code>assets/scss/_custom.scss</code>, it can also extend the default <code>_variables.scss</code>
+                                                </p>
+                                                <p>You can see the following folder structure once you have entered <code>starter</code> directory</p>
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <ul class="m-t-10 m-l-15">
+                                                            <li class="m-b-10">
+                                                                <ul class="m-t-10 m-l-15">
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-folder text-info"></i>
+                                                                            <b class="p-l-10 text-dark">apps</b>
+                                                                        </div>
+                                                                        <i class="font-size-13">Included apps module related scss files</i>
+                                                                    </li>
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-folder text-info"></i>
+                                                                            <b class="p-l-10 text-dark">common</b>
+                                                                        </div>
+                                                                        <i class="font-size-13">Included common used & utilities scss files</i>
+                                                                    </li>
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-folder text-info"></i>
+                                                                            <b class="p-l-10 text-dark">components</b>
+                                                                        </div>
+                                                                        <i class="font-size-13">Included components related scss files</i>
+                                                                    </li>
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-folder text-info"></i>
+                                                                            <b class="p-l-10 text-dark">dashboard</b>
+                                                                        </div>
+                                                                        <i class="font-size-13">Included dashboard related scss files</i>
+                                                                    </li>
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-folder text-info"></i>
+                                                                            <b class="p-l-10 text-dark">forms</b>
+                                                                        </div>
+                                                                        <i class="font-size-13">Included forms related scss files</i>
+                                                                    </li>
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                        <i class="mdi mdi-folder text-info"></i>
+                                                                        <b class="p-l-10 text-dark">plugins</b>
+                                                                        </div>
+                                                                        <i class="font-size-13">Included all 3rd party plugins styling</i>
+                                                                    </li>
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-folder text-info"></i>
+                                                                            <b class="p-l-10 text-dark">tables</b>
+                                                                        </div>
+                                                                        <i class="font-size-13">Included all tables styling scss files</i>
+                                                                    </li>
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-folder text-info"></i>
+                                                                            <b class="p-l-10 text-dark">template</b>
+                                                                        </div>
+                                                                        <i class="font-size-13">Included template related scss files</i>
+                                                                    </li>
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-folder text-info"></i>
+                                                                            <b class="p-l-10 text-dark">theme-configurator</b>
+                                                                        </div>
+                                                                        <i class="font-size-13" >Included theme-configurator related scss files</i>
+                                                                    </li>
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-folder text-info"></i>
+                                                                            <b class="p-l-10 text-dark">ui-elements</b>
+                                                                        </div>
+                                                                        <i class="font-size-13">Included ui-elements related scss files</i>
+                                                                    </li>
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-file-outline text-info"></i>
+                                                                            <b class="p-l-10 text-dark">_custom.scss</b>
+                                                                        </div>
+                                                                        <i class="font-size-13">For any custom or overdiding css</i>
+                                                                    </li>
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-file-outline text-info"></i>
+                                                                            <b class="p-l-10 text-dark">_mixins.scss</b>
+                                                                        </div>
+                                                                        <i class="font-size-13">File that included all reusable scss function & etc</i>
+                                                                    </li>
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-file-outline text-info"></i>
+                                                                            <b class="p-l-10 text-dark">_variables.scss</b>
+                                                                        </div>
+                                                                        <i class="font-size-13">File that included all theme variables</i>
+                                                                    </li>
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-file-outline text-info"></i>
+                                                                            <b class="p-l-10 text-dark">app.scss</b>
+                                                                        </div>
+                                                                        <i class="font-size-13" >Entry file of all scss</i>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="m-b-20 m-t-40">
+                                                    <h4 class="font-weight-light m-b-15">CSS</h4>
+                                                    <p>In HTML pages, <code> app.min.css </code> was required by the template, you can include any 3rd party dependecies css below <-- page css --> comment</p>
+                                                    <div class="code-example">
+                                                        <pre><code class="language-markup"><script type="text/plain"><!-- page css -->
+<!-- pages css import here -->            
+
+<!-- Core css -->
+<link href="assets/css/app.min.css" rel="stylesheet"></script></code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Javascript -->
+                                        <div role="tabpanel" class="tab-pane fade" id="javascript-structure">
+                                            <h2>Javascript</h2>
+                                            <hr class="m-v-15">
+                                            <div class="wrapper">
+                                                <h4 class="font-weight-light m-b-15">ES6</h4>
+                                                <p>
+                                                    Enlink JS logics was built with ES6 and will transpile into ES5(most web browsers supportted version) by using our task runner(refer to Installation section).
+                                                    Transplied JS files can be found under <code>assets/js</code> folder.
+                                                </p>
+                                                <div class="alert alert-warning">
+                                                    <strong>Note:</strong> ES6 files have to be compiled to ES5 first before we include them to HTML pages.
+                                                </div>
+                                                <p>This is the folder strcture of <code>assets/es6</code></p>
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <ul class="m-t-10 m-l-15">
+                                                            <li class="m-b-10">
+                                                                <ul class="m-t-10 m-l-15">
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-folder text-info"></i>
+                                                                            <b class="p-l-10 text-dark">constant</b>
+                                                                        </div>
+                                                                        <i class="font-size-13">Included all shareable constant js files</i>
+                                                                    </li>
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-folder text-info"></i>
+                                                                            <b class="p-l-10 text-dark">core</b>
+                                                                        </div>
+                                                                        <i class="font-size-13">Included core js files</i>
+                                                                    </li>
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-folder text-info"></i>
+                                                                            <b class="p-l-10 text-dark">pages</b>
+                                                                        </div>
+                                                                        <i class="font-size-13">Included js files that only required by certain pages</i>
+                                                                    </li>
+                                                                    
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-file-outline text-info"></i>
+                                                                            <b class="p-l-10 text-dark">app.js</b>
+                                                                        </div>
+                                                                        <i class="font-size-13" >Entry file of es6 module</i>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <h4 class="font-weight-light m-b-15">JS</h4>
+                                                <p>In <code>assets/js</code> included all transpiled ES6 file and other other JS files</p>
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <ul class="m-t-10 m-l-15">
+                                                            <li class="m-b-10">
+                                                                <ul class="m-t-10 m-l-15">
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-folder text-info"></i>
+                                                                            <b class="p-l-10 text-dark">pages</b>
+                                                                        </div>
+                                                                        <i class="font-size-13">All pages js files</i>
+                                                                    </li>
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-file-outline text-info"></i>
+                                                                            <b class="p-l-10 text-dark">vendors.min.js</b>
+                                                                        </div>
+                                                                        <i class="font-size-13" >Compiled core 3rd party js file</i>
+                                                                    </li>
+                                                                    <li class="m-b-10 d-flex align-content-center">
+                                                                        <div  style="width: 30%">
+                                                                            <i class="mdi mdi-file-outline text-info"></i>
+                                                                            <b class="p-l-10 text-dark">vendors.min.js</b>
+                                                                        </div>
+                                                                        <i class="font-size-13" >Compiled core js file</i>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <h4 class="font-weight-light m-b-15">Include in HTML pages</h4>
+                                                <p>In HTML pages, you can include your own js or any pages js under <code>&lt;-- page js --&gt;</code></p>
+                                                <div class="code-example">
+                                                        <pre><code class="language-markup">&lt;!-- Core Vendors JS -->
+&lt;script src="assets/js/vendors.min.js">&lt;/script>
+
+&lt;!-- page js -->
+&lt;!-- page js import here -->
+
+&lt;!-- Core js -->
+&lt;script src="assets/js/app.min.js">&lt;/script></code></pre>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Utility Classes -->
+                                        <div role="tabpanel" class="tab-pane fade" id="ultility-class">
+                                            <h2>Utility Classes</h2>
+                                            <hr class="m-v-15">
+                                            <div class="wrapper">
+                                                <div class="m-t-20">
+                                                    <p>Enlink comes with many ultility classes
+                                                        which allow you to use part of bootstrap element to build your pages.
+                                                    </p>
+                                                    <h2 class="font-weight-light m-b-15 m-t-30">Margin</h2>
+                                                    <table class="table table-bordered">
+                                                        <thead>
+                                                            <tr>
+                                                                <th width="200">Class</th>
+                                                                <th>Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="active" colspan="2">
+                                                                    Margin
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-0</code></td>
+                                                                <td>margin: 0px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-5</code></td>
+                                                                <td>margin: 5px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-10</code></td>
+                                                                <td>margin: 10px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-15</code></td>
+                                                                <td>margin: 15px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-20</code></td>
+                                                                <td>margin: 20px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-25</code></td>
+                                                                <td>margin: 25px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-30</code></td>
+                                                                <td>margin: 30px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>...</td>
+                                                                <td>5 interval per unit</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-150</code></td>
+                                                                <td>margin: 150px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="active" colspan="2">
+                                                                    Margin Top 
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-t-0</code></td>
+                                                                <td>margin-top: 0px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-t-5</code></td>
+                                                                <td>margin-top: 5px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-t-10</code></td>
+                                                                <td>margin-top: 10px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-t-15</code></td>
+                                                                <td>margin-top: 15px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-t-20</code></td>
+                                                                <td>margin-top: 20px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-t-25</code></td>
+                                                                <td>margin-top: 25px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-t-30</code></td>
+                                                                <td>margin-top: 30px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>...</td>
+                                                                <td>5 interval per unit</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-t-150</code></td>
+                                                                <td>margin-top: 150px</td>
+                                                            </tr>
+                
+                                                            <tr>
+                                                                <td class="active" colspan="2">
+                                                                    Margin Bottom 
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                    <td><code>.m-b-0</code></td>
+                                                                    <td>margin-bottom: 0px</td>
+                                                                </tr>
+                                                            <tr>
+                                                                <td><code>.m-b-5</code></td>
+                                                                <td>margin-bottom: 5px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-b-10</code></td>
+                                                                <td>margin-bottom: 10px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-b-15</code></td>
+                                                                <td>margin-bottom: 15px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-b-20</code></td>
+                                                                <td>margin-bottom: 20px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-b-25</code></td>
+                                                                <td>margin-bottom: 25px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-b-30</code></td>
+                                                                <td>margin-bottom: 30px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>...</td>
+                                                                <td>5 interval per unit</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-b-150</code></td>
+                                                                <td>margin-bottom: 150px</td>
+                                                            </tr>
+                
+                                                            <tr>
+                                                                <td class="active" colspan="2">
+                                                                    Margin Right 
+                                                                </td>
+                                                            </tr>
+                                                            
+                                                            <tr>
+                                                                <td><code>.m-r-auto</code></td>
+                                                                <td>margin-right: auto</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-r-0</code></td>
+                                                                <td>margin-right: 0px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-r-5</code></td>
+                                                                <td>margin-right: 5px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-r-10</code></td>
+                                                                <td>margin-right: 10px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-r-15</code></td>
+                                                                <td>margin-right: 15px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-r-20</code></td>
+                                                                <td>margin-right: 20px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-r-25</code></td>
+                                                                <td>margin-right: 25px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-r-30</code></td>
+                                                                <td>margin-right: 30px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>...</td>
+                                                                <td>5 interval per unit</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-r-150</code></td>
+                                                                <td>margin-right: 150px</td>
+                                                            </tr>
+                
+                                                            <tr>
+                                                                <td class="active" colspan="2">
+                                                                    Margin Left 
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-l-auto</code></td>
+                                                                <td>margin-left: auto</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-l-0</code></td>
+                                                                <td>margin-left: 0px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-l-5</code></td>
+                                                                <td>margin-left: 5px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-l-10</code></td>
+                                                                <td>margin-left: 10px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-l-15</code></td>
+                                                                <td>margin-left: 15px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-l-20</code></td>
+                                                                <td>margin-left: 20px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-l-25</code></td>
+                                                                <td>margin-left: 25px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-l-30</code></td>
+                                                                <td>margin-left: 30px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>...</td>
+                                                                <td>5 interval per unit</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-l-150</code></td>
+                                                                <td>margin-left: 150px</td>
+                                                            </tr>
+                
+                                                            <tr>
+                                                                <td class="active" colspan="2">
+                                                                    Margin Vertical 
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-v-0</code></td>
+                                                                <td>margin-top: 0px; margin-bottom: 0px;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-v-5</code></td>
+                                                                <td>margin-top: 5px; margin-bottom: 5px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-v-10</code></td>
+                                                                <td>margin-top: 10px; margin-bottom: 10px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-v-15</code></td>
+                                                                <td>margin-top: 15px; margin-bottom: 15px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-v-20</code></td>
+                                                                <td>margin-top: 20px; margin-bottom: 20px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-v-25</code></td>
+                                                                <td>margin-top: 25px margin-bottom: 25px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-v-30</code></td>
+                                                                <td>margin-top: 30px margin-bottom: 30px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>...</td>
+                                                                <td>5 interval per unit</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-v-150</code></td>
+                                                                <td>margin-top: 150px; margin-bottom: 150px</td>
+                                                            </tr>
+                
+                                                            <tr>
+                                                                <td class="active" colspan="2">
+                                                                    Margin Horizon 
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-h-auto</code></td>
+                                                                <td>margin-left: auto; margin-right: auto</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-h-0</code></td>
+                                                                <td>margin-left: 0px; margin-right: 0px;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-h-5</code></td>
+                                                                <td>margin-left: 5px; margin-right: 5px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-h-10</code></td>
+                                                                <td>margin-left: 10px; margin-right: 10px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-h-15</code></td>
+                                                                <td>margin-left: 15px; margin-right: 15px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-h-20</code></td>
+                                                                <td>margin-left: 20px; margin-right: 20px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-h-25</code></td>
+                                                                <td>margin-left: 25px margin-right: 25px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-h-30</code></td>
+                                                                <td>margin-left: 30px margin-right: 30px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>...</td>
+                                                                <td>5 interval per unit</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.m-h-150</code></td>
+                                                                <td>margin-left: 150px; margin-right: 150px</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <h2 class="font-weight-light m-b-15 m-t-50">Padding</h2>
+                                                    <table class="table table-bordered">
+                                                        <thead>
+                                                            <tr>
+                                                                <th width="200">Class</th>
+                                                                <th>Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="active" colspan="2">
+                                                                    Padding
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-0</code></td>
+                                                                <td>padding: 0px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-5</code></td>
+                                                                <td>padding: 5px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-10</code></td>
+                                                                <td>padding: 10px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-15</code></td>
+                                                                <td>padding: 15px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-20</code></td>
+                                                                <td>padding: 20px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-25</code></td>
+                                                                <td>padding: 25px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-30</code></td>
+                                                                <td>padding: 30px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>...</td>
+                                                                <td>5 interval per unit</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-150</code></td>
+                                                                <td>padding: 150px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="active" colspan="2">
+                                                                    Padding Top 
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-t-0</code></td>
+                                                                <td>padding-top: 0px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-t-5</code></td>
+                                                                <td>padding-top: 5px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-t-10</code></td>
+                                                                <td>padding-top: 10px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-t-15</code></td>
+                                                                <td>padding-top: 15px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-t-20</code></td>
+                                                                <td>padding-top: 20px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-t-25</code></td>
+                                                                <td>padding-top: 25px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-t-30</code></td>
+                                                                <td>padding-top: 30px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>...</td>
+                                                                <td>5 interval per unit</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-t-150</code></td>
+                                                                <td>padding-top: 150px</td>
+                                                            </tr>
+                
+                                                            <tr>
+                                                                <td class="active" colspan="2">
+                                                                    Padding Bottom 
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-b-0</code></td>
+                                                                <td>padding-bottom: 0px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-b-5</code></td>
+                                                                <td>padding-bottom: 5px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-b-10</code></td>
+                                                                <td>padding-bottom: 10px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-b-15</code></td>
+                                                                <td>padding-bottom: 15px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-b-20</code></td>
+                                                                <td>padding-bottom: 20px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-b-25</code></td>
+                                                                <td>padding-bottom: 25px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-b-30</code></td>
+                                                                <td>padding-bottom: 30px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>...</td>
+                                                                <td>5 interval per unit</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-b-150</code></td>
+                                                                <td>padding-bottom: 150px</td>
+                                                            </tr>
+                
+                                                            <tr>
+                                                                <td class="active" colspan="2">
+                                                                    Padding Right 
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-r-0</code></td>
+                                                                <td>padding-right: 0px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-r-5</code></td>
+                                                                <td>padding-right: 5px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-r-10</code></td>
+                                                                <td>padding-right: 10px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-r-15</code></td>
+                                                                <td>padding-right: 15px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-r-20</code></td>
+                                                                <td>padding-right: 20px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-r-25</code></td>
+                                                                <td>padding-right: 25px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-r-30</code></td>
+                                                                <td>padding-right: 30px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>...</td>
+                                                                <td>5 interval per unit</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-r-150</code></td>
+                                                                <td>padding-right: 150px</td>
+                                                            </tr>
+                
+                                                            <tr>
+                                                                <td class="active" colspan="2">
+                                                                    Padding Left 
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-l-0</code></td>
+                                                                <td>padding-left: 0px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-l-5</code></td>
+                                                                <td>padding-left: 5px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-l-10</code></td>
+                                                                <td>padding-left: 10px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-l-15</code></td>
+                                                                <td>padding-left: 15px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-l-20</code></td>
+                                                                <td>padding-left: 20px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-l-25</code></td>
+                                                                <td>padding-left: 25px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-l-30</code></td>
+                                                                <td>padding-left: 30px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>...</td>
+                                                                <td>5 interval per unit</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-l-150</code></td>
+                                                                <td>padding-left: 150px</td>
+                                                            </tr>
+                
+                                                            <tr>
+                                                                <td class="active" colspan="2">
+                                                                    Padding Vertical 
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-v-0</code></td>
+                                                                <td>padding-top: 0px; padding-bottom: 0px;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-v-5</code></td>
+                                                                <td>padding-top: 5px; padding-bottom: 5px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-v-10</code></td>
+                                                                <td>padding-top: 10px; padding-bottom: 10px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-v-15</code></td>
+                                                                <td>padding-top: 15px; padding-bottom: 15px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-v-20</code></td>
+                                                                <td>padding-top: 20px; padding-bottom: 20px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-v-25</code></td>
+                                                                <td>padding-top: 25px padding-bottom: 25px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-v-30</code></td>
+                                                                <td>padding-top: 30px padding-bottom: 30px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>...</td>
+                                                                <td>5 interval per unit</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-v-150</code></td>
+                                                                <td>padding-top: 150px; padding-bottom: 150px</td>
+                                                            </tr>
+                
+                                                            <tr>
+                                                                <td class="active" colspan="2">
+                                                                    Padding Horizon 
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-h-0</code></td>
+                                                                <td>padding-left: 0px; padding-right: 0px;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-h-5</code></td>
+                                                                <td>padding-left: 5px; padding-right: 5px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-h-10</code></td>
+                                                                <td>padding-left: 10px; padding-right: 10px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-h-15</code></td>
+                                                                <td>padding-left: 15px; padding-right: 15px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-h-20</code></td>
+                                                                <td>padding-left: 20px; padding-right: 20px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-h-25</code></td>
+                                                                <td>padding-left: 25px padding-right: 25px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-h-30</code></td>
+                                                                <td>padding-left: 30px padding-right: 30px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>...</td>
+                                                                <td>5 interval per unit</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.p-v-150</code></td>
+                                                                <td>padding-top: 150px; padding-bottom: 150px</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <h2 class="font-weight-light m-b-15 m-t-50">Width</h2>
+                                                    <table class="table table-bordered">
+                                                        <thead>
+                                                            <tr>
+                                                                <th width="200">Class</th>
+                                                                <th>Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><code>.width-0</code></td>
+                                                                <td>width: 0px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.width-10</code></td>
+                                                                <td>width: 10%</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.width-15</code></td>
+                                                                <td>width: 15%</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.width-20</code></td>
+                                                                <td>width: 20%</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.width-25</code></td>
+                                                                <td>width: 25%</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.width-30</code></td>
+                                                                <td>width: 30%</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>...</td>
+                                                                <td>5 interval per unit</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.width-100</code></td>
+                                                                <td>width: 100%</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>	
+                                                    <h2 class="font-weight-light m-b-15 m-t-50">Font Size</h2>
+                                                    <table class="table table-bordered">
+                                                        <thead>
+                                                            <tr>
+                                                                <th width="200">Class</th>
+                                                                <th>Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><code>.font-size-8</code></td>
+                                                                <td>font-size: 8px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.font-size-9</code></td>
+                                                                <td>font-size: 9px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.font-size-10</code></td>
+                                                                <td>font-size: 10px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.font-size-11</code></td>
+                                                                <td>font-size: 11px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.font-size-12</code></td>
+                                                                <td>font-size: 12px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.font-size-13</code></td>
+                                                                <td>font-size: 13px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.font-size-14</code></td>
+                                                                <td>font-size: 14px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.font-size-15</code></td>
+                                                                <td>font-size: 15px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>...</td>
+                                                                <td>1 interval per unit until 30</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.font-size-30</code></td>
+                                                                <td>font-size: 30px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.font-size-35</code></td>
+                                                                <td>font-size: 35px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.font-size-40</code></td>
+                                                                <td>font-size: 40px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.font-size-45</code></td>
+                                                                <td>font-size: 45px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.font-size-50</code></td>
+                                                                <td>font-size: 50px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>...</td>
+                                                                <td>5 interval per unit until 200</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.font-size-200</code></td>
+                                                                <td>font-size: 200px</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <h2 class="font-weight-light m-b-15 m-t-50">Position</h2>
+                                                    <table class="table table-bordered">
+                                                        <thead>
+                                                            <tr>
+                                                                <th width="200">Class</th>
+                                                                <th>Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><code>.relative</code></td>
+                                                                <td>position: relative</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.absolute</code></td>
+                                                                <td>position: absolute</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.fixed</code></td>
+                                                                <td>position: fixed</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.static</code></td>
+                                                                <td>position: static</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>	
+                                                    <h2 class="font-weight-light m-b-15 m-t-50">Overflow</h2>
+                                                    <table class="table table-bordered">
+                                                        <thead>
+                                                            <tr>
+                                                                <th width="200">Class</th>
+                                                                <th>Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><code>.overflow-hidden</code></td>
+                                                                <td> overflow: hidden</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.overflow-y-hidden</code></td>
+                                                                <td>overflow-y: hidden</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.overflow-x-hidden</code></td>
+                                                                <td>overflow-x: hidden</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.overflow-auto</code></td>
+                                                                <td> overflow: auto</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.overflow-y-auto</code></td>
+                                                                <td>overflow-y: auto</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.overflow-x-auto</code></td>
+                                                                <td>overflow-x: auto</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <h2 class="font-weight-light m-b-15 m-t-50">Border</h2>
+                                                    <table class="table table-bordered">
+                                                        <thead>
+                                                            <tr>
+                                                                <th width="200">Class</th>
+                                                                <th>Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><code>.border</code></td>
+                                                                <td> border: 1px solid $border-color;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.border.top</code></td>
+                                                                <td>border top</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.border.right</code></td>
+                                                                <td>border right</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.border.bottom</code></td>
+                                                                <td>border bottom</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.border.left</code></td>
+                                                                <td>border left</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.no-border</code></td>
+                                                                <td>no border</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <h2 class="font-weight-light m-b-15 m-t-50">Border Radius</h2>
+                                                    <table class="table table-bordered">
+                                                        <thead>
+                                                            <tr>
+                                                                <th width="200">Class</th>
+                                                                <th>Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><code>.border-radius-4</code></td>
+                                                                <td> border-radius: 4px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.border-radius-6</code></td>
+                                                                <td> border-radius: 6px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.border-radius-8</code></td>
+                                                                <td> border-radius: 4px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.border-radius-8</code></td>
+                                                                <td> border-radius: 8px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.border-radius-10</code></td>
+                                                                <td> border-radius: 10px</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.border-radius-round</code></td>
+                                                                <td> border-radius: 50px</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>	
+                                                    <h2 class="font-weight-light m-b-15 m-t-50">Opacity</h2>
+                                                    <table class="table table-bordered">
+                                                        <thead>
+                                                            <tr>
+                                                                <th width="200">Class</th>
+                                                                <th>Description</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><code>.opacity-01</code></td>
+                                                                <td>opacity: 0.1;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.opacity-02</code></td>
+                                                                <td>opacity: 0.2;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.opacity-03</code></td>
+                                                                <td>opacity: 0.3;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.opacity-04</code></td>
+                                                                <td>opacity: 0.4;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.opacity-05</code></td>
+                                                                <td>opacity: 0.5;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.opacity-06</code></td>
+                                                                <td>opacity: 0.6;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.opacity-07</code></td>
+                                                                <td>opacity: 0.7;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.opacity-08</code></td>
+                                                                <td>opacity: 0.8;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.opacity-09</code></td>
+                                                                <td>opacity: 0.9;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><code>.opacity-10</code></td>
+                                                                <td>opacity: 1;</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>		
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Sources & Credits -->
+                                        <div role="tabpanel" class="tab-pane fade" id="source-credit">
+                                            <h2>Sources & Credits</h2>
+                                            <hr class="m-v-15">
+                                            <div class="wrapper">
+                                                <p>We've used the following images, icons, plugins or other files as listed.</p>
+                                                <h4 class="m-t-30">
+                                                    Framework
+                                                </h4>
+                                                <ul class="list dash">
+                                                    <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+                                                </ul>
+                                                <h4 class="m-t-30">
+                                                    JavaScript
+                                                </h4>
+                                                <ul class="list dash">
+                                                    <li><a href="http://jquery.com/">Jquery</a></li>
+                                                    <li><a href="https://datatables.net/">datatables</a></li>
+                                                    <li><a href="https://popper.js.org/">popper.js</a></li>
+                                                    <li><a href="http://noraesae.github.io/perfect-scrollbar/">perfect-scrollbar</a></li>
+                                                    <li><a href="https://refreshless.com/nouislider/">nouislider</a></li>
+                                                    <li><a href="http://bootstrap-datepicker.readthedocs.io/en/latest/">bootstrap-datepicker</a></li>
+                                                    <li><a href="https://jqueryvalidation.org/">jquery-validation</a></li>
+                                                    <li><a href="https://gionkunz.github.io/chartist-js/">chartist-js</a></li>
+                                                    <li><a href="http://www.chartjs.org/">chart.js</a></li>
+                                                    <li><a href="https://github.com/quilljs/quill/">quill</a></li>
+                                                    <li><a href="https://github.com/select2/select2">select2</a></li>
+                                                    <li><a href="https://prismjs.com/">prismjs</a></li>
+                                                </ul>
+                                                <div class="m-t-30">
+                                                    <h4 class="card-title">
+                                                        <i class=""></i>
+                                                        Images
+                                                    </h4>
+                                                    <ul class="list dash">
+                                                        <li><a href="https://unsplash.com/">unsplash</a></li>
+                                                        <li><a href="http://nothingtochance.co/">nothingtochance</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="m-t-30">
+                                                    <h4 class="card-title">
+                                                        <i class=""></i>
+                                                        Icons
+                                                    </h4>
+                                                    <ul class="list dash">
+                                                        <ul class="list dash">
+                                                            <li><a href="https://github.com/ant-design/ant-design-icons">Ant Design Icons</a></li>
+                                                            <li><a href="http://fontawesome.io/">Font Awesome</a></li>
+                                                        </ul>
+                                                    </ul>
+                                                </div>
+                                                <div class="m-t-30">
+                                                    <h4>
+                                                        Font Used (Google Fonts)
+                                                    </h4>
+                                                    <ul class="list dash">
+                                                        <ul class="list dash">
+                                                            <li><a href="https://fonts.google.com/">Poppins</a></li>
+                                                        </ul>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Changelog -->
+                                        <div role="tabpanel" class="tab-pane fade" id="changelog">
+                                            <h2>Changelog</h2>
+                                            <hr class="m-v-15">
+                                            <div class="wrapper">
+                                                <div class="m-t-30">
+                                                    <h2 class="font-weight-light">v1.0.0 <small class="font-size-14"></small></h2>
+                                                    <ul class="list dash">
+                                                        <li>Release</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>    
+     </body>      
+</html>
