@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ConstructionOdering.Repositories\ConstructionOdering.Repositories.csproj" />
+  </ItemGroup>
+
 </Project>
