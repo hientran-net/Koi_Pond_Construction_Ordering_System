@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConstructionOrdering.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f75c562d9cf4b034b7d46b23134ecbb330d4434")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45cce1bec4c4f7a1f351bd612017032dc3240783")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConstructionOrdering.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConstructionOrdering.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
