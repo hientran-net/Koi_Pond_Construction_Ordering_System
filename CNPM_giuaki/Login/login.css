@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url(./img-logo/pexels-themob000-28428592.jpg) no-repeat;
+  background: url(/CNPM_giuaki/img/koi_4k.png) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -26,14 +26,17 @@ header {
   padding: 20px 100px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: normal;
   z-index: 99;
 }
 
 /* Định dạng logo với kích thước và màu sắc trắng */
 .logo {
-  font-size: 2em;
-  color: #fff;
+  /* background: white; */
+  width: 300px;
+  height: auto;
+  font-size: 200px;
+  /* color: #fff; */
   user-select: none;
 }
 
@@ -41,7 +44,7 @@ header {
 .navigation a {
   position: relative;
   font-size: 1.1em;
-  color: #fff;
+  color: #ffff;
   text-decoration: none;
   font-weight: 500;
   margin-left: 40px;
