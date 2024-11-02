@@ -2176,7 +2176,7 @@ body.nav-active .nav__block .nav__block-item {
 -----------------------------------------------*/
 .section-header {
   position: relative;
-  width: 318px;
+  width: 400px;
 }
 
 .section-title {
@@ -2389,21 +2389,23 @@ body.nav-active .nav__block .nav__block-item {
 /** 4.4 Footer
 --------------------------------------------------------------*/
 footer#footer {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #footer img.footer-logo {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  height: 180px;
+  width: 180px;
 }
 
 .footer-menu {
-  margin-right: 15px;
+  margin-right: 0px;
 }
 
 .footer-menu h5 {
   font-size: 1.5em;
-  margin-top: 0;
-  margin-bottom: 40px;
+  margin-top: 1;
+  margin-bottom: 20px;
   text-transform: capitalize;
 }
 
