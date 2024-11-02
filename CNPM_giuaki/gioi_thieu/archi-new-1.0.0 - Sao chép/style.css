@@ -2176,9 +2176,11 @@ body.nav-active .nav__block .nav__block-item {
 -----------------------------------------------*/
 .section-header {
   position: relative;
+  width: 318px;
 }
 
 .section-title {
+ 
   font-size: 3.8em;
   font-size: calc(1.8em + 2vw);
   line-height: 1;
