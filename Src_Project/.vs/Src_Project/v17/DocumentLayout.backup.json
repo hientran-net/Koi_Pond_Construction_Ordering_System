@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\UTH_2023_2027\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Koi_Pond_Construction_Ordering_System\\Src_Project\\",
+  "WorkspaceRootPath": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Koi_Pond_Construction_Ordering_System\\Src_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E49BDBF-A441-45BF-90EB-D1B8B718F6D2}|WebApplication\\WebApplication.csproj|d:\\uth_2023_2027\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\koi_pond_construction_ordering_system\\src_project\\webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E49BDBF-A441-45BF-90EB-D1B8B718F6D2}|WebApplication\\WebApplication.csproj|solutionrelative:webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0323E016-3834-4D99-B2C0-57C57D765440}|Project.WebApplication\\Project.WebApplication.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\koi_pond_construction_ordering_system\\src_project\\project.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0323E016-3834-4D99-B2C0-57C57D765440}|Project.WebApplication\\Project.WebApplication.csproj|solutionrelative:project.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\UTH_2023_2027\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Koi_Pond_Construction_Ordering_System\\Src_Project\\WebApplication\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Program.cs",
-              "ToolTip": "D:\\UTH_2023_2027\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Koi_Pond_Construction_Ordering_System\\Src_Project\\WebApplication\\Program.cs*",
-              "RelativeToolTip": "WebApplication\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Koi_Pond_Construction_Ordering_System\\Src_Project\\Project.WebApplication\\Program.cs",
+              "RelativeDocumentMoniker": "Project.WebApplication\\Program.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Koi_Pond_Construction_Ordering_System\\Src_Project\\Project.WebApplication\\Program.cs",
+              "RelativeToolTip": "Project.WebApplication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T17:58:50.746Z",
+              "WhenOpened": "2024-11-02T11:37:58.066Z",
               "EditorCaption": ""
             }
           ]

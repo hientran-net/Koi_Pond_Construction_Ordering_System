@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l6+wPqy1qhU=",
+  "dgSpecHash": "HO3pUrgugfY=",
   "success": true,
-  "projectFilePath": "D:\\UTH_2023_2027\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Koi_Pond_Construction_Ordering_System\\Src_Project\\ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj",
+  "projectFilePath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Koi_Pond_Construction_Ordering_System\\Src_Project\\ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hien Tran\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Hien Tran\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

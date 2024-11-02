@@ -9,39 +9,39 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApplication
 build_property.RootNamespace = WebApplication
-build_property.ProjectDir = D:\UTH_2023_2027\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Koi_Pond_Construction_Ordering_System\Src_Project\WebApplication\
+build_property.ProjectDir = D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Koi_Pond_Construction_Ordering_System\Src_Project\WebApplication\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\UTH_2023_2027\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Koi_Pond_Construction_Ordering_System\Src_Project\WebApplication
+build_property.MSBuildProjectDirectory = D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Koi_Pond_Construction_Ordering_System\Src_Project\WebApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/UTH_2023_2027/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Koi_Pond_Construction_Ordering_System/Src_Project/WebApplication/Pages/Error.cshtml]
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Koi_Pond_Construction_Ordering_System/Src_Project/WebApplication/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/UTH_2023_2027/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Koi_Pond_Construction_Ordering_System/Src_Project/WebApplication/Pages/Index.cshtml]
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Koi_Pond_Construction_Ordering_System/Src_Project/WebApplication/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/UTH_2023_2027/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Koi_Pond_Construction_Ordering_System/Src_Project/WebApplication/Pages/Privacy.cshtml]
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Koi_Pond_Construction_Ordering_System/Src_Project/WebApplication/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/UTH_2023_2027/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Koi_Pond_Construction_Ordering_System/Src_Project/WebApplication/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Koi_Pond_Construction_Ordering_System/Src_Project/WebApplication/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/UTH_2023_2027/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Koi_Pond_Construction_Ordering_System/Src_Project/WebApplication/Pages/_ViewImports.cshtml]
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Koi_Pond_Construction_Ordering_System/Src_Project/WebApplication/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/UTH_2023_2027/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Koi_Pond_Construction_Ordering_System/Src_Project/WebApplication/Pages/_ViewStart.cshtml]
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Koi_Pond_Construction_Ordering_System/Src_Project/WebApplication/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/UTH_2023_2027/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Koi_Pond_Construction_Ordering_System/Src_Project/WebApplication/Pages/Shared/_Layout.cshtml]
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Koi_Pond_Construction_Ordering_System/Src_Project/WebApplication/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-yx06id817f
