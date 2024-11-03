@@ -1,0 +1,295 @@
+/* Đặt mặc định cho toàn bộ các thẻ: bỏ khoảng cách mặc định, sử dụng hộp box và font chữ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+/* Thiết lập nền toàn trang với ảnh nền và căn giữa nội dung */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(/CNPM_giuaki/img/koi_4k.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Định dạng header cố định trên đầu trang, chứa logo và thanh điều hướng */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: normal;
+  z-index: 99;
+}
+
+/* Định dạng logo với kích thước và màu sắc trắng */
+.logo {
+  /* background: white; */
+  width: 300px;
+  height: auto;
+  font-size: 200px;
+  /* color: #fff; */
+  user-select: none;
+}
+
+/* Định dạng các liên kết trong thanh điều hướng */
+.navigation a {
+  position: relative;
+  font-size: 1.1em;
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+/* Hiệu ứng thanh gạch dưới khi hover lên liên kết */
+.navigation a::after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scale(0);
+  transition: transform 0.5s;
+}
+
+.navigation a:hover::after {
+  transform-origin: left;
+  transform: scale(1);
+}
+
+/* Định dạng nút "Login" trên header */
+.navigation .btnLogin-popup {
+  font-size: 30px;
+  width: 130px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 40px;
+  transition: 0.5s;
+}
+
+/* Hiệu ứng thay đổi màu nền và màu chữ khi hover lên nút "Login" */
+.navigation .btnLogin-popup:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(17, 127, 157, 1) 0%,
+    rgba(29, 170, 72, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: black;
+}
+
+/* Định dạng popup wrapper ban đầu ở kích thước nhỏ (ẩn), có viền và hiệu ứng đổ bóng */
+.wrapper {
+  position: relative;
+  width: 400px;
+  height: 440px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transform: scale(0);
+  transition: transform 0.5s ease, height 0.2s ease;
+}
+
+/* Hiển thị popup khi có class "active-popup" */
+.wrapper.active-popup {
+  transform: scale(1);
+}
+
+/* Tăng chiều cao của popup khi chuyển sang form đăng ký */
+.wrapper.active {
+  height: 520px;
+}
+
+/* Định dạng form box chung cho cả form đăng nhập và đăng ký */
+.wrapper .form-box {
+  width: 100%;
+  padding: 40px;
+}
+
+/* Định dạng form đăng nhập mặc định */
+.wrapper .form-box.login {
+  transition: transform 0.18s ease;
+  transform: translateX(0);
+}
+
+/* Ẩn form đăng nhập khi có class "active" */
+.wrapper.active .form-box.login {
+  transition: none;
+  transform: translateX(-400px);
+}
+
+/* Định dạng form đăng ký ban đầu, đặt ngoài khung nhìn */
+.wrapper .form-box.register {
+  position: absolute;
+  transition: none;
+  transform: translateX(400px);
+}
+
+/* Hiển thị form đăng ký khi có class "active" */
+.wrapper.active .form-box.register {
+  transition: transform 0.18s ease;
+  transform: translateX(0);
+}
+
+/* Định dạng icon đóng popup */
+.wrapper .icon-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  background-color: #162938;
+  font-size: 3em;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* Định dạng tiêu đề của form */
+.form-box h2 {
+  font-size: 2em;
+  color: #0c7c8f;
+  text-align: center;
+}
+
+/* Định dạng các hộp input */
+.input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #162938;
+  margin: 30px 0;
+}
+
+/* Định dạng cho nhãn label bên trong input */
+.input-box label {
+  position: relative;
+  top: -50%;
+  left: 5px;
+  transform: translate(-50%);
+  font-size: 1em;
+  color: #fbfcfc;
+  font-weight: 500;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+/* Định dạng vị trí của label khi input được nhập dữ liệu */
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+  top: 5px;
+}
+
+/* Định dạng cho trường input */
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #162938;
+  font-weight: 600;
+  padding: 0 35px 0 5px;
+}
+
+/* Định dạng icon bên trong hộp input */
+.input-box .icon {
+  position: absolute;
+  right: 8px;
+  font-size: 1.2em;
+  color: #162938;
+  line-height: 57px;
+}
+
+/* Định dạng cho phần ghi nhớ và quên mật khẩu */
+.remeber-forgot {
+  font-size: 0.9em;
+  color: #162938;
+  font-weight: 500;
+  margin: -15px 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Định dạng checkbox và liên kết quên mật khẩu */
+.remeber-forgot label input {
+  accent-color: #162938;
+  margin-right: 3px;
+  margin-top: 10px;
+}
+
+.remeber-forgot a {
+  color: #162938;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.remeber-forgot a:hover {
+  text-decoration: underline;
+}
+
+/* Định dạng cho nút submit */
+.btn {
+  width: 100%;
+  height: 45px;
+  background: #162938;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Định dạng cho phần chuyển đổi giữa form đăng nhập và đăng ký */
+.login-register {
+  font-size: 0.9em;
+  color: #162938;
+  text-align: center;
+  font-weight: 500;
+  margin: 25px 0 10px;
+}
+
+/* Định dạng liên kết trong phần chuyển đổi */
+.login-register p a {
+  color: #162938;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-register p a:hover {
+  text-decoration: underline;
+}
