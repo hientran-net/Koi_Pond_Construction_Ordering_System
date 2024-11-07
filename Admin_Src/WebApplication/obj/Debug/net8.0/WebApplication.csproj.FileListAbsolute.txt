@@ -1,9 +1,0 @@
-D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Koi_Pond_Construction_Ordering_System\Src_Project\WebApplication\obj\Debug\net8.0\WebApplication.csproj.AssemblyReference.cache
-D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Koi_Pond_Construction_Ordering_System\Src_Project\WebApplication\obj\Debug\net8.0\WebApplication.GeneratedMSBuildEditorConfig.editorconfig
-D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Koi_Pond_Construction_Ordering_System\Src_Project\WebApplication\obj\Debug\net8.0\WebApplication.AssemblyInfoInputs.cache
-D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Koi_Pond_Construction_Ordering_System\Src_Project\WebApplication\obj\Debug\net8.0\WebApplication.AssemblyInfo.cs
-D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Koi_Pond_Construction_Ordering_System\Src_Project\WebApplication\obj\Debug\net8.0\WebApplication.csproj.CoreCompileInputs.cache
-D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Koi_Pond_Construction_Ordering_System\Src_Project\WebApplication\obj\Debug\net8.0\WebApplication.MvcApplicationPartsAssemblyInfo.cache
-D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Koi_Pond_Construction_Ordering_System\Src_Project\WebApplication\obj\Debug\net8.0\WebApplication.RazorAssemblyInfo.cache
-D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Koi_Pond_Construction_Ordering_System\Src_Project\WebApplication\obj\Debug\net8.0\WebApplication.RazorAssemblyInfo.cs
-D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Koi_Pond_Construction_Ordering_System\Src_Project\WebApplication\obj\Debug\net8.0\WebApplication.sourcelink.json

@@ -2773,11 +2773,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Src_Project\\ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj",
+      "projectUniqueName": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj",
       "projectName": "ConstructionOrdering.Service",
-      "projectPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Src_Project\\ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj",
+      "projectPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj",
       "packagesPath": "C:\\Users\\Hien Tran\\.nuget\\packages\\",
-      "outputPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Src_Project\\ConstructionOrdering.Service\\obj\\",
+      "outputPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Code_IDE\\Visual_Studio_2022\\NuGetPackages"
@@ -2799,8 +2799,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Src_Project\\ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj": {
-              "projectPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Src_Project\\ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj"
+            "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj": {
+              "projectPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj"
             }
           }
         }

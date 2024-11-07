@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ConstructionOdering.Repositories
-build_property.ProjectDir = D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\Src_Project\ConstructionOdering.Repositories\
+build_property.ProjectDir = D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\Admin_Src\ConstructionOdering.Repositories\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
