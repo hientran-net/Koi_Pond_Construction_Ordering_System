@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C2DB20-89F4-4CF4-9AFA-CC4F2857BA65}|MainWeb.WebApplication\\MainWeb.WebApplication.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\mainsite_src\\mainweb\\mainweb.webapplication\\mainweb.webapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B5C2DB20-89F4-4CF4-9AFA-CC4F2857BA65}|MainWeb.WebApplication\\MainWeb.WebApplication.csproj|solutionrelative:mainweb.webapplication\\mainweb.webapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWeb.WebApplication",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainWeb.WebApplication\\MainWeb.WebApplication.csproj",
+              "RelativeDocumentMoniker": "MainWeb.WebApplication\\MainWeb.WebApplication.csproj",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainWeb.WebApplication\\MainWeb.WebApplication.csproj",
+              "RelativeToolTip": "MainWeb.WebApplication\\MainWeb.WebApplication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-07T08:05:34.747Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
