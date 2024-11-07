@@ -12,7 +12,8 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url(/CNPM_giuaki/img/koi_4k.png) no-repeat;
+  background: url(/Koi_Pond_Construction_Ordering_System/videograph-master/img/koi_4k.png)
+    no-repeat;
   background-size: cover;
   background-position: center;
 }
