@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject\\Src\\Test_01\\Test_01\\Test_01.csproj": {}
+    "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestProject\\Src\\Test_01\\Test_01\\Test_01.csproj": {}
   },
   "projects": {
-    "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject\\Src\\Test_01\\Test_01\\Test_01.csproj": {
+    "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestProject\\Src\\Test_01\\Test_01\\Test_01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject\\Src\\Test_01\\Test_01\\Test_01.csproj",
+        "projectUniqueName": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestProject\\Src\\Test_01\\Test_01\\Test_01.csproj",
         "projectName": "Test_01",
-        "projectPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject\\Src\\Test_01\\Test_01\\Test_01.csproj",
+        "projectPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestProject\\Src\\Test_01\\Test_01\\Test_01.csproj",
         "packagesPath": "C:\\Users\\Hien Tran\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject\\Src\\Test_01\\Test_01\\obj\\",
+        "outputPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestProject\\Src\\Test_01\\Test_01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Code_IDE\\Visual_Studio_2022\\NuGetPackages"

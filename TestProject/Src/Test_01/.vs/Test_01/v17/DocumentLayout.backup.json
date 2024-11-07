@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject\\Src\\Test_01\\",
+  "WorkspaceRootPath": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestProject\\Src\\Test_01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4783FBB-6A26-439D-A574-7B28BA143693}|Test_01\\Test_01.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject\\src\\test_01\\test_01\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4783FBB-6A26-439D-A574-7B28BA143693}|Test_01\\Test_01.csproj|solutionrelative:test_01\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B4783FBB-6A26-439D-A574-7B28BA143693}|Test_01\\Test_01.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject-branch\\koi_pond_construction_ordering_system\\testproject\\src\\test_01\\test_01\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4783FBB-6A26-439D-A574-7B28BA143693}|Test_01\\Test_01.csproj|solutionrelative:test_01\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4783FBB-6A26-439D-A574-7B28BA143693}|Test_01\\Test_01.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject\\src\\test_01\\test_01\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4783FBB-6A26-439D-A574-7B28BA143693}|Test_01\\Test_01.csproj|solutionrelative:test_01\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B4783FBB-6A26-439D-A574-7B28BA143693}|Test_01\\Test_01.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject-branch\\koi_pond_construction_ordering_system\\testproject\\src\\test_01\\test_01\\pages\\admin\\button.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4783FBB-6A26-439D-A574-7B28BA143693}|Test_01\\Test_01.csproj|solutionrelative:test_01\\pages\\admin\\button.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4783FBB-6A26-439D-A574-7B28BA143693}|Test_01\\Test_01.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject-branch\\koi_pond_construction_ordering_system\\testproject\\src\\test_01\\test_01\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4783FBB-6A26-439D-A574-7B28BA143693}|Test_01\\Test_01.csproj|solutionrelative:test_01\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Button.cshtml",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestProject\\Src\\Test_01\\Test_01\\Pages\\Admin\\Button.cshtml",
+              "RelativeDocumentMoniker": "Test_01\\Pages\\Admin\\Button.cshtml",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestProject\\Src\\Test_01\\Test_01\\Pages\\Admin\\Button.cshtml",
+              "RelativeToolTip": "Test_01\\Pages\\Admin\\Button.cshtml",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAwwKoBAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T07:57:19.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject\\Src\\Test_01\\Test_01\\Pages\\Index.cshtml",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestProject\\Src\\Test_01\\Test_01\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Test_01\\Pages\\Index.cshtml",
-              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject\\Src\\Test_01\\Test_01\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestProject\\Src\\Test_01\\Test_01\\Pages\\Index.cshtml",
               "RelativeToolTip": "Test_01\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJgAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-05T19:40:44.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject\\Src\\Test_01\\Test_01\\Pages\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestProject\\Src\\Test_01\\Test_01\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Test_01\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject\\Src\\Test_01\\Test_01\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestProject\\Src\\Test_01\\Test_01\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Test_01\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAArwH0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-05T19:40:40.819Z",
               "EditorCaption": ""
