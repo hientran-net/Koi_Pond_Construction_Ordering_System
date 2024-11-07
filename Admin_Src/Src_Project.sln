@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructionOrdering.Servic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructionOdering.Repositories", "ConstructionOdering.Repositories\ConstructionOdering.Repositories.csproj", "{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.WebApplication", "Project.WebApplication\Project.WebApplication.csproj", "{0323E016-3834-4D99-B2C0-57C57D765440}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.WebApplication", "Project.WebApplication\Project.WebApplication.csproj", "{0323E016-3834-4D99-B2C0-57C57D765440}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
