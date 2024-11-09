@@ -18,24 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\TestProject-branch\Koi_Pond_Construction_Ordering_System\testSource\Admin_Src\Project.WebApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/TestProject-branch/Koi_Pond_Construction_Ordering_System/testSource/Admin_Src/Project.WebApplication/Pages/CustomerManagement.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJNYW5hZ2VtZW50LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/TestProject-branch/Koi_Pond_Construction_Ordering_System/testSource/Admin_Src/Project.WebApplication/Pages/EmployeeManagement.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVNYW5hZ2VtZW50LmNzaHRtbA==
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/TestProject-branch/Koi_Pond_Construction_Ordering_System/testSource/Admin_Src/Project.WebApplication/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/TestProject-branch/Koi_Pond_Construction_Ordering_System/testSource/Admin_Src/Project.WebApplication/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/TestProject-branch/Koi_Pond_Construction_Ordering_System/testSource/Admin_Src/Project.WebApplication/Pages/OderManagement.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2Rlck1hbmFnZW1lbnQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/TestProject-branch/Koi_Pond_Construction_Ordering_System/testSource/Admin_Src/Project.WebApplication/Pages/ProjectManagement.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdE1hbmFnZW1lbnQuY3NodG1s
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/TestProject-branch/Koi_Pond_Construction_Ordering_System/testSource/Admin_Src/Project.WebApplication/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/TestProject-branch/Koi_Pond_Construction_Ordering_System/testSource/Admin_Src/Project.WebApplication/Pages/Shared/_ValidationScriptsPartial.cshtml]

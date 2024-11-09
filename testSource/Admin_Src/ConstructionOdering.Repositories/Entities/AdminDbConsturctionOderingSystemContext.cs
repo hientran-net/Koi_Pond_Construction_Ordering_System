@@ -15,6 +15,8 @@ public partial class AdminDbConsturctionOderingSystemContext : DbContext
     {
     }
 
+    public virtual DbSet<Account> Accounts { get; set; }
+
     public virtual DbSet<DonDatHang> DonDatHangs { get; set; }
 
     public virtual DbSet<DuAn> DuAns { get; set; }
@@ -29,6 +31,34 @@ public partial class AdminDbConsturctionOderingSystemContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Account>(entity =>
+        {
+            entity.HasKey(e => e.Userid).HasName("PK__Account__CBA1B25763D2A163");
+
+            entity.ToTable("Account");
+
+            entity.HasIndex(e => e.Email, "UQ__Account__A9D1053493F0ECD6").IsUnique();
+
+            entity.HasIndex(e => e.Username, "UQ__Account__F3DBC572D99CE6F2").IsUnique();
+
+            entity.Property(e => e.Userid).HasColumnName("userid");
+            entity.Property(e => e.CreatedDate)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+            entity.Property(e => e.Email)
+                .HasMaxLength(100)
+                .IsUnicode(false);
+            entity.Property(e => e.HashPassword)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("hashPassword");
+            entity.Property(e => e.LastLoginDate).HasColumnType("datetime");
+            entity.Property(e => e.Username)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("username");
+        });
+
         modelBuilder.Entity<DonDatHang>(entity =>
         {
             entity.HasKey(e => e.MaDonDatHang).HasName("PK__Don_Dat___20F09D8785E74211");

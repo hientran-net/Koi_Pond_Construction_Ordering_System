@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F66C6FC-1D63-418F-952E-0428E7DC7622}|WebApplication1\\WebApplication1.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject-branch\\koi_pond_construction_ordering_system\\testloginpage\\webapplication1\\webapplication1\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F66C6FC-1D63-418F-952E-0428E7DC7622}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F66C6FC-1D63-418F-952E-0428E7DC7622}|WebApplication1\\WebApplication1.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject-branch\\koi_pond_construction_ordering_system\\testloginpage\\webapplication1\\webapplication1\\wwwroot\\css\\loginlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5F66C6FC-1D63-418F-952E-0428E7DC7622}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\loginlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F66C6FC-1D63-418F-952E-0428E7DC7622}|WebApplication1\\WebApplication1.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject-branch\\koi_pond_construction_ordering_system\\testloginpage\\webapplication1\\webapplication1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F66C6FC-1D63-418F-952E-0428E7DC7622}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F66C6FC-1D63-418F-952E-0428E7DC7622}|WebApplication1\\WebApplication1.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject-branch\\koi_pond_construction_ordering_system\\testloginpage\\webapplication1\\webapplication1\\pages\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F66C6FC-1D63-418F-952E-0428E7DC7622}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F66C6FC-1D63-418F-952E-0428E7DC7622}|WebApplication1\\WebApplication1.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject-branch\\koi_pond_construction_ordering_system\\testloginpage\\webapplication1\\webapplication1\\pages\\shared\\_adminhomepagelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F66C6FC-1D63-418F-952E-0428E7DC7622}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\shared\\_adminhomepagelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F66C6FC-1D63-418F-952E-0428E7DC7622}|WebApplication1\\WebApplication1.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject-branch\\koi_pond_construction_ordering_system\\testloginpage\\webapplication1\\webapplication1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F66C6FC-1D63-418F-952E-0428E7DC7622}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F66C6FC-1D63-418F-952E-0428E7DC7622}|WebApplication1\\WebApplication1.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject-branch\\koi_pond_construction_ordering_system\\testloginpage\\webapplication1\\webapplication1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F66C6FC-1D63-418F-952E-0428E7DC7622}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F66C6FC-1D63-418F-952E-0428E7DC7622}|WebApplication1\\WebApplication1.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject-branch\\koi_pond_construction_ordering_system\\testloginpage\\webapplication1\\webapplication1\\pages\\adminhomepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F66C6FC-1D63-418F-952E-0428E7DC7622}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\adminhomepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "loginLayout.css",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication1\\WebApplication1\\wwwroot\\css\\loginLayout.css",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\loginLayout.css",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication1\\WebApplication1\\wwwroot\\css\\loginLayout.css",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\css\\loginLayout.css",
+              "ViewState": "AgIAAAkBAAAAAAAAAAAAABoBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-09T19:29:51.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication1\\WebApplication1\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Login.cshtml",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication1\\WebApplication1\\Pages\\Login.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T19:19:08.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication1\\WebApplication1\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication1\\WebApplication1\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T19:25:39.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication1\\WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication1\\WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T19:21:04.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication1\\WebApplication1\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication1\\WebApplication1\\Pages\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T19:21:00.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LoginLayout.cshtml",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication1\\WebApplication1\\Pages\\Shared\\_LoginLayout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Shared\\_LoginLayout.cshtml",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication1\\WebApplication1\\Pages\\Shared\\_LoginLayout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Shared\\_LoginLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T19:19:22.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_AdminHomePageLayout.cshtml",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication1\\WebApplication1\\Pages\\Shared\\_AdminHomePageLayout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Shared\\_AdminHomePageLayout.cshtml",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication1\\WebApplication1\\Pages\\Shared\\_AdminHomePageLayout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Shared\\_AdminHomePageLayout.cshtml",
+              "ViewState": "AgIAAI8CAAAAAAAAAAAAAJcCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T19:16:52.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminHomePage.cshtml",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication1\\WebApplication1\\Pages\\AdminHomePage.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\AdminHomePage.cshtml",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication1\\WebApplication1\\Pages\\AdminHomePage.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\AdminHomePage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T19:15:44.781Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
