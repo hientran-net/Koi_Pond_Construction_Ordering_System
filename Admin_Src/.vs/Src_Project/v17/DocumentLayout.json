@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0323E016-3834-4D99-B2C0-57C57D765440}|Project.WebApplication\\Project.WebApplication.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\project.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0323E016-3834-4D99-B2C0-57C57D765440}|Project.WebApplication\\Project.WebApplication.csproj|solutionrelative:project.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0323E016-3834-4D99-B2C0-57C57D765440}|Project.WebApplication\\Project.WebApplication.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\project.webapplication\\pages\\shared\\_homepagelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0323E016-3834-4D99-B2C0-57C57D765440}|Project.WebApplication\\Project.WebApplication.csproj|solutionrelative:project.webapplication\\pages\\shared\\_homepagelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionodering.repositories\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|solutionrelative:constructionodering.repositories\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionordering.service\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|solutionrelative:constructionordering.service\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0323E016-3834-4D99-B2C0-57C57D765440}|Project.WebApplication\\Project.WebApplication.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\project.webapplication\\pages\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -31,45 +43,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\Program.cs",
+              "RelativeDocumentMoniker": "Project.WebApplication\\Program.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\Program.cs",
+              "RelativeToolTip": "Project.WebApplication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T09:26:20.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "ConstructionOrdering.Service\\Service\\UserService.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Service\\UserService.cs",
+              "RelativeToolTip": "ConstructionOrdering.Service\\Service\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T09:21:30.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ConstructionOdering.Repositories\\Repository\\UserRepository.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "ConstructionOdering.Repositories\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwCQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T09:17:14.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "_HomePageLayout.cshtml",
               "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\Pages\\Shared\\_HomePageLayout.cshtml",
               "RelativeDocumentMoniker": "Project.WebApplication\\Pages\\Shared\\_HomePageLayout.cshtml",
               "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\Pages\\Shared\\_HomePageLayout.cshtml",
               "RelativeToolTip": "Project.WebApplication\\Pages\\Shared\\_HomePageLayout.cshtml",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAAFAAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-10T09:03:26.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Homepage.cshtml",
               "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\Pages\\Homepage.cshtml",
               "RelativeDocumentMoniker": "Project.WebApplication\\Pages\\Homepage.cshtml",
               "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\Pages\\Homepage.cshtml",
               "RelativeToolTip": "Project.WebApplication\\Pages\\Homepage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAACkBAAAAAAAAAAAAAOoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-10T08:59:38.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Homepage.cshtml.cs",
               "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\Pages\\Homepage.cshtml.cs",
               "RelativeDocumentMoniker": "Project.WebApplication\\Pages\\Homepage.cshtml.cs",
               "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\Pages\\Homepage.cshtml.cs",
               "RelativeToolTip": "Project.WebApplication\\Pages\\Homepage.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T08:59:38.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\Pages\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Project.WebApplication\\Pages\\Login.cshtml.cs",
@@ -77,8 +128,7 @@
               "RelativeToolTip": "Project.WebApplication\\Pages\\Login.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T08:59:28.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T08:59:28.774Z"
             }
           ]
         }
