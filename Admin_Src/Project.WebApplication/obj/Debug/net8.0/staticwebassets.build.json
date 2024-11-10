@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PRa1GxtMveqLX5seRQFaBR6j5GOBdDi4wXH5CyOzb+Y=",
+  "Hash": "pnSG3i2rnChvc7OC/saY4X6COtuKxbyX5Z3aUR0udZw=",
   "Source": "Project.WebApplication",
   "BasePath": "_content/Project.WebApplication",
   "Mode": "Default",
@@ -5829,6 +5829,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\sm-img-3.jpg"
+    },
+    {
+      "Identity": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\wwwroot\\img\\user.png",
+      "SourceId": "Project.WebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\wwwroot\\",
+      "BasePath": "_content/Project.WebApplication",
+      "RelativePath": "img/user.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\user.png"
     },
     {
       "Identity": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\wwwroot\\img\\vector-lab.jpg",

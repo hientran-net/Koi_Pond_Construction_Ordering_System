@@ -1245,6 +1245,10 @@
       "PackagePath": "staticwebassets\\img\\sm-img-3.jpg"
     },
     {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\wwwroot\\img\\user.png",
+      "PackagePath": "staticwebassets\\img\\user.png"
+    },
+    {
       "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\wwwroot\\img\\vector-lab.jpg",
       "PackagePath": "staticwebassets\\img\\vector-lab.jpg"
     },
