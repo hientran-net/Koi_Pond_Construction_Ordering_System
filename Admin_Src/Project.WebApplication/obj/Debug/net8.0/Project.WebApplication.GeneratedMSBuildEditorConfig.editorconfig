@@ -9,47 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Project.WebApplication
 build_property.RootNamespace = Project.WebApplication
-build_property.ProjectDir = D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\TestProject-branch\Koi_Pond_Construction_Ordering_System\testSource\Admin_Src\Project.WebApplication\
+build_property.ProjectDir = D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\Admin_Src\Project.WebApplication\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\TestProject-branch\Koi_Pond_Construction_Ordering_System\testSource\Admin_Src\Project.WebApplication
+build_property.MSBuildProjectDirectory = D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\Admin_Src\Project.WebApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/TestProject-branch/Koi_Pond_Construction_Ordering_System/testSource/Admin_Src/Project.WebApplication/Pages/CustomerManagement.cshtml]
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/CustomerManagement.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJNYW5hZ2VtZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/TestProject-branch/Koi_Pond_Construction_Ordering_System/testSource/Admin_Src/Project.WebApplication/Pages/EmployeeManagement.cshtml]
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/EmployeeManagement.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVNYW5hZ2VtZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/TestProject-branch/Koi_Pond_Construction_Ordering_System/testSource/Admin_Src/Project.WebApplication/Pages/Index.cshtml]
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/Homepage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZXBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/TestProject-branch/Koi_Pond_Construction_Ordering_System/testSource/Admin_Src/Project.WebApplication/Pages/OderManagement.cshtml]
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/OderManagement.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2Rlck1hbmFnZW1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/TestProject-branch/Koi_Pond_Construction_Ordering_System/testSource/Admin_Src/Project.WebApplication/Pages/ProjectManagement.cshtml]
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/ProjectManagement.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdE1hbmFnZW1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/TestProject-branch/Koi_Pond_Construction_Ordering_System/testSource/Admin_Src/Project.WebApplication/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/Shared/_HomePageLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Ib21lUGFnZUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/Shared/_LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/TestProject-branch/Koi_Pond_Construction_Ordering_System/testSource/Admin_Src/Project.WebApplication/Pages/_ViewImports.cshtml]
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/TestProject-branch/Koi_Pond_Construction_Ordering_System/testSource/Admin_Src/Project.WebApplication/Pages/_ViewStart.cshtml]
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/TestProject-branch/Koi_Pond_Construction_Ordering_System/testSource/Admin_Src/Project.WebApplication/Pages/Shared/_Layout.cshtml]
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tyr1wvtn8x

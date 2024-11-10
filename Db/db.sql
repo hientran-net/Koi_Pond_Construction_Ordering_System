@@ -68,3 +68,14 @@ CREATE TABLE Don_Dat_Hang
 	FOREIGN KEY (ma_du_an) REFERENCES Du_An(ma_du_an)
 )
 GO
+
+CREATE TABLE Users (
+    Id INT PRIMARY KEY IDENTITY,
+    Username NVARCHAR(50) NOT NULL,
+    PasswordHash NVARCHAR(256) NOT NULL
+);
+
+
+
+INSERT INTO Users (Username, PasswordHash)
+VALUES ('admin', '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918');

@@ -1,0 +1,31 @@
+﻿@page
+@model Project.WebApplication.Pages.LoginModel
+@{
+    Layout = "_LoginLayout";
+}
+
+<div class="wrapper">
+    <span class="bg-animate"></span>
+    <span class="bg-animate2"></span>
+    <!-- Đăng Nhập -->
+    <div class="from-box login">
+        <h2 class="animation" style="--i: 0; --j: 21">Login</h2>
+        <form method="post">
+            <div class="input-box animation" style="--i: 1; --j: 22">
+                <input type="text" id="Username" name="Username" asp-for="Username" required />
+                <label for="Username">username</label>
+                <i class="bx bxs-user"></i>
+            </div>
+            <div class="input-box animation" style="--i: 2; --j: 23">
+                <input type="password" id="Password" name="Password" asp-for="Password" required />
+                <label for="Password">password</label>
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+            <button type="submit" class="btn animation" style="--i: 3; --j: 24">Login</button>
+            @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+            {
+                <p style="color:red;">@Model.ErrorMessage</p>
+            }
+        </form>
+    </div>
+</div>

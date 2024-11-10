@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\testSource\\Admin_Src\\Project.WebApplication\\Project.WebApplication.csproj": {}
+    "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\Project.WebApplication.csproj": {}
   },
   "projects": {
-    "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\testSource\\Admin_Src\\ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj": {
+    "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\testSource\\Admin_Src\\ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj",
+        "projectUniqueName": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj",
         "projectName": "ConstructionOdering.Repositories",
-        "projectPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\testSource\\Admin_Src\\ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj",
+        "projectPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj",
         "packagesPath": "C:\\Users\\Hien Tran\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\testSource\\Admin_Src\\ConstructionOdering.Repositories\\obj\\",
+        "outputPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Code_IDE\\Visual_Studio_2022\\NuGetPackages"
@@ -85,14 +85,14 @@
         }
       }
     },
-    "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\testSource\\Admin_Src\\ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj": {
+    "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\testSource\\Admin_Src\\ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj",
+        "projectUniqueName": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj",
         "projectName": "ConstructionOrdering.Service",
-        "projectPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\testSource\\Admin_Src\\ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj",
+        "projectPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj",
         "packagesPath": "C:\\Users\\Hien Tran\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\testSource\\Admin_Src\\ConstructionOrdering.Service\\obj\\",
+        "outputPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Code_IDE\\Visual_Studio_2022\\NuGetPackages"
@@ -114,8 +114,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\testSource\\Admin_Src\\ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj": {
-                "projectPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\testSource\\Admin_Src\\ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj"
+              "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj": {
+                "projectPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj"
               }
             }
           }
@@ -154,14 +154,14 @@
         }
       }
     },
-    "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\testSource\\Admin_Src\\Project.WebApplication\\Project.WebApplication.csproj": {
+    "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\Project.WebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\testSource\\Admin_Src\\Project.WebApplication\\Project.WebApplication.csproj",
+        "projectUniqueName": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\Project.WebApplication.csproj",
         "projectName": "Project.WebApplication",
-        "projectPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\testSource\\Admin_Src\\Project.WebApplication\\Project.WebApplication.csproj",
+        "projectPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\Project.WebApplication.csproj",
         "packagesPath": "C:\\Users\\Hien Tran\\.nuget\\packages\\",
-        "outputPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\testSource\\Admin_Src\\Project.WebApplication\\obj\\",
+        "outputPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Code_IDE\\Visual_Studio_2022\\NuGetPackages"
@@ -183,8 +183,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\testSource\\Admin_Src\\ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj": {
-                "projectPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\testSource\\Admin_Src\\ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj"
+              "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj": {
+                "projectPath": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj"
               }
             }
           }

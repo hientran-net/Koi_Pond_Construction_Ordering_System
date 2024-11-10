@@ -23,6 +23,8 @@ public partial class AdminDbConsturctionOderingSystemContext : DbContext
 
     public virtual DbSet<NhanVien> NhanViens { get; set; }
 
+    public virtual DbSet<User> Users { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Data Source=DESKTOP-M7I7IF3;Initial Catalog=Admin_DB_Consturction_Odering_System;Integrated Security=True;Trust Server Certificate=True");
@@ -31,7 +33,7 @@ public partial class AdminDbConsturctionOderingSystemContext : DbContext
     {
         modelBuilder.Entity<DonDatHang>(entity =>
         {
-            entity.HasKey(e => e.MaDonDatHang).HasName("PK__Don_Dat___20F09D8785E74211");
+            entity.HasKey(e => e.MaDonDatHang).HasName("PK__Don_Dat___20F09D87843996DE");
 
             entity.ToTable("Don_Dat_Hang");
 
@@ -66,7 +68,7 @@ public partial class AdminDbConsturctionOderingSystemContext : DbContext
 
         modelBuilder.Entity<DuAn>(entity =>
         {
-            entity.HasKey(e => e.MaDuAn).HasName("PK__Du_An__8F784B5DD2A650C5");
+            entity.HasKey(e => e.MaDuAn).HasName("PK__Du_An__8F784B5D0B34CCAA");
 
             entity.ToTable("Du_An");
 
@@ -97,11 +99,11 @@ public partial class AdminDbConsturctionOderingSystemContext : DbContext
 
         modelBuilder.Entity<KhachHang>(entity =>
         {
-            entity.HasKey(e => e.MaKhachHang).HasName("PK__Khach_Ha__C9817AF636230994");
+            entity.HasKey(e => e.MaKhachHang).HasName("PK__Khach_Ha__C9817AF6E41B2ECE");
 
             entity.ToTable("Khach_Hang");
 
-            entity.HasIndex(e => e.Email, "UQ__Khach_Ha__AB6E61644B111722").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__Khach_Ha__AB6E61646E7A2C45").IsUnique();
 
             entity.Property(e => e.MaKhachHang).HasColumnName("ma_khach_hang");
             entity.Property(e => e.ChinhSuaBoi)
@@ -136,11 +138,11 @@ public partial class AdminDbConsturctionOderingSystemContext : DbContext
 
         modelBuilder.Entity<NhanVien>(entity =>
         {
-            entity.HasKey(e => e.MaNhanVien).HasName("PK__Nhan_Vie__6781B7B9F70D3B44");
+            entity.HasKey(e => e.MaNhanVien).HasName("PK__Nhan_Vie__6781B7B9F0DCCA97");
 
             entity.ToTable("Nhan_Vien");
 
-            entity.HasIndex(e => e.Email, "UQ__Nhan_Vie__AB6E61643866B971").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__Nhan_Vie__AB6E6164D3908667").IsUnique();
 
             entity.Property(e => e.MaNhanVien)
                 .HasMaxLength(10)
@@ -185,6 +187,14 @@ public partial class AdminDbConsturctionOderingSystemContext : DbContext
                 .HasColumnName("them_vao_ngay");
             entity.Property(e => e.TrangThai).HasColumnName("trang_thai");
             entity.Property(e => e.Tuoi).HasColumnName("tuoi");
+        });
+
+        modelBuilder.Entity<User>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Users__3214EC07C6EBECD4");
+
+            entity.Property(e => e.Password).HasMaxLength(255);
+            entity.Property(e => e.Username).HasMaxLength(50);
         });
 
         OnModelCreatingPartial(modelBuilder);
