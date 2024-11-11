@@ -689,6 +689,7 @@ ol {
   transform: rotate(-45deg);
 }
 .counter__item__text h2 {
+  
   font-size: 60px;
   color: #ffffff;
   font-weight: 700;
