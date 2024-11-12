@@ -303,9 +303,6 @@ ol {
   z-index: 9;
 }
 
-.header__logo {
-  padding: 30px 0;
-}
 .header__logo a {
   display: inline-block;
 }
@@ -689,7 +686,6 @@ ol {
   transform: rotate(-45deg);
 }
 .counter__item__text h2 {
-  
   font-size: 60px;
   color: #ffffff;
   font-weight: 700;
@@ -2202,4 +2198,16 @@ ol {
     rgba(0, 0, 0, 1) 100%
   );
   color: black;
+}
+.form_bao_gia {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    125deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(60, 3, 154, 1) 24%,
+    rgba(44, 7, 106, 1) 77%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  width: 100%;
+  text-align: center;
 }
