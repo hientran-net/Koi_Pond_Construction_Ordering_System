@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6569A3B-9460-4656-87F7-B5ED298915D6}|WebApplication2\\WebApplication2.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject-branch\\koi_pond_construction_ordering_system\\testloginpage\\webapplication2\\webapplication2\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6569A3B-9460-4656-87F7-B5ED298915D6}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6569A3B-9460-4656-87F7-B5ED298915D6}|WebApplication2\\WebApplication2.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject-branch\\koi_pond_construction_ordering_system\\testloginpage\\webapplication2\\webapplication2\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6569A3B-9460-4656-87F7-B5ED298915D6}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6569A3B-9460-4656-87F7-B5ED298915D6}|WebApplication2\\WebApplication2.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject-branch\\koi_pond_construction_ordering_system\\testloginpage\\webapplication2\\webapplication2\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6569A3B-9460-4656-87F7-B5ED298915D6}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6569A3B-9460-4656-87F7-B5ED298915D6}|WebApplication2\\WebApplication2.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject-branch\\koi_pond_construction_ordering_system\\testloginpage\\webapplication2\\webapplication2\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6569A3B-9460-4656-87F7-B5ED298915D6}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6569A3B-9460-4656-87F7-B5ED298915D6}|WebApplication2\\WebApplication2.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject-branch\\koi_pond_construction_ordering_system\\testloginpage\\webapplication2\\webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6569A3B-9460-4656-87F7-B5ED298915D6}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6569A3B-9460-4656-87F7-B5ED298915D6}|WebApplication2\\WebApplication2.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject-branch\\koi_pond_construction_ordering_system\\testloginpage\\webapplication2\\webapplication2\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6569A3B-9460-4656-87F7-B5ED298915D6}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6569A3B-9460-4656-87F7-B5ED298915D6}|WebApplication2\\WebApplication2.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\testproject-branch\\koi_pond_construction_ordering_system\\testloginpage\\webapplication2\\webapplication2\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6569A3B-9460-4656-87F7-B5ED298915D6}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication2\\WebApplication2\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication2\\WebApplication2\\Pages\\Index.cshtml",
+              "RelativeToolTip": "WebApplication2\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T11:05:18.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication2\\WebApplication2\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication2\\WebApplication2\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "WebApplication2\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwBgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T10:55:31.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "login.cshtml.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication2\\WebApplication2\\Pages\\login.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\login.cshtml.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication2\\WebApplication2\\Pages\\login.cshtml.cs",
+              "RelativeToolTip": "WebApplication2\\Pages\\login.cshtml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T10:55:26.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication2\\WebApplication2\\Pages\\login.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\login.cshtml",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication2\\WebApplication2\\Pages\\login.cshtml",
+              "RelativeToolTip": "WebApplication2\\Pages\\login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T10:55:18.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Privacy.cshtml.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication2\\WebApplication2\\Pages\\Privacy.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\Privacy.cshtml.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication2\\WebApplication2\\Pages\\Privacy.cshtml.cs",
+              "RelativeToolTip": "WebApplication2\\Pages\\Privacy.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T10:52:43.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication2\\WebApplication2\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\Privacy.cshtml",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication2\\WebApplication2\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "WebApplication2\\Pages\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T10:52:40.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication2\\WebApplication2\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Program.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\TestProject-branch\\Koi_Pond_Construction_Ordering_System\\TestLoginPage\\WebApplication2\\WebApplication2\\Program.cs",
+              "RelativeToolTip": "WebApplication2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T10:51:59.202Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
