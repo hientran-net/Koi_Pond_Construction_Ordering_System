@@ -3,6 +3,7 @@ using ConstructionOdering.Repositories.Repository;
 using ConstructionOrdering.Service.Service;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,11 +22,12 @@ builder.Services.AddRazorPages();
 builder.Services.AddAuthentication(
     Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults
     .AuthenticationScheme
-    ).AddCookie(option =>
+    ).AddCookie("Cookies", option =>
     {
-        option.LoginPath = "/login";
-        option.LogoutPath = "/logout";
-
+        option.LoginPath = "/login";      // Đường dẫn đến trang login
+        option.LogoutPath = "/logout";    // Đường dẫn đến trang logout (nếu có)
+        option.ExpireTimeSpan = TimeSpan.FromMinutes(30); // Thời gian hết hạn
+        option.SlidingExpiration = true;  // Tự động gia hạn cookie
     });
 
 var app = builder.Build();

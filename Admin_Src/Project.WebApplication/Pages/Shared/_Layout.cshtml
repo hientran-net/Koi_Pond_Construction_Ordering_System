@@ -73,17 +73,16 @@
                             }
                             <b class="caret"></b>
                         </a>
-                        @if(User.Identity.IsAuthenticated)
+                        @if (User.Identity.IsAuthenticated)
                         {
-                            <ul class="dropdown-menu extended logout">
-                                <form method="post">
-                                    <input type="submit" value="Log out" />
+                            <ul class="dropdown-menu extended logout" style="padding: 5px; text-align: center;">
+                                <form method="get">
+                                    <input type="submit"
+                                           value="Log out"
+                                           style="border-radius: 20px; background-color: lightblue; padding: 8px 20px; margin: 0; text-align: center; display: block; width: 100%;" />
                                 </form>
                             </ul>
                         }
-                    </li>
-                    <li class="sb-toggle-right">
-                    </li>
                 </ul>
             </div>
 
