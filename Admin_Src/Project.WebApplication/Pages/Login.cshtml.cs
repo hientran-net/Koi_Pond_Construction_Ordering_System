@@ -1,42 +1,51 @@
 ﻿using ConstructionOrdering.Service.Service;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Security.Claims;
 
 namespace Project.WebApplication.Pages
 {
-    public class LoginModel : PageModel
+    public class loginModel : PageModel
     {
         private readonly AccountService _accountService;
 
-        public LoginModel(AccountService accountService)
+        public loginModel(AccountService accountService)
         {
             _accountService = accountService;
         }
 
-
         [BindProperty]
-        public string Username { get; set; }
-
+        public string userName { get; set; }
         [BindProperty]
-        public string Password { get; set; }
-
-        public string ErrorMessage { get; set; }
-
+        public string password { get; set; }    
+        
         public void OnGet()
         {
-        }
 
-        public IActionResult OnPost()
+        }
+        public async Task<IActionResult> OnPostAsync()
         {
-            if (_accountService.VerifyPassword(Username, Password))
+            bool isValidUser = _accountService.VerifyPassword(userName, password);
+            if (!isValidUser)
             {
-                // Đăng nhập thành công
-                return RedirectToPage("/Homepage");
+                ModelState.AddModelError(string.Empty, "Invalid username or password.");
+                return Page();
             }
 
-            // Nếu đăng nhập không thành công
-            ErrorMessage = "Invalid login attempt.";
-            return Page();
+            List<Claim> lst = new List<Claim>()
+            {
+                new Claim(ClaimTypes.NameIdentifier, userName),
+                new Claim(ClaimTypes.Name, userName)
+            };
+
+            ClaimsIdentity ci = new ClaimsIdentity(lst, Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults.AuthenticationScheme);
+            ClaimsPrincipal cp = new ClaimsPrincipal(ci);
+            await HttpContext.SignInAsync(cp);
+
+            // Chuyển hướng sau khi đăng nhập thành công
+            return RedirectToPage("/Index");
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using ConstructionOdering.Repositories.Entities;
+using ConstructionOdering.Repositories.Repository;
 using ConstructionOrdering.Service.Service;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
@@ -10,19 +11,22 @@ builder.Services.AddDbContext<AdminDbConsturctionOderingSystemContext>(option =>
     option.UseSqlServer("DefaultConnection");
 });
 
-// xác thực với cookies
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-    .AddCookie(options =>
-    {
-        options.LoginPath = "/Login";  // Đường dẫn đến trang đăng nhập
-        options.AccessDeniedPath = "";  // Đường dẫn khi người dùng không có quyền
-    });
-
+builder.Services.AddScoped<UserRepository>();
 builder.Services.AddScoped<AccountService>();
-
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+// xác thực với cookies
+builder.Services.AddAuthentication(
+    Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults
+    .AuthenticationScheme
+    ).AddCookie(option =>
+    {
+        option.LoginPath = "/login";
+        option.LogoutPath = "/logout";
+
+    });
 
 var app = builder.Build();
 
@@ -36,7 +40,6 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthentication();
-
 app.UseAuthorization();
 
 app.MapRazorPages();

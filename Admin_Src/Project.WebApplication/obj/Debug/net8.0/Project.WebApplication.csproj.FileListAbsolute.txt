@@ -241,3 +241,4 @@ D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\TestProject-branc
 D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\TestProject-branch\Koi_Pond_Construction_Ordering_System\testSource\Admin_Src\Project.WebApplication\obj\Debug\net8.0\Project.WebApplication.pdb
 D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\TestProject-branch\Koi_Pond_Construction_Ordering_System\testSource\Admin_Src\Project.WebApplication\obj\Debug\net8.0\Project.WebApplication.genruntimeconfig.cache
 D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\TestProject-branch\Koi_Pond_Construction_Ordering_System\testSource\Admin_Src\Project.WebApplication\obj\Debug\net8.0\ref\Project.WebApplication.dll
+D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\Admin_Src\Project.WebApplication\bin\Debug\net8.0\FluentAssertions.dll

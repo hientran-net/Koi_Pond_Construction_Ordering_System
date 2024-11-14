@@ -1,9 +1,5 @@
-﻿using Microsoft.Data.SqlClient;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Data.SqlClient;
 
 namespace ConstructionOdering.Repositories.Repository
 {
@@ -11,9 +7,9 @@ namespace ConstructionOdering.Repositories.Repository
     {
         private readonly string _connectionString;
 
-        public UserRepository(string connectionString)
+        public UserRepository(IConfiguration configuration)
         {
-            _connectionString = connectionString;
+            _connectionString = configuration.GetConnectionString("DefaultConnection");
         }
 
         public string GetUsernameById(int userId)
@@ -28,7 +24,7 @@ namespace ConstructionOdering.Repositories.Repository
 
                 connection.Open();
                 SqlDataReader reader = command.ExecuteReader();
-                if(reader.Read())
+                if (reader.Read())
                 {
                     username = reader["Username"].ToString();
                 }
