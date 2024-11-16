@@ -19,13 +19,13 @@
 
                     <div class="form-group">
                         <label asp-for="NhanVien.HoTen" class="control-label">Tên nhân viên</label>
-                        <input type="text" asp-for="NhanVien.HoTen" class="form-control" />
+                        <input maxlength="20" type="text" asp-for="NhanVien.HoTen" class="form-control" />
                         <span asp-validation-for="NhanVien.HoTen" class="text-danger"></span>
                     </div>
 
                     <div class="form-group">
                         <label asp-for="NhanVien.Email" class="control-label">Email</label>
-                        <input asp-for="NhanVien.Email" class="form-control" />
+                        <input maxlength="10" asp-for="NhanVien.Email" class="form-control" />
                         <span asp-validation-for="NhanVien.Email" class="text-danger"></span>
                     </div>
 
@@ -43,7 +43,7 @@
 
                     <div class="form-group">
                         <label asp-for="NhanVien.NgayThangNamSinh" class="control-label">Ngày Sinh</label>
-                        <input type="date" asp-for="NhanVien.NgayThangNamSinh" class="form-control" />
+                        <input type="date" name="begin" placeholder="dd-mm-yyyy" asp-for="NhanVien.NgayThangNamSinh" class="form-control" />
 
                         <span asp-validation-for="NhanVien.NgayThangNamSinh" class="text-danger"></span>
                     </div>

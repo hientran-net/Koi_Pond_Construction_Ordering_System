@@ -70,21 +70,17 @@
                                         <td>@employee.DiaChia</td>
                                         <td>@employee.NgayThangNamSinh</td>
                                         <td>
-                                            <a asp-page="./Edit" asp-route-id="@employee.MaNhanVien" class="btn btn-warning">
-                                                <i class="fas fa-edit"></i> Edit
-                                            </a>
+                                            <a asp-page="./Edit" asp-route-id="@employee.MaNhanVien" class="btn btn-warning">Chỉnh sửa</a>
                                             <form method="post" asp-page="./Delete" asp-route-id="@employee.MaNhanVien" 
                                                   style="display: inline-block;"
                                                   onsubmit="return confirm('Bạn có chắc muốn xóa nhân viên này?')">
-                                                <button type="submit" class="btn btn-danger">
-                                                    <i class="fas fa-trash"></i> Delete
-                                                </button>
+                                                <button type="submit" class="btn btn-danger">Xóa</button>
                                             </form>
                                         </td>
                                     </tr>
                                 }
                             </tbody>
-                        </table
+                        </table>
                     </div>
                 </section>
             </div>

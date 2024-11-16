@@ -14,13 +14,30 @@ namespace Project.WebApplication.Pages.Employee
             _nhanVienService = nhanVienService;
         }
 
-        public IActionResult OnGet()
+        [BindProperty]
+        public NhanVien NhanVien { get; set; } = new NhanVien();
+
+        public async Task<IActionResult> OnGetAsync()
         {
+            // Tạo mã nhân viên tự động
+            string nextId = await GenerateNextEmployeeId();
+            NhanVien.MaNhanVien = nextId;
             return Page();
         }
 
-        [BindProperty]
-        public NhanVien NhanVien { get; set; } = default!;
+        private async Task<string> GenerateNextEmployeeId()
+        {
+            try
+            {
+                var employees = await _nhanVienService.GetAllEmployees();
+                int count = employees.Count + 1;
+                return $"NV_{count:D2}"; // D2 sẽ format số thành 2 chữ số, thêm 0 vào trước nếu cần
+            }
+            catch
+            {
+                return "NV_01"; // Trường hợp chưa có nhân viên hoặc có lỗi
+            }
+        }
 
         public async Task<IActionResult> OnPostAsync()
         {
@@ -29,15 +46,31 @@ namespace Project.WebApplication.Pages.Employee
                 return Page();
             }
 
-            var result = await _nhanVienService.AddEmployee(NhanVien);
-            if (result)
+            try
             {
-                TempData["SuccessMessage"] = "Thêm nhân viên thành công!";
-                return RedirectToPage("./Index");
-            }
+                // Kiểm tra xem mã đã tồn tại chưa
+                var existingEmployee = await _nhanVienService.GetEmployeeById(NhanVien.MaNhanVien);
+                if (existingEmployee != null)
+                {
+                    ModelState.AddModelError("", "Mã nhân viên đã tồn tại!");
+                    return Page();
+                }
 
-            TempData["ErrorMessage"] = "Thêm nhân viên thất bại!";
-            return Page();
+                var result = await _nhanVienService.AddEmployee(NhanVien);
+                if (result)
+                {
+                    TempData["SuccessMessage"] = "Thêm nhân viên thành công!";
+                    return RedirectToPage("./Index");
+                }
+
+                ModelState.AddModelError("", "Thêm nhân viên thất bại!");
+                return Page();
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", "Có lỗi xảy ra: " + ex.Message);
+                return Page();
+            }
         }
     }
 }
