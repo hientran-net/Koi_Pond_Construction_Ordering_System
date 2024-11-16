@@ -1,7 +1,8 @@
-using ConstructionOdering.Repositories.Entities;
+﻿using ConstructionOdering.Repositories.Entities;
 using ConstructionOrdering.Service.Interface;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 
 namespace Project.WebApplication.Pages.Employee
 {
@@ -9,16 +10,17 @@ namespace Project.WebApplication.Pages.Employee
     {
         private readonly INhanVienService _nhanVienService;
 
+        // Chỉ giữ một constructor duy nhất
         public IndexModel(INhanVienService nhanVienService)
         {
             _nhanVienService = nhanVienService;
         }
 
-        public IList<NhanVien> NhanViens { get; set; } = default!;
+        public List<NhanVien> NhanViens { get; set; } = new List<NhanVien>();
 
         public async Task OnGetAsync()
         {
-            NhanViens = (List<NhanVien>)await _nhanVienService.GetAllNhanVienAsync();
+            NhanViens = await _nhanVienService.GetAllEmployees();
         }
     }
 }

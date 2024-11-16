@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConstructionOdering.Repositories")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b518cf3d6ce0ef959abdee57440eebbfc613b02c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+999c261548a31decc7bf8ec5b828eb983e3801c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConstructionOdering.Repositories")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConstructionOdering.Repositories")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

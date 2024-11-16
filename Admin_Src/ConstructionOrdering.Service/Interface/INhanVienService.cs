@@ -9,10 +9,10 @@ namespace ConstructionOrdering.Service.Interface
 {
     public interface INhanVienService
     {
-        Task<IEnumerable<NhanVien>> GetAllNhanVienAsync();
-        Task<NhanVien?> GetNhanVienByIdAsync(string maNhanVien);
-        Task<NhanVien> CreateNhanVienAsync(NhanVien nhanVien);
-        Task UpdateNhanVienAsync(NhanVien nhanVien);
-        Task DeleteNhanVienAsync(string maNhanVien);
+        Task<bool> AddEmployee(NhanVien nhanVien);
+        Task<List<NhanVien>> GetAllEmployees();
+        Task<NhanVien> GetEmployeeById(string id);
+        Task<bool> UpdateEmployee(NhanVien nhanVien);
+        Task<bool> DeleteEmployee(string id);
     }
 }

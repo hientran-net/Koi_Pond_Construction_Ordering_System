@@ -4,6 +4,7 @@ using ConstructionOrdering.Service.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -18,29 +19,29 @@ namespace ConstructionOrdering.Service.Service
             _nhanVienRepository = nhanVienRepository;
         }
 
-        public async Task<IEnumerable<NhanVien>> GetAllNhanVienAsync()
+        async Task<bool> INhanVienService.AddEmployee(NhanVien nhanVien)
         {
-            return await _nhanVienRepository.GetAllAsync();
+            return await _nhanVienRepository.AddEmployee(nhanVien);
         }
 
-        public async Task<NhanVien?> GetNhanVienByIdAsync(string maNhanVien)
+        async Task<bool> INhanVienService.DeleteEmployee(string id)
         {
-            return await _nhanVienRepository.GetByIdAsync(maNhanVien);
+            return await _nhanVienRepository.DeleteEmployee(id);
         }
 
-        public async Task<NhanVien> CreateNhanVienAsync(NhanVien nhanVien)
+        async Task<List<NhanVien>> INhanVienService.GetAllEmployees()
         {
-            return await _nhanVienRepository.AddAsync(nhanVien);
+            return await _nhanVienRepository.GetAllEmployee();
         }
 
-        public async Task UpdateNhanVienAsync(NhanVien nhanVien)
+        async Task<NhanVien> INhanVienService.GetEmployeeById(string id)
         {
-            await _nhanVienRepository.UpdateAsync(nhanVien);
+            return await _nhanVienRepository.GetEmployeeById(id);
         }
 
-        public async Task DeleteNhanVienAsync(string maNhanVien)
+        async Task<bool> INhanVienService.UpdateEmployee(NhanVien nhanVien)
         {
-            await _nhanVienRepository.DeleteAsync(maNhanVien);
+            return await _nhanVienRepository.UpdateEmployee(nhanVien);
         }
     }
 }

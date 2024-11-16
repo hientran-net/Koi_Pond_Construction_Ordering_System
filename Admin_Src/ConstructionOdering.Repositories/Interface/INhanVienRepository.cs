@@ -7,12 +7,18 @@ using System.Threading.Tasks;
 
 namespace ConstructionOdering.Repositories.Interface
 {
-    public interface INhanVienRepository
+    public interface INhanVienRepository 
     {
-        Task<IEnumerable<NhanVien>> GetAllAsync();
-        Task<NhanVien?> GetByIdAsync(string maNhanVien);
-        Task<NhanVien> AddAsync(NhanVien nhanVien);
-        Task UpdateAsync(NhanVien nhanVien);
-        Task DeleteAsync(string maNhanVien);
+        //Task<List<NhanVien>> GetAllAsync();
+        //Task<NhanVien> GetByIdAsync(string maNhanVien);
+        //Task<NhanVien> AddAsync(NhanVien nhanVien);
+        //Task UpdateAsync(NhanVien nhanVien);
+        //Task DeleteAsync(string maNhanVien);
+
+        Task<bool> AddEmployee(NhanVien nhanVien);
+        Task<List<NhanVien>> GetAllEmployee();
+        Task<NhanVien> GetEmployeeById(string id);
+        Task<bool> UpdateEmployee(NhanVien nhanVien);
+        Task<bool> DeleteEmployee(string maNhanVien);
     }
 }

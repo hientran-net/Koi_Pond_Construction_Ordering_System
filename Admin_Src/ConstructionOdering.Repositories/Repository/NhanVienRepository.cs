@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,44 +12,61 @@ namespace ConstructionOdering.Repositories.Repository
 {
     public class NhanVienRepository : INhanVienRepository
     {
-        private readonly AdminDbConsturctionOderingSystemContext _context;
+        private readonly AdminDbConsturctionOderingSystemContext _dbContext;
 
-        public NhanVienRepository(AdminDbConsturctionOderingSystemContext context)
+        public NhanVienRepository(AdminDbConsturctionOderingSystemContext dbContext)
         {
-            _context = context;
+            _dbContext = dbContext;
         }
 
-        public async Task<IEnumerable<NhanVien>> GetAllAsync()
+        async Task<bool> INhanVienRepository.AddEmployee(NhanVien nhanVien)
         {
-            return await _context.Set<NhanVien>().ToListAsync();
-        }
-
-        public async Task<NhanVien?> GetByIdAsync(string maNhanVien)
-        {
-            return await _context.Set<NhanVien>().FindAsync(maNhanVien);
-        }
-
-        public async Task<NhanVien> AddAsync(NhanVien nhanVien)
-        {
-            await _context.Set<NhanVien>().AddAsync(nhanVien);
-            await _context.SaveChangesAsync();
-            return nhanVien;
-        }
-
-        public async Task UpdateAsync(NhanVien nhanVien)
-        {
-            _context.Set<NhanVien>().Update(nhanVien);
-            await _context.SaveChangesAsync();
-        }
-
-        public async Task DeleteAsync(string maNhanVien)
-        {
-            var nhanVien = await GetByIdAsync(maNhanVien);
-            if (nhanVien != null)
+            try
             {
-                _context.Set<NhanVien>().Remove(nhanVien);
-                await _context.SaveChangesAsync();
+                await _dbContext.NhanViens.AddAsync(nhanVien);
+                await _dbContext.SaveChangesAsync();
+                return true;
+            }
+            catch
+            {
+                return false;
             }
         }
-    }
+
+        async Task<bool> INhanVienRepository.DeleteEmployee(string maNhanVien)
+        {
+            var employee = await _dbContext.NhanViens.FindAsync(maNhanVien);
+            if (employee != null)
+            {
+                _dbContext.NhanViens.Remove(employee);
+                await _dbContext.SaveChangesAsync();
+                return true;
+            }
+            return false;
+        }
+
+        async Task<List<NhanVien>> INhanVienRepository.GetAllEmployee()
+        {
+            return await _dbContext.NhanViens.ToListAsync();
+        }
+
+        async Task<NhanVien> INhanVienRepository.GetEmployeeById(string id)
+        {
+            return await _dbContext.NhanViens.FindAsync(id);
+        }
+
+        async Task<bool> INhanVienRepository.UpdateEmployee(NhanVien nhanVien)
+        {
+            try
+            {
+                _dbContext.NhanViens.Update(nhanVien);
+                await _dbContext.SaveChangesAsync();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+    } 
 }
