@@ -10,8 +10,4 @@
     <ProjectReference Include="..\ConstructionOdering.Repositories\ConstructionOdering.Repositories.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Interface\" />
-  </ItemGroup>
-
 </Project>

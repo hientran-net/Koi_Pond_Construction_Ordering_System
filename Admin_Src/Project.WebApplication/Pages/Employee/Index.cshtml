@@ -1,0 +1,49 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Danh sách nhân viên";
+}
+
+<div class="container-employee">
+    <h1 class="title mb-4">Danh sách nhân viên</h1>
+
+    <div class="action-buttons mb-3">
+        <a asp-page="./Create" class="btn btn-primary">Thêm Nhân Viên</a>
+    </div>
+
+    <table class="table table-striped table-hover">
+        <thead class="table-light">
+            <tr>
+                <th>Mã Nhân Viên</th>
+                <th>Họ Tên</th>
+                <th>Tuổi</th>
+                <th>Địa Chỉ</th>
+                <th>Thao Tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.NhanViens != null && Model.NhanViens.Any())
+            {
+                foreach (var item in Model.NhanViens)
+                {
+                    <tr>
+                        <td>@item.MaNhanVien</td>
+                        <td>@item.HoTen</td>
+                        <td>@item.Tuoi</td>
+                        <td>@item.DiaChia</td>
+                        <td>
+                            <a asp-page="./Edit" asp-route-id="@item.MaNhanVien" class="btn btn-warning btn-sm">Sửa</a>
+                            <a asp-page="./Delete" asp-route-id="@item.MaNhanVien" class="btn btn-danger btn-sm" onclick="return confirm('Bạn có chắc chắn muốn xóa nhân viên này?');">Xóa</a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="5" class="text-center">Không có nhân viên nào.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

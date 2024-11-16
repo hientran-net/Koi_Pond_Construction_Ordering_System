@@ -1,5 +1,7 @@
 ﻿using ConstructionOdering.Repositories.Entities;
+using ConstructionOdering.Repositories.Interface;
 using ConstructionOdering.Repositories.Repository;
+using ConstructionOrdering.Service.Interface;
 using ConstructionOrdering.Service.Service;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +16,11 @@ builder.Services.AddDbContext<AdminDbConsturctionOderingSystemContext>(option =>
 
 builder.Services.AddScoped<UserRepository>();
 builder.Services.AddScoped<AccountService>();
+
+
+//Employee
+builder.Services.AddScoped<INhanVienRepository, NhanVienRepository>();
+builder.Services.AddScoped<INhanVienService, NhanVienService>();
 
 // Add services to the container.
 builder.Services.AddRazorPages();
