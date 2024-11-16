@@ -6211,3 +6211,43 @@ header.blue-bg .search:focus {
     background: #fff;
     border-radius:4px;
 }
+
+/* Styling for Employee Management Table */
+.table {
+    margin-top: 20px;
+}
+
+    .table th {
+        background-color: #f9f9f9;
+        text-align: center;
+    }
+
+    .table td {
+        vertical-align: middle;
+        text-align: center;
+    }
+
+.panel-heading {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling for Modal */
+.modal-header {
+    background-color: #007bff;
+    color: white;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.modal-footer .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
