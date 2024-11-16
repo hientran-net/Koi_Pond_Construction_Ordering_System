@@ -1,4 +1,27 @@
-﻿@page
+﻿@page "{id}"
 @model Project.WebApplication.Pages.Employee.DeleteModel
 @{
+    ViewData["Title"] = "Xóa nhân viên";
 }
+
+<h1>Xóa nhân viên</h1>
+
+<div class="alert alert-danger">
+    <h3>Bạn có chắc chắn muốn xóa nhân viên này?</h3>
+</div>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Mã nhân viên</dt>
+        <dd class="col-sm-10">@Model.NhanVien.MaNhanVien</dd>
+
+        <dt class="col-sm-2">Tên nhân viên</dt>
+        <dd class="col-sm-10">@Model.NhanVien.HoTen</dd>
+    </dl>
+
+    <form method="post">
+        <input type="hidden" asp-for="NhanVien.MaNhanVien" />
+        <button type="submit" class="btn btn-danger">Xác nhận xóa</button>
+        <a asp-page="./Index" class="btn btn-secondary">Quay lại</a>
+    </form>
+</div>

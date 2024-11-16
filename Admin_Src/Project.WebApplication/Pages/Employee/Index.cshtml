@@ -4,6 +4,23 @@
     ViewData["Title"] = "Danh sách nhân viên";
 }
 
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+
 <!--main content start-->
 <section id="main-content">
     <section class="wrapper">
@@ -27,15 +44,6 @@
                                     </span>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <select class="form-control" id="departmentFilter">
-                                    <option value="">Tất cả phòng ban</option>
-                                    <option value="it">IT</option>
-                                    <option value="hr">HR</option>
-                                    <option value="marketing">Marketing</option>
-                                    <option value="sales">Sales</option>
-                                </select>
-                            </div>
                         </div>
 
                         <!-- Employee Table -->
@@ -43,13 +51,11 @@
                             <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>Ảnh</th>
                                     <th>Họ tên</th>
                                     <th>Email</th>
                                     <th>Số điện thoại</th>
-                                    <th>Phòng ban</th>
-                                    <th>Chức vụ</th>
-                                    <th>Trạng thái</th>
+                                    <th>Địa chỉ</th>
+                                    <th>Ngày Sinh</th>
                                     <th>Thao tác</th>
                                 </tr>
                             </thead>
@@ -61,20 +67,19 @@
                                         <td>@employee.HoTen</td>
                                         <td>@employee.Email</td>
                                         <td>@employee.SoDienThoai</td>
-                                        <td>@employee.Tuoi</td>
                                         <td>@employee.DiaChia</td>
                                         <td>@employee.NgayThangNamSinh</td>
-                                        <td>@employee.QueQuan</td>
                                         <td>
-                                            <div class="btn-group">
-                                                <a href="/Employee/Edit/@employee.MaNhanVien" class="btn btn-warning btn-xs">
-                                                    <i class="fa fa-pencil"></i>
-                                                </a>
-                                                <button type="button" class="btn btn-danger btn-xs"
-                                                        onclick="confirmDelete(@employee.MaNhanVien)">
-                                                    <i class="fa fa-trash-o"></i>
+                                            <a asp-page="./Edit" asp-route-id="@employee.MaNhanVien" class="btn btn-warning">
+                                                <i class="fas fa-edit"></i> Edit
+                                            </a>
+                                            <form method="post" asp-page="./Delete" asp-route-id="@employee.MaNhanVien" 
+                                                  style="display: inline-block;"
+                                                  onsubmit="return confirm('Bạn có chắc muốn xóa nhân viên này?')">
+                                                <button type="submit" class="btn btn-danger">
+                                                    <i class="fas fa-trash"></i> Delete
                                                 </button>
-                                            </div>
+                                            </form>
                                         </td>
                                     </tr>
                                 }
@@ -99,11 +104,11 @@
                 <p>Bạn có chắc chắn muốn xóa nhân viên này không?</p>
             </div>
             <div class="modal-footer">
-                <form id="deleteForm" method="post">
+                @* <form id="deleteForm" method="post">
                     @Html.AntiForgeryToken()
                     <button type="button" class="btn btn-default" data-dismiss="modal">Hủy</button>
                     <button type="submit" class="btn btn-danger">Xóa</button>
-                </form>
+                </form> *@
             </div>
         </div>
     </div>
