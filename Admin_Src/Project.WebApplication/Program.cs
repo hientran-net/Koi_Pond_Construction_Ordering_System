@@ -26,16 +26,20 @@ builder.Services.AddScoped<INhanVienService, NhanVienService>();
 builder.Services.AddRazorPages();
 
 // xác thực với cookies
-builder.Services.AddAuthentication(
-    Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults
-    .AuthenticationScheme
-    ).AddCookie("Cookies", option =>
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
     {
-        option.LoginPath = "/login";      // Đường dẫn đến trang login
-        option.LogoutPath = "/logout";    // Đường dẫn đến trang logout (nếu có)
-        option.ExpireTimeSpan = TimeSpan.FromMinutes(30); // Thời gian hết hạn
-        option.SlidingExpiration = true;  // Tự động gia hạn cookie
+        options.LoginPath = "/Login";
+        options.LogoutPath = "/Logout";
+        options.Cookie.Name = "X_KoiAdminCookie"; // Đặt tên cookie của bạn
+        options.ExpireTimeSpan = TimeSpan.FromHours(24);
+        options.SlidingExpiration = true;
+        options.Cookie.HttpOnly = true;
+        // Thêm các options bảo mật
+        options.Cookie.SecurePolicy = CookieSecurePolicy.Always; // Nếu dùng HTTPS
     });
+
+builder.Services.AddAuthorization();
 
 var app = builder.Build();
 

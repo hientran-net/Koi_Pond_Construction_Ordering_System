@@ -9,11 +9,6 @@ namespace ConstructionOdering.Repositories.Interface
 {
     public interface INhanVienRepository 
     {
-        //Task<List<NhanVien>> GetAllAsync();
-        //Task<NhanVien> GetByIdAsync(string maNhanVien);
-        //Task<NhanVien> AddAsync(NhanVien nhanVien);
-        //Task UpdateAsync(NhanVien nhanVien);
-        //Task DeleteAsync(string maNhanVien);
 
         Task<bool> AddEmployee(NhanVien nhanVien);
         Task<List<NhanVien>> GetAllEmployee();

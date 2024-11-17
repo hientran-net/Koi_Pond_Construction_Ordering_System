@@ -23,6 +23,7 @@
         <div class="from-box login">
             <h2 class="animation" style="--i: 0; --j: 21">Login</h2>
             <form method="post">
+                @Html.AntiForgeryToken()
                 <div class="input-box animation" style="--i: 1; --j: 22">
                     <input type="text" id="userName" name="Username" asp-for="userName" required />
                     <label for="userName">username</label>

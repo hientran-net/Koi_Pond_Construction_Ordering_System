@@ -6,12 +6,16 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Project.WebApplication.Pages
 {
-    //[Authorize]
+    [Authorize]
     public class IndexModel : PageModel
     {
-        public void OnGet()
+        public IActionResult OnGet()
         {
-            HttpContext.SignOutAsync();
+            if (!User.Identity.IsAuthenticated)
+            {
+                return RedirectToPage("/Login");    
+            }
+            return Page();
         }
 
         public void OnPost()

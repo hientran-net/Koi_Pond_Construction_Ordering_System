@@ -8,6 +8,23 @@
     <section class="wrapper">
         <div class="row">
             <div class="col-md-6">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <ul class="dropdown-menu extended logout" style="padding: 5px; text-align: center;">
+                        @* <form method="get">
+                    <input type="submit"
+                    value="Log out"
+                    style="border-radius: 20px; background-color: lightblue; padding: 8px 20px; margin: 0; text-align: center; display: block; width: 100%;" />
+                    </form> *@
+                        <li>
+                            <form method="get" action="/Login" style="display: inline;">
+                                <button type="submit" style="background: none; border: none; padding: 0; font-size: inherit; color: inherit; text-decoration: none; cursor: pointer;">
+                                    <i class="fa fa-key"></i> Log Out
+                                </button>
+                            </form>
+                        </li>
+                    </ul>
+                }
                 <form method="post">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
@@ -25,13 +42,13 @@
 
                     <div class="form-group">
                         <label asp-for="NhanVien.Email" class="control-label">Email</label>
-                        <input maxlength="10" asp-for="NhanVien.Email" class="form-control" />
+                        <input asp-for="NhanVien.Email" class="form-control" />
                         <span asp-validation-for="NhanVien.Email" class="text-danger"></span>
                     </div>
 
                     <div class="form-group">
                         <label asp-for="NhanVien.SoDienThoai" class="control-label">Số điện thoại</label>
-                        <input asp-for="NhanVien.SoDienThoai" class="form-control" />
+                        <input maxlength="10" asp-for="NhanVien.SoDienThoai" class="form-control" />
                         <span asp-validation-for="NhanVien.SoDienThoai" class="text-danger"></span>
                     </div>
 
@@ -43,7 +60,7 @@
 
                     <div class="form-group">
                         <label asp-for="NhanVien.NgayThangNamSinh" class="control-label">Ngày Sinh</label>
-                        <input type="date" name="begin" placeholder="dd-mm-yyyy" asp-for="NhanVien.NgayThangNamSinh" class="form-control" />
+                        <input type="date" asp-for="NhanVien.NgayThangNamSinh" class="form-control" />
 
                         <span asp-validation-for="NhanVien.NgayThangNamSinh" class="text-danger"></span>
                     </div>

@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\Admin_Src\Project.WebApplication
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/DashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaEJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/Employee/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,12 +50,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/logout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbG9nb3V0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/Shared/_HomePageLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Ib21lUGFnZUxheW91dC5jc2h0bWw=
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/Admin_Src/Project.WebApplication/Pages/Shared/_LoginLayout.cshtml]

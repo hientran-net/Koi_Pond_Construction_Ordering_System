@@ -39,7 +39,7 @@
         <!--header start-->
         <header class="header white-bg">
             <!--logo start-->
-            <a href="/Admin/Dashboard" class="logo">X_koi<span> Admin_Site</span></a>
+            <a href="@Url.Page("/Index")" class="logo">X_koi<span> Admin_Site</span></a>
             <!--logo end-->
             <div class="top-nav ">
                 <!--search & user info start-->
@@ -52,21 +52,16 @@
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <img alt="" src="">
                                 @if(User.Identity.IsAuthenticated)
-                            {
-                                <span class="username">@User.Identity.Name</span>
-                            }
+                                {
+                                    <span class="username">@User.Identity.Name</span>
+                                }
                             <b class="caret"></b>
                         </a>
                         @if (User.Identity.IsAuthenticated)
                         {
                             <ul class="dropdown-menu extended logout" style="padding: 5px; text-align: center;">
-                                @* <form method="get">
-                                    <input type="submit"
-                                           value="Log out"
-                                           style="border-radius: 20px; background-color: lightblue; padding: 8px 20px; margin: 0; text-align: center; display: block; width: 100%;" />
-                                </form> *@
                                 <li>
-                                    <form method="get" action="/Login" style="display: inline;">
+                                    <form method="get" action="/Logout" style="display: inline;">
                                         <button type="submit" style="background: none; border: none; padding: 0; font-size: inherit; color: inherit; text-decoration: none; cursor: pointer;">
                                             <i class="fa fa-key"></i> Log Out
                                         </button>
@@ -177,6 +172,20 @@
         });
 
     </script>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <script>
+            console.log("User is authenticated");
+            console.log("Username: @User.Identity.Name");
+        </script>
+    }
+    else
+    {
+        <script>
+            console.log("User is not authenticated");
+        </script>
+    }
+
     @RenderSection("Styles", required: false)
     @RenderSection("Scripts", required: false)
 </body>

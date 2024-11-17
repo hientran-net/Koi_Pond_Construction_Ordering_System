@@ -1,5 +1,6 @@
 ﻿using ConstructionOrdering.Service.Service;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -7,6 +8,7 @@ using System.Security.Claims;
 
 namespace Project.WebApplication.Pages
 {
+    [AllowAnonymous]
     public class loginModel : PageModel
     {
         private readonly AccountService _accountService;
@@ -34,17 +36,26 @@ namespace Project.WebApplication.Pages
                 return Page();
             }
 
-            List<Claim> lst = new List<Claim>()
+            var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.NameIdentifier, userName),
                 new Claim(ClaimTypes.Name, userName)
             };
 
-            ClaimsIdentity ci = new ClaimsIdentity(lst, Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationDefaults.AuthenticationScheme);
-            ClaimsPrincipal cp = new ClaimsPrincipal(ci);
-            await HttpContext.SignInAsync(cp);
+            var claimsIdentity = new ClaimsIdentity(
+                claims, CookieAuthenticationDefaults.AuthenticationScheme);
 
-            // Chuyển hướng sau khi đăng nhập thành công
+            var authProperties = new AuthenticationProperties
+            {
+                IsPersistent = true, // Cookie sẽ được lưu giữ sau khi đóng trình duyệt
+                ExpiresUtc = DateTimeOffset.UtcNow.AddHours(24)
+            };
+
+            await HttpContext.SignInAsync(
+                CookieAuthenticationDefaults.AuthenticationScheme,
+                new ClaimsPrincipal(claimsIdentity),
+                authProperties);
+
             return RedirectToPage("/Index");
         }
     }
