@@ -12,7 +12,8 @@
 
                     <div class="form-group">
                         <label asp-for="NhanVien.MaNhanVien" class="control-label">Mã nhân viên</label>
-                        <input asp-for="NhanVien.MaNhanVien" class="form-control" />
+                        <input asp-for="NhanVien.MaNhanVien" class="form-control" readonly />
+                        <input type="hidden" asp-for="NhanVien.MaNhanVien" />
                         <span asp-validation-for="NhanVien.MaNhanVien" class="text-danger"></span>
                     </div>
 
@@ -42,7 +43,7 @@
 
                     <div class="form-group">
                         <label asp-for="NhanVien.NgayThangNamSinh" class="control-label">Ngày Sinh</label>
-                        <input asp-for="NhanVien.NgayThangNamSinh" class="form-control" />
+                        <input asp-for="NhanVien.NgayThangNamSinh" class="form-control" type="date" />
                         <span asp-validation-for="NhanVien.NgayThangNamSinh" class="text-danger"></span>
                     </div>
 

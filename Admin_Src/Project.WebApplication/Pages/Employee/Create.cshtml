@@ -30,7 +30,7 @@
 
                     <div class="form-group">
                         <label asp-for="NhanVien.MaNhanVien" class="control-label">Mã nhân viên</label>
-                        <input asp-for="NhanVien.MaNhanVien" class="form-control" />
+                        <input asp-for="NhanVien.MaNhanVien" class="form-control" readonly />
                         <span asp-validation-for="NhanVien.MaNhanVien" class="text-danger"></span>
                     </div>
 
@@ -60,8 +60,7 @@
 
                     <div class="form-group">
                         <label asp-for="NhanVien.NgayThangNamSinh" class="control-label">Ngày Sinh</label>
-                        <input type="date" asp-for="NhanVien.NgayThangNamSinh" class="form-control" />
-
+                        <input asp-for="NhanVien.NgayThangNamSinh" class="form-control" type="date" />
                         <span asp-validation-for="NhanVien.NgayThangNamSinh" class="text-danger"></span>
                     </div>
 
