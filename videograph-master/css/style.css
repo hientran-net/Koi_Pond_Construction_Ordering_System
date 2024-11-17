@@ -143,8 +143,8 @@ ol {
 
 .set-bg {
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
+  background-size:cover;
+  background-position:  center;
 }
 
 .spad {
@@ -831,6 +831,8 @@ ol {
   font-weight: 700;
   line-height: 55px;
   margin-bottom: 22px;
+  
+ 
 }
 .callto__text p {
   font-size: 15px;
@@ -838,6 +840,7 @@ ol {
   opacity: 0.7;
   text-transform: uppercase;
   margin-bottom: 55px;
+  
 }
 .callto__text a {
   color: #ffffff;
@@ -849,6 +852,7 @@ ol {
   text-transform: uppercase;
   display: inline-block;
   padding: 14px 32px 12px;
+  
 }
 
 /*---------------------
