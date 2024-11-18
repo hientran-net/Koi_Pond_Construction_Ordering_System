@@ -1,0 +1,70 @@
+﻿@page
+@model Project.WebApplication.Pages.ProjectManage.CreateModel
+@{
+    ViewData["Title"] = "Thêm dự án mới";
+}
+<!--main content start-->
+<section id="main-content">
+    <section class="wrapper">
+        <div class="row">
+            <div class="col-md-6">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <ul class="dropdown-menu extended logout" style="padding: 5px; text-align: center;">
+                        <li>
+                            <form method="get" action="/Login" style="display: inline;">
+                                <button type="submit" style="background: none; border: none; padding: 0; font-size: inherit; color: inherit; text-decoration: none; cursor: pointer;">
+                                    <i class="fa fa-key"></i> Log Out
+                                </button>
+                            </form>
+                        </li>
+                    </ul>
+                }
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-group">
+                        <label asp-for="DuAn.MaDuAn" class="control-label">Số dự án</label>
+                        <input asp-for="DuAn.MaDuAn" class="form-control" readonly />
+                        <span asp-validation-for="DuAn.MaDuAn" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="DuAn.TenDuAn" class="control-label">Tên dự án</label>
+                        <input maxlength="200" type="text" asp-for="DuAn.TenDuAn" class="form-control" required />
+                        <span asp-validation-for="DuAn.TenDuAn" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="DuAn.GiaDuAn" class="control-label">Giá dự kiến</label>
+                        <input type="number" asp-for="DuAn.GiaDuAn" class="form-control" required />
+                        <span asp-validation-for="DuAn.GiaDuAn" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="DuAn.SoNgayThiCongDuKien" class="control-label">Số ngày thi công dự kiến</label>
+                        <input type="number" asp-for="DuAn.SoNgayThiCongDuKien" class="form-control" required />
+                        <span asp-validation-for="DuAn.SoNgayThiCongDuKien" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="DuAn.MoTaDuAn" class="control-label">Mô tả dự án</label>
+                        <textarea asp-for="DuAn.MoTaDuAn" class="form-control" rows="4"></textarea>
+                        <span asp-validation-for="DuAn.MoTaDuAn" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <input type="submit" value="Thêm mới" class="btn btn-primary" />
+                        <a asp-page="Index" class="btn btn-secondary">Quay lại</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</section>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

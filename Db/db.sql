@@ -4,6 +4,7 @@ GO
 USE Admin_DB_Consturction_Odering_System
 GO
 
+
 CREATE TABLE Nhan_Vien
 (
 	ma_nhan_vien NVARCHAR(10) PRIMARY KEY,
@@ -28,7 +29,7 @@ GO
 
 CREATE TABLE Du_An
 (
-	ma_du_an INT IDENTITY(1,1) PRIMARY KEY,
+	ma_du_an NVARCHAR(10) PRIMARY KEY,
 	ten_du_an NVARCHAR(255),
 	gia_du_an DECIMAL(10),
 	so_ngay_thi_cong_du_kien INT,
@@ -40,9 +41,10 @@ CREATE TABLE Du_An
 )
 GO
 
+
 CREATE TABLE Khach_Hang
 (
-	ma_khach_hang INT PRIMARY KEY IDENTITY(1,1),
+	ma_khach_hang NVARCHAR(10) PRIMARY KEY,
 	ten_khach_hang NVARCHAR(255),
 	email VARCHAR(100) UNIQUE,
 	so_dien_thoai VARCHAR(15),
@@ -56,9 +58,9 @@ GO
 
 CREATE TABLE Don_Dat_Hang
 (
-	ma_don_dat_hang INT IDENTITY(1,1) PRIMARY KEY,
-	ma_khach_hang INT,
-	ma_du_an INT, 
+	ma_don_dat_hang NVARCHAR(10) PRIMARY KEY,
+	ma_khach_hang NVARCHAR(10),
+	ma_du_an NVARCHAR(10), 
 	ngay_dat_hang DATETIME DEFAULT CURRENT_TIMESTAMP,
 	ngay_bat_dau_thi_cong DATETIME DEFAULT CURRENT_TIMESTAMP,
 	ngay_ket_thuc_thi_cong DATETIME DEFAULT CURRENT_TIMESTAMP,
@@ -73,9 +75,5 @@ CREATE TABLE Users (
     Id INT PRIMARY KEY IDENTITY,
     Username NVARCHAR(50) NOT NULL,
     PasswordHash NVARCHAR(256) NOT NULL
-);
-
-
-
-INSERT INTO Users (Username, PasswordHash)
-VALUES ('admin', '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918');
+)
+GO

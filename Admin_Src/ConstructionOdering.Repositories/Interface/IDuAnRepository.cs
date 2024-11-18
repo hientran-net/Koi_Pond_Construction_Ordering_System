@@ -11,8 +11,10 @@ namespace ConstructionOdering.Repositories.Interface
     {
         Task<bool> AddProject(DuAn duAn);
         Task<List<DuAn>> GetAllProjects();
-        Task<DuAn> GetProjectById(int id);
+        Task<DuAn> GetProjectById(string id);
         Task<bool> UpdateProject(DuAn duAn);
-        Task<bool> DeleteProject(int maDuAn);
+        Task<bool> DeleteProject(string maDuAn);
+        Task<DuAn> GetLastProject();
+
     }
 }

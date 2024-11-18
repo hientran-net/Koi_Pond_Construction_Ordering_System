@@ -5,11 +5,11 @@ namespace ConstructionOdering.Repositories.Entities;
 
 public partial class DonDatHang
 {
-    public int MaDonDatHang { get; set; }
+    public string MaDonDatHang { get; set; } = null!;
 
-    public int? MaKhachHang { get; set; }
+    public string? MaKhachHang { get; set; }
 
-    public int? MaDuAn { get; set; }
+    public string? MaDuAn { get; set; }
 
     public DateTime? NgayDatHang { get; set; }
 

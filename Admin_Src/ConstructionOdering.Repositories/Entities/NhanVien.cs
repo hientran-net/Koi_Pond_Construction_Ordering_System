@@ -1,23 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel;
 
 namespace ConstructionOdering.Repositories.Entities;
 
 public partial class NhanVien
 {
-    [Required]
-    [ReadOnly(true)]
     public string MaNhanVien { get; set; } = null!;
 
     public string? HoTen { get; set; }
 
     public int? Tuoi { get; set; }
 
-    [Required]
-    [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
-    [DataType(DataType.Date)]
     public DateOnly? NgayThangNamSinh { get; set; }
 
     public bool? GioiTinh { get; set; }

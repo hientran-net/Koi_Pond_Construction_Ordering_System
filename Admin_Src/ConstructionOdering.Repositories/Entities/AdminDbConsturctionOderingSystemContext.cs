@@ -33,13 +33,19 @@ public partial class AdminDbConsturctionOderingSystemContext : DbContext
     {
         modelBuilder.Entity<DonDatHang>(entity =>
         {
-            entity.HasKey(e => e.MaDonDatHang).HasName("PK__Don_Dat___20F09D87843996DE");
+            entity.HasKey(e => e.MaDonDatHang).HasName("PK__Don_Dat___20F09D87A1C30F30");
 
             entity.ToTable("Don_Dat_Hang");
 
-            entity.Property(e => e.MaDonDatHang).HasColumnName("ma_don_dat_hang");
-            entity.Property(e => e.MaDuAn).HasColumnName("ma_du_an");
-            entity.Property(e => e.MaKhachHang).HasColumnName("ma_khach_hang");
+            entity.Property(e => e.MaDonDatHang)
+                .HasMaxLength(10)
+                .HasColumnName("ma_don_dat_hang");
+            entity.Property(e => e.MaDuAn)
+                .HasMaxLength(10)
+                .HasColumnName("ma_du_an");
+            entity.Property(e => e.MaKhachHang)
+                .HasMaxLength(10)
+                .HasColumnName("ma_khach_hang");
             entity.Property(e => e.NgayBatDauThiCong)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
@@ -68,11 +74,13 @@ public partial class AdminDbConsturctionOderingSystemContext : DbContext
 
         modelBuilder.Entity<DuAn>(entity =>
         {
-            entity.HasKey(e => e.MaDuAn).HasName("PK__Du_An__8F784B5D0B34CCAA");
+            entity.HasKey(e => e.MaDuAn).HasName("PK__Du_An__8F784B5D90B32E64");
 
             entity.ToTable("Du_An");
 
-            entity.Property(e => e.MaDuAn).HasColumnName("ma_du_an");
+            entity.Property(e => e.MaDuAn)
+                .HasMaxLength(10)
+                .HasColumnName("ma_du_an");
             entity.Property(e => e.ChinhSuaBoi)
                 .HasMaxLength(255)
                 .HasColumnName("chinh_sua_boi");
@@ -99,13 +107,15 @@ public partial class AdminDbConsturctionOderingSystemContext : DbContext
 
         modelBuilder.Entity<KhachHang>(entity =>
         {
-            entity.HasKey(e => e.MaKhachHang).HasName("PK__Khach_Ha__C9817AF6E41B2ECE");
+            entity.HasKey(e => e.MaKhachHang).HasName("PK__Khach_Ha__C9817AF6F6EF10C5");
 
             entity.ToTable("Khach_Hang");
 
-            entity.HasIndex(e => e.Email, "UQ__Khach_Ha__AB6E61646E7A2C45").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__Khach_Ha__AB6E616452CD169C").IsUnique();
 
-            entity.Property(e => e.MaKhachHang).HasColumnName("ma_khach_hang");
+            entity.Property(e => e.MaKhachHang)
+                .HasMaxLength(10)
+                .HasColumnName("ma_khach_hang");
             entity.Property(e => e.ChinhSuaBoi)
                 .HasMaxLength(255)
                 .HasColumnName("chinh_sua_boi");
@@ -138,11 +148,11 @@ public partial class AdminDbConsturctionOderingSystemContext : DbContext
 
         modelBuilder.Entity<NhanVien>(entity =>
         {
-            entity.HasKey(e => e.MaNhanVien).HasName("PK__Nhan_Vie__6781B7B9F0DCCA97");
+            entity.HasKey(e => e.MaNhanVien).HasName("PK__Nhan_Vie__6781B7B987998D87");
 
             entity.ToTable("Nhan_Vien");
 
-            entity.HasIndex(e => e.Email, "UQ__Nhan_Vie__AB6E6164D3908667").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__Nhan_Vie__AB6E61644B8C3708").IsUnique();
 
             entity.Property(e => e.MaNhanVien)
                 .HasMaxLength(10)
@@ -191,9 +201,9 @@ public partial class AdminDbConsturctionOderingSystemContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Users__3214EC07C6EBECD4");
+            entity.HasKey(e => e.Id).HasName("PK__Users__3214EC0746BAB0B4");
 
-            entity.Property(e => e.Password).HasMaxLength(255);
+            entity.Property(e => e.PasswordHash).HasMaxLength(256);
             entity.Property(e => e.Username).HasMaxLength(50);
         });
 

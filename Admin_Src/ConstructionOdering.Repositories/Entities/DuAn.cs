@@ -5,7 +5,7 @@ namespace ConstructionOdering.Repositories.Entities;
 
 public partial class DuAn
 {
-    public int MaDuAn { get; set; }
+    public string MaDuAn { get; set; } = null!;
 
     public string? TenDuAn { get; set; }
 

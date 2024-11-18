@@ -20,5 +20,6 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\Hien Tran\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\Hien Tran\.nuget\packages\microsoft.entityframeworkcore.tools\8.0.10</PkgMicrosoft_EntityFrameworkCore_Tools>
+    <PkgDevExpress_Data Condition=" '$(PkgDevExpress_Data)' == '' ">C:\Users\Hien Tran\.nuget\packages\devexpress.data\24.1.7</PkgDevExpress_Data>
   </PropertyGroup>
 </Project>

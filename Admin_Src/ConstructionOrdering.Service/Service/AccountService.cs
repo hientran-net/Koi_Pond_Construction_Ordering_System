@@ -20,12 +20,12 @@ namespace ConstructionOrdering.Service.Service
         {
             var user = _context.Users.FirstOrDefault(u => u.Username == username);
 
-            if(user == null)
+            if (user == null)
             {
                 return false;
             }
 
-            return user.Password == password;
+            return user.PasswordHash == password;
         }
     }
 }

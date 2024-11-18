@@ -13,14 +13,14 @@ namespace Project.WebApplication.Pages
         {
             if (!User.Identity.IsAuthenticated)
             {
-                return RedirectToPage("/Login");    
+                return RedirectToPage("/Login");
             }
             return Page();
         }
 
         public void OnPost()
         {
-            
+
         }
     }
 }

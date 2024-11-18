@@ -1,5 +1,6 @@
 ﻿using ConstructionOdering.Repositories.Entities;
 using ConstructionOdering.Repositories.Interface;
+using DevExpress.Data.Browsing;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -31,16 +32,16 @@ namespace ConstructionOdering.Repositories.Repository
             }
         }
 
-        async Task<bool> IDuAnRepository.DeleteProject(int maDuAn)
+        async Task<List<DuAn>> GetAllProject()
         {
-            var project = await _dbContext.DuAns.FindAsync(maDuAn);
-            if(project != null)
-            {
-                _dbContext.DuAns.Remove(project);
-                await _dbContext.SaveChangesAsync();
-                return true;
-            }
-            return false;
+            // Thêm log để kiểm tra
+            var projects = await _dbContext.DuAns
+                .AsNoTracking()  // Thêm dòng này để tối ưu performance
+                .OrderByDescending(x => x.MaDuAn)  // Sắp xếp theo MaDuAn mới nhất
+                .ToListAsync();
+
+            Console.WriteLine($"Found {projects.Count} projects in repository"); // Log để debug
+            return projects;
         }
 
         async Task<List<DuAn>> IDuAnRepository.GetAllProjects()
@@ -48,7 +49,7 @@ namespace ConstructionOdering.Repositories.Repository
             return await _dbContext.DuAns.ToListAsync();
         }
 
-        async Task<DuAn> IDuAnRepository.GetProjectById(int id)
+        async Task<DuAn> IDuAnRepository.GetProjectById(string id)
         {
             return await _dbContext.DuAns.FindAsync(id);
         }
@@ -65,6 +66,30 @@ namespace ConstructionOdering.Repositories.Repository
             {
                 return false;
             }
+        }
+
+        public async Task<DuAn> GetLastProject()
+        {
+            using (var context = new AdminDbConsturctionOderingSystemContext()) // Thay DataContext bằng tên DbContext của bạn
+            {
+                return await context.DuAns // Thay DuAn bằng tên DbSet của bạn
+                    .OrderByDescending(x => x.MaDuAn)
+                    .FirstOrDefaultAsync();
+            }
+        }
+
+        async Task<bool> IDuAnRepository.DeleteProject(string maDuAn)
+        {
+
+            var project = await _dbContext.DuAns.FindAsync(maDuAn);
+            if (project != null)
+            {
+                _dbContext.DuAns.Remove(project);
+                await _dbContext.SaveChangesAsync();
+                return true;
+            }
+            return false;
+
         }
     }
 }

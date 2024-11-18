@@ -48,6 +48,17 @@
           }
         }
       },
+      "DevExpress.Data/24.1.7": {
+        "dependencies": {
+          "System.Drawing.Common": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/DevExpress.Data.v24.1.dll": {
+            "assemblyVersion": "24.1.7.0",
+            "fileVersion": "24.1.7.0"
+          }
+        }
+      },
       "FluentAssertions/6.12.2": {
         "dependencies": {
           "System.Configuration.ConfigurationManager": "6.0.1"
@@ -572,6 +583,7 @@
       },
       "ConstructionOdering.Repositories/1.0.0": {
         "dependencies": {
+          "DevExpress.Data": "24.1.7",
           "FluentAssertions": "6.12.2",
           "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10"
@@ -604,6 +616,13 @@
       "sha512": "sha512-l1Xm2MWOF2Mzcwuarlw8kWQXLZk3UeB55aQXVyjj23aBfDwOZ3gu5GP2kJ6KlmZeZv2TCzw7x4L3V36iNr3gww==",
       "path": "azure.identity/1.10.3",
       "hashPath": "azure.identity.1.10.3.nupkg.sha512"
+    },
+    "DevExpress.Data/24.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5nOCBKGf4GZbw3G4+/feH8xbahLAgJVegLR6iNh+w/c6JTEJT9vmsIDyuSBz0AZjic4DHkaEg+DN7iZLI9jPGg==",
+      "path": "devexpress.data/24.1.7",
+      "hashPath": "devexpress.data.24.1.7.nupkg.sha512"
     },
     "FluentAssertions/6.12.2": {
       "type": "package",

@@ -1,12 +1,6 @@
 ﻿using ConstructionOdering.Repositories.Entities;
 using ConstructionOdering.Repositories.Interface;
 using ConstructionOrdering.Service.Interface;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConstructionOrdering.Service.Service
 {

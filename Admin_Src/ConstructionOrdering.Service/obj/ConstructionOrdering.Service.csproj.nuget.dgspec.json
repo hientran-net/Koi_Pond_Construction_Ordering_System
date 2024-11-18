@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "DevExpress.Data": {
+              "target": "Package",
+              "version": "[24.1.7, )"
+            },
             "FluentAssertions": {
               "target": "Package",
               "version": "[6.12.2, )"

@@ -1,0 +1,54 @@
+﻿@page "{id}"
+@model Project.WebApplication.Pages.ProjectManage.EditModel
+@{
+    ViewData["Title"] = "Chỉnh sửa dự án";
+}
+
+<section id="main-content">
+    <section class="wrapper">
+        <div class="row">
+            <div class="col-md-6">
+                <form method="post">
+                    <input type="hidden" asp-for="DuAn.MaDuAn" />
+                    <input type="hidden" asp-for="DuAn.NgayThemDuAn" />
+                    <input type="hidden" asp-for="DuAn.ThemBoi" />
+
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-group">
+                        <label asp-for="DuAn.TenDuAn" class="control-label">Tên dự án</label>
+                        <input maxlength="200" type="text" asp-for="DuAn.TenDuAn" class="form-control" required />
+                        <span asp-validation-for="DuAn.TenDuAn" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="DuAn.GiaDuAn" class="control-label">Giá dự kiến</label>
+                        <input type="number" min="0" step="0.01" asp-for="DuAn.GiaDuAn" class="form-control" required />
+                        <span asp-validation-for="DuAn.GiaDuAn" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="DuAn.SoNgayThiCongDuKien" class="control-label">Số ngày thi công dự kiến</label>
+                        <input type="number" min="1" asp-for="DuAn.SoNgayThiCongDuKien" class="form-control" required />
+                        <span asp-validation-for="DuAn.SoNgayThiCongDuKien" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="DuAn.MoTaDuAn" class="control-label">Mô tả dự án</label>
+                        <textarea asp-for="DuAn.MoTaDuAn" class="form-control" rows="4"></textarea>
+                        <span asp-validation-for="DuAn.MoTaDuAn" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <input type="submit" value="Lưu thay đổi" class="btn btn-primary" />
+                        <a asp-page="Index" class="btn btn-secondary">Quay lại</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</section>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

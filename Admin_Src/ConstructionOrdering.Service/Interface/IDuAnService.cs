@@ -11,8 +11,9 @@ namespace ConstructionOrdering.Service.Interface
     {
         Task<bool> AddProject(DuAn duAn);
         Task<List<DuAn>> GetAllProject();
-        Task<DuAn> GetProjectById(int id);
+        Task<DuAn> GetProjectById(string id);
         Task<bool> UpdateProject(DuAn duAn);
-        Task<bool> DeleteProject(int id);
+        Task<bool> DeleteProject(string id);
+        Task<DuAn> GetLastProject();
     }
 }

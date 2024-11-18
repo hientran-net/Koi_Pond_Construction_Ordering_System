@@ -5,7 +5,7 @@ namespace ConstructionOdering.Repositories.Entities;
 
 public partial class KhachHang
 {
-    public int MaKhachHang { get; set; }
+    public string MaKhachHang { get; set; } = null!;
 
     public string? TenKhachHang { get; set; }
 

@@ -46,6 +46,22 @@
           }
         }
       },
+      "DevExpress.Data/24.1.7": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "4.7.2"
+        },
+        "compile": {
+          "lib/net6.0/DevExpress.Data.v24.1.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/DevExpress.Data.v24.1.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "FluentAssertions/6.12.2": {
         "type": "package",
         "dependencies": {
@@ -1555,6 +1571,24 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "DevExpress.Data/24.1.7": {
+      "sha512": "5nOCBKGf4GZbw3G4+/feH8xbahLAgJVegLR6iNh+w/c6JTEJT9vmsIDyuSBz0AZjic4DHkaEg+DN7iZLI9jPGg==",
+      "type": "package",
+      "path": "devexpress.data/24.1.7",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/DevExpress.Generator.dll",
+        "devexpress.data.24.1.7.nupkg.sha512",
+        "devexpress.data.nuspec",
+        "lib/net452/DevExpress.Data.v24.1.dll",
+        "lib/net452/DevExpress.Data.v24.1.xml",
+        "lib/net6.0/DevExpress.Data.v24.1.dll",
+        "lib/net6.0/DevExpress.Data.v24.1.xml",
+        "tools/VisualStudioToolsManifest.xml"
       ]
     },
     "FluentAssertions/6.12.2": {
@@ -4080,6 +4114,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "DevExpress.Data >= 24.1.7",
       "FluentAssertions >= 6.12.2",
       "Microsoft.EntityFrameworkCore >= 8.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.10",
@@ -4136,6 +4171,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "DevExpress.Data": {
+            "target": "Package",
+            "version": "[24.1.7, )"
+          },
           "FluentAssertions": {
             "target": "Package",
             "version": "[6.12.2, )"

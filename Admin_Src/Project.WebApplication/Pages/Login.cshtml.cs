@@ -21,8 +21,8 @@ namespace Project.WebApplication.Pages
         [BindProperty]
         public string userName { get; set; }
         [BindProperty]
-        public string password { get; set; }    
-        
+        public string password { get; set; }
+
         public void OnGet()
         {
 

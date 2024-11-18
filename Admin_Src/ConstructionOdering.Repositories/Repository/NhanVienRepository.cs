@@ -68,5 +68,5 @@ namespace ConstructionOdering.Repositories.Repository
                 return false;
             }
         }
-    } 
+    }
 }

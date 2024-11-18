@@ -22,6 +22,10 @@ builder.Services.AddScoped<AccountService>();
 builder.Services.AddScoped<INhanVienRepository, NhanVienRepository>();
 builder.Services.AddScoped<INhanVienService, NhanVienService>();
 
+//Employee
+builder.Services.AddScoped<IDuAnRepository, DuAnRepository>();
+builder.Services.AddScoped<IDuAnService, DuAnService>();
+
 // Add services to the container.
 builder.Services.AddRazorPages();
 

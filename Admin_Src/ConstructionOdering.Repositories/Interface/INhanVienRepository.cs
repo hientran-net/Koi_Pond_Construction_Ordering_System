@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConstructionOdering.Repositories.Interface
 {
-    public interface INhanVienRepository 
+    public interface INhanVienRepository
     {
 
         Task<bool> AddEmployee(NhanVien nhanVien);
