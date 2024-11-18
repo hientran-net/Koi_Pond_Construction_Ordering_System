@@ -1,0 +1,214 @@
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5233
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: D:\University\CN2303CLCB_K23\Công_Ngh?_Ph?n_M?m\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\Admin_Src\Project.WebApplication
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (24ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [k].[ma_khach_hang], [k].[chinh_sua_boi], [k].[dia_chi], [k].[email], [k].[ngay_chinh_sua], [k].[ngay_tao], [k].[so_dien_thoai], [k].[tao_boi], [k].[ten_khach_hang]
+      FROM [Khach_Hang] AS [k]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_du_an], [d].[chinh_sua_boi], [d].[gia_du_an], [d].[mo_ta_du_an], [d].[ngay_chinh_sua], [d].[ngay_them_du_an], [d].[so_ngay_thi_cong_du_kien], [d].[ten_du_an], [d].[them_boi]
+      FROM [Du_An] AS [d]
+Retrieved 5 projects in service
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_don_dat_hang], [d].[ma_du_an], [d].[ma_khach_hang], [d].[ngay_bat_dau_thi_cong], [d].[ngay_dat_hang], [d].[ngay_ket_thuc_thi_cong], [d].[ngay_ket_thuc_thuc_te]
+      FROM [Don_Dat_Hang] AS [d]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [k].[ma_khach_hang], [k].[chinh_sua_boi], [k].[dia_chi], [k].[email], [k].[ngay_chinh_sua], [k].[ngay_tao], [k].[so_dien_thoai], [k].[tao_boi], [k].[ten_khach_hang]
+      FROM [Khach_Hang] AS [k]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_du_an], [d].[chinh_sua_boi], [d].[gia_du_an], [d].[mo_ta_du_an], [d].[ngay_chinh_sua], [d].[ngay_them_du_an], [d].[so_ngay_thi_cong_du_kien], [d].[ten_du_an], [d].[them_boi]
+      FROM [Du_An] AS [d]
+Retrieved 5 projects in service
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_don_dat_hang], [d].[ma_du_an], [d].[ma_khach_hang], [d].[ngay_bat_dau_thi_cong], [d].[ngay_dat_hang], [d].[ngay_ket_thuc_thi_cong], [d].[ngay_ket_thuc_thuc_te]
+      FROM [Don_Dat_Hang] AS [d]
+info: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      Starting OnPostAsync
+info: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      Form data: {"MaDonDatHang":"DH20241118164827","MaKhachHang":"KH_01","MaDuAn":"DA_03","NgayDatHang":null,"NgayBatDauThiCong":"2024-11-11T00:00:00","NgayKetThucThiCong":"2024-11-17T00:00:00","NgayKetThucThucTe":null,"MaDuAnNavigation":null,"MaKhachHangNavigation":null}
+warn: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      ModelState is invalid
+warn: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      Validation error: Vui lòng nh?p ngày d?t hàng
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [k].[ma_khach_hang], [k].[chinh_sua_boi], [k].[dia_chi], [k].[email], [k].[ngay_chinh_sua], [k].[ngay_tao], [k].[so_dien_thoai], [k].[tao_boi], [k].[ten_khach_hang]
+      FROM [Khach_Hang] AS [k]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_du_an], [d].[chinh_sua_boi], [d].[gia_du_an], [d].[mo_ta_du_an], [d].[ngay_chinh_sua], [d].[ngay_them_du_an], [d].[so_ngay_thi_cong_du_kien], [d].[ten_du_an], [d].[them_boi]
+      FROM [Du_An] AS [d]
+Retrieved 5 projects in service
+info: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      Starting OnPostAsync
+info: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      Form data: {"MaDonDatHang":"DH20241118164827","MaKhachHang":"KH_01","MaDuAn":"DA_03","NgayDatHang":null,"NgayBatDauThiCong":"2024-11-11T00:00:00","NgayKetThucThiCong":"2024-11-17T00:00:00","NgayKetThucThucTe":null,"MaDuAnNavigation":null,"MaKhachHangNavigation":null}
+warn: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      ModelState is invalid
+warn: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      Validation error: Vui lòng nh?p ngày d?t hàng
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [k].[ma_khach_hang], [k].[chinh_sua_boi], [k].[dia_chi], [k].[email], [k].[ngay_chinh_sua], [k].[ngay_tao], [k].[so_dien_thoai], [k].[tao_boi], [k].[ten_khach_hang]
+      FROM [Khach_Hang] AS [k]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_du_an], [d].[chinh_sua_boi], [d].[gia_du_an], [d].[mo_ta_du_an], [d].[ngay_chinh_sua], [d].[ngay_them_du_an], [d].[so_ngay_thi_cong_du_kien], [d].[ten_du_an], [d].[them_boi]
+      FROM [Du_An] AS [d]
+Retrieved 5 projects in service
+info: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      Starting OnPostAsync
+info: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      Form data: {"MaDonDatHang":"DH20241118164827","MaKhachHang":"KH_01","MaDuAn":"DA_01","NgayDatHang":null,"NgayBatDauThiCong":"2024-11-11T00:00:00","NgayKetThucThiCong":"2024-11-17T00:00:00","NgayKetThucThucTe":null,"MaDuAnNavigation":null,"MaKhachHangNavigation":null}
+warn: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      ModelState is invalid
+warn: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      Validation error: Vui lòng nh?p ngày d?t hàng
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [k].[ma_khach_hang], [k].[chinh_sua_boi], [k].[dia_chi], [k].[email], [k].[ngay_chinh_sua], [k].[ngay_tao], [k].[so_dien_thoai], [k].[tao_boi], [k].[ten_khach_hang]
+      FROM [Khach_Hang] AS [k]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_du_an], [d].[chinh_sua_boi], [d].[gia_du_an], [d].[mo_ta_du_an], [d].[ngay_chinh_sua], [d].[ngay_them_du_an], [d].[so_ngay_thi_cong_du_kien], [d].[ten_du_an], [d].[them_boi]
+      FROM [Du_An] AS [d]
+Retrieved 5 projects in service
+info: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      Starting OnPostAsync
+info: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      Form data: {"MaDonDatHang":"DH20241118164827","MaKhachHang":"KH_03","MaDuAn":"DA_01","NgayDatHang":null,"NgayBatDauThiCong":"2024-11-11T00:00:00","NgayKetThucThiCong":"2024-11-17T00:00:00","NgayKetThucThucTe":null,"MaDuAnNavigation":null,"MaKhachHangNavigation":null}
+warn: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      ModelState is invalid
+warn: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      Validation error: Vui lòng nh?p ngày d?t hàng
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [k].[ma_khach_hang], [k].[chinh_sua_boi], [k].[dia_chi], [k].[email], [k].[ngay_chinh_sua], [k].[ngay_tao], [k].[so_dien_thoai], [k].[tao_boi], [k].[ten_khach_hang]
+      FROM [Khach_Hang] AS [k]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_du_an], [d].[chinh_sua_boi], [d].[gia_du_an], [d].[mo_ta_du_an], [d].[ngay_chinh_sua], [d].[ngay_them_du_an], [d].[so_ngay_thi_cong_du_kien], [d].[ten_du_an], [d].[them_boi]
+      FROM [Du_An] AS [d]
+Retrieved 5 projects in service
+info: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      Starting OnPostAsync
+info: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      Form data: {"MaDonDatHang":"DH20241118164827","MaKhachHang":"KH_03","MaDuAn":"DA_01","NgayDatHang":null,"NgayBatDauThiCong":"2024-11-11T00:00:00","NgayKetThucThiCong":"2024-11-17T00:00:00","NgayKetThucThucTe":null,"MaDuAnNavigation":null,"MaKhachHangNavigation":null}
+warn: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      ModelState is invalid
+warn: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      Validation error: Vui lòng nh?p ngày d?t hàng
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [k].[ma_khach_hang], [k].[chinh_sua_boi], [k].[dia_chi], [k].[email], [k].[ngay_chinh_sua], [k].[ngay_tao], [k].[so_dien_thoai], [k].[tao_boi], [k].[ten_khach_hang]
+      FROM [Khach_Hang] AS [k]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_du_an], [d].[chinh_sua_boi], [d].[gia_du_an], [d].[mo_ta_du_an], [d].[ngay_chinh_sua], [d].[ngay_them_du_an], [d].[so_ngay_thi_cong_du_kien], [d].[ten_du_an], [d].[them_boi]
+      FROM [Du_An] AS [d]
+Retrieved 5 projects in service
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [k].[ma_khach_hang], [k].[chinh_sua_boi], [k].[dia_chi], [k].[email], [k].[ngay_chinh_sua], [k].[ngay_tao], [k].[so_dien_thoai], [k].[tao_boi], [k].[ten_khach_hang]
+      FROM [Khach_Hang] AS [k]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_du_an], [d].[chinh_sua_boi], [d].[gia_du_an], [d].[mo_ta_du_an], [d].[ngay_chinh_sua], [d].[ngay_them_du_an], [d].[so_ngay_thi_cong_du_kien], [d].[ten_du_an], [d].[them_boi]
+      FROM [Du_An] AS [d]
+Retrieved 5 projects in service
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_don_dat_hang], [d].[ma_du_an], [d].[ma_khach_hang], [d].[ngay_bat_dau_thi_cong], [d].[ngay_dat_hang], [d].[ngay_ket_thuc_thi_cong], [d].[ngay_ket_thuc_thuc_te]
+      FROM [Don_Dat_Hang] AS [d]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [k].[ma_khach_hang], [k].[chinh_sua_boi], [k].[dia_chi], [k].[email], [k].[ngay_chinh_sua], [k].[ngay_tao], [k].[so_dien_thoai], [k].[tao_boi], [k].[ten_khach_hang]
+      FROM [Khach_Hang] AS [k]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_du_an], [d].[chinh_sua_boi], [d].[gia_du_an], [d].[mo_ta_du_an], [d].[ngay_chinh_sua], [d].[ngay_them_du_an], [d].[so_ngay_thi_cong_du_kien], [d].[ten_du_an], [d].[them_boi]
+      FROM [Du_An] AS [d]
+Retrieved 5 projects in service
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_don_dat_hang], [d].[ma_du_an], [d].[ma_khach_hang], [d].[ngay_bat_dau_thi_cong], [d].[ngay_dat_hang], [d].[ngay_ket_thuc_thi_cong], [d].[ngay_ket_thuc_thuc_te]
+      FROM [Don_Dat_Hang] AS [d]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [k].[ma_khach_hang], [k].[chinh_sua_boi], [k].[dia_chi], [k].[email], [k].[ngay_chinh_sua], [k].[ngay_tao], [k].[so_dien_thoai], [k].[tao_boi], [k].[ten_khach_hang]
+      FROM [Khach_Hang] AS [k]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_du_an], [d].[chinh_sua_boi], [d].[gia_du_an], [d].[mo_ta_du_an], [d].[ngay_chinh_sua], [d].[ngay_them_du_an], [d].[so_ngay_thi_cong_du_kien], [d].[ten_du_an], [d].[them_boi]
+      FROM [Du_An] AS [d]
+Retrieved 5 projects in service
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_don_dat_hang], [d].[ma_du_an], [d].[ma_khach_hang], [d].[ngay_bat_dau_thi_cong], [d].[ngay_dat_hang], [d].[ngay_ket_thuc_thi_cong], [d].[ngay_ket_thuc_thuc_te]
+      FROM [Don_Dat_Hang] AS [d]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [k].[ma_khach_hang], [k].[chinh_sua_boi], [k].[dia_chi], [k].[email], [k].[ngay_chinh_sua], [k].[ngay_tao], [k].[so_dien_thoai], [k].[tao_boi], [k].[ten_khach_hang]
+      FROM [Khach_Hang] AS [k]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_du_an], [d].[chinh_sua_boi], [d].[gia_du_an], [d].[mo_ta_du_an], [d].[ngay_chinh_sua], [d].[ngay_them_du_an], [d].[so_ngay_thi_cong_du_kien], [d].[ten_du_an], [d].[them_boi]
+      FROM [Du_An] AS [d]
+Retrieved 5 projects in service
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_don_dat_hang], [d].[ma_du_an], [d].[ma_khach_hang], [d].[ngay_bat_dau_thi_cong], [d].[ngay_dat_hang], [d].[ngay_ket_thuc_thi_cong], [d].[ngay_ket_thuc_thuc_te]
+      FROM [Don_Dat_Hang] AS [d]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [k].[ma_khach_hang], [k].[chinh_sua_boi], [k].[dia_chi], [k].[email], [k].[ngay_chinh_sua], [k].[ngay_tao], [k].[so_dien_thoai], [k].[tao_boi], [k].[ten_khach_hang]
+      FROM [Khach_Hang] AS [k]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_du_an], [d].[chinh_sua_boi], [d].[gia_du_an], [d].[mo_ta_du_an], [d].[ngay_chinh_sua], [d].[ngay_them_du_an], [d].[so_ngay_thi_cong_du_kien], [d].[ten_du_an], [d].[them_boi]
+      FROM [Du_An] AS [d]
+Retrieved 5 projects in service
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_don_dat_hang], [d].[ma_du_an], [d].[ma_khach_hang], [d].[ngay_bat_dau_thi_cong], [d].[ngay_dat_hang], [d].[ngay_ket_thuc_thi_cong], [d].[ngay_ket_thuc_thuc_te]
+      FROM [Don_Dat_Hang] AS [d]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [k].[ma_khach_hang], [k].[chinh_sua_boi], [k].[dia_chi], [k].[email], [k].[ngay_chinh_sua], [k].[ngay_tao], [k].[so_dien_thoai], [k].[tao_boi], [k].[ten_khach_hang]
+      FROM [Khach_Hang] AS [k]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_du_an], [d].[chinh_sua_boi], [d].[gia_du_an], [d].[mo_ta_du_an], [d].[ngay_chinh_sua], [d].[ngay_them_du_an], [d].[so_ngay_thi_cong_du_kien], [d].[ten_du_an], [d].[them_boi]
+      FROM [Du_An] AS [d]
+Retrieved 5 projects in service
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_don_dat_hang], [d].[ma_du_an], [d].[ma_khach_hang], [d].[ngay_bat_dau_thi_cong], [d].[ngay_dat_hang], [d].[ngay_ket_thuc_thi_cong], [d].[ngay_ket_thuc_thuc_te]
+      FROM [Don_Dat_Hang] AS [d]
+info: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      Starting OnPostAsync
+info: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      Form data: {"MaDonDatHang":"DH20241118165332","MaKhachHang":"KH_03","MaDuAn":"DA_03","NgayDatHang":null,"NgayBatDauThiCong":"2024-05-11T00:00:00","NgayKetThucThiCong":"2024-11-11T00:00:00","NgayKetThucThucTe":null,"MaDuAnNavigation":null,"MaKhachHangNavigation":null}
+warn: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      ModelState is invalid
+warn: Project.WebApplication.Pages.OrderManage.CreateModel[0]
+      Validation error: Vui lòng nh?p ngày d?t hàng
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [k].[ma_khach_hang], [k].[chinh_sua_boi], [k].[dia_chi], [k].[email], [k].[ngay_chinh_sua], [k].[ngay_tao], [k].[so_dien_thoai], [k].[tao_boi], [k].[ten_khach_hang]
+      FROM [Khach_Hang] AS [k]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [d].[ma_du_an], [d].[chinh_sua_boi], [d].[gia_du_an], [d].[mo_ta_du_an], [d].[ngay_chinh_sua], [d].[ngay_them_du_an], [d].[so_ngay_thi_cong_du_kien], [d].[ten_du_an], [d].[them_boi]
+      FROM [Du_An] AS [d]
+Retrieved 5 projects in service

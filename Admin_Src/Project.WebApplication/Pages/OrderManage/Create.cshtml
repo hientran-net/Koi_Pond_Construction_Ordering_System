@@ -1,0 +1,133 @@
+﻿@page
+@model Project.WebApplication.Pages.OrderManage.CreateModel
+@{
+    ViewData["Title"] = "Thêm đơn đặt hàng mới";
+}
+
+<section id="main-content">
+    <section class="wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        Thêm đơn đặt hàng mới
+                    </header>
+                    <div class="panel-body">
+                        <div class="form">
+                            <!-- Thêm div hiển thị lỗi -->
+                            @if (!ViewData.ModelState.IsValid)
+                            {
+                                <div class="alert alert-danger">
+                                    <ul>
+                                        @foreach (var modelState in ViewData.ModelState.Values)
+                                        {
+                                            foreach (var error in modelState.Errors)
+                                            {
+                                                <li>@error.ErrorMessage</li>
+                                            }
+                                        }
+                                    </ul>
+                                </div>
+                            }
+
+                            <form method="post" class="form-horizontal" id="orderForm">
+                                @Html.AntiForgeryToken()
+                                <div asp-validation-summary="All" class="text-danger"></div>
+
+                                <!-- Form fields như cũ -->
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Mã đơn hàng</label>
+                                    <div class="col-sm-10">
+                                        <input asp-for="DonDatHang.MaDonDatHang" class="form-control" readonly />
+                                        <span asp-validation-for="DonDatHang.MaDonDatHang" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Khách hàng</label>
+                                    <div class="col-sm-10">
+                                        <select asp-for="DonDatHang.MaKhachHang" asp-items="@Model.KhachHangs" class="form-control" required>
+                                            <option value="">-- Chọn khách hàng --</option>
+                                        </select>
+                                        <span asp-validation-for="DonDatHang.MaKhachHang" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Dự án</label>
+                                    <div class="col-sm-10">
+                                        <select asp-for="DonDatHang.MaDuAn" asp-items="@Model.DuAns" class="form-control" required>
+                                            <option value="">-- Chọn dự án --</option>
+                                        </select>
+                                        <span asp-validation-for="DonDatHang.MaDuAn" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Ngày bắt đầu</label>
+                                    <div class="col-sm-10">
+                                        <input asp-for="DonDatHang.NgayBatDauThiCong" class="form-control" type="date" required />
+                                        <span asp-validation-for="DonDatHang.NgayBatDauThiCong" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Ngày kết thúc</label>
+                                    <div class="col-sm-10">
+                                        <input asp-for="DonDatHang.NgayKetThucThiCong" class="form-control" type="date" required />
+                                        <span asp-validation-for="DonDatHang.NgayKetThucThiCong" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <button type="submit" class="btn btn-primary" id="submitBtn">
+                                            <i class="fa fa-save"></i> Lưu
+                                        </button>
+                                        <a asp-page="./Index" class="btn btn-default">
+                                            <i class="fa fa-arrow-left"></i> Quay lại
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+</section>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        $(document).ready(function () {
+            $('#orderForm').on('submit', function (e) {
+                console.log('Form submitting...');
+                
+                var startDate = new Date($('#DonDatHang_NgayBatDauThiCong').val());
+                var endDate = new Date($('#DonDatHang_NgayKetThucThiCong').val());
+                
+                console.log('Start Date:', startDate);
+                console.log('End Date:', endDate);
+
+                if (endDate <= startDate) {
+                    e.preventDefault();
+                    alert('Ngày kết thúc phải sau ngày bắt đầu');
+                    return false;
+                }
+
+                // Log form data
+                var formData = new FormData(this);
+                for (var pair of formData.entries()) {
+                    console.log(pair[0] + ': ' + pair[1]);
+                }
+                
+                // Disable submit button to prevent double submission
+                $('#submitBtn').prop('disabled', true);
+            });
+        });
+    </script>
+}

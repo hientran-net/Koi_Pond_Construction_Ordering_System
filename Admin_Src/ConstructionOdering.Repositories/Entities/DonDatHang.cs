@@ -1,16 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace ConstructionOdering.Repositories.Entities;
 
 public partial class DonDatHang
 {
-    public string MaDonDatHang { get; set; } = null!;
+    [Required(ErrorMessage = "Vui lòng nhập mã đơn hàng")]
+    public string MaDonDatHang { get; set; }
 
-    public string? MaKhachHang { get; set; }
+    [Required(ErrorMessage = "Vui lòng chọn khách hàng")]
+    public string MaKhachHang { get; set; }
 
-    public string? MaDuAn { get; set; }
-
+    [Required(ErrorMessage = "Vui lòng chọn dự án")]
+    public string MaDuAn { get; set; }
     public DateTime? NgayDatHang { get; set; }
 
     public DateTime? NgayBatDauThiCong { get; set; }

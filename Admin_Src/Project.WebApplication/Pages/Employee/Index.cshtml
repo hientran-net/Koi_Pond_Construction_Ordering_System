@@ -70,12 +70,12 @@
                                         <td>@employee.DiaChia</td>
                                         <td>@employee.NgayThangNamSinh</td>
                                         <td>
-                                            <a asp-page="./Edit" asp-route-id="@employee.MaNhanVien" class="btn btn-warning">Chỉnh sửa</a>
-                                            <form method="post" asp-page="./Delete" asp-route-id="@employee.MaNhanVien" 
-                                                  style="display: inline-block;"
-                                                  onsubmit="return confirm('Bạn có chắc muốn xóa nhân viên này?')">
-                                                <button type="submit" class="btn btn-danger">Xóa</button>
-                                            </form>
+                                            <a asp-page="./Edit" asp-route-id="@employee.MaNhanVien" class="btn btn-primary btn-xs">
+                                                <i class="fa fa-pencil"></i> Sửa
+                                            </a>
+                                            <a asp-page="./Delete" asp-route-id="@employee.MaNhanVien" class="btn btn-danger btn-xs">
+                                                <i class="fa fa-trash-o"></i> Xóa
+                                            </a>
                                         </td>
                                     </tr>
                                 }

@@ -1,4 +1,5 @@
-﻿using ConstructionOrdering.Service.Interface;
+﻿using ConstructionOdering.Repositories.Entities;
+using ConstructionOrdering.Service.Interface;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -12,6 +13,9 @@ namespace Project.WebApplication.Pages.ProjectManage
         {
             _duAnService = duAnService;
         }
+
+        [BindProperty]
+        public DuAn DuAn { get; set; } = new DuAn();
 
         public async Task<IActionResult> OnPostAsync(string id)
         {

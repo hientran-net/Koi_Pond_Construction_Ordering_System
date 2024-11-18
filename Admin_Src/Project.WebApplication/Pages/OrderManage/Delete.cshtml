@@ -1,0 +1,65 @@
+﻿@page
+@model Project.WebApplication.Pages.OrderManage.DeleteModel
+@{
+    ViewData["Title"] = "Xóa đơn đặt hàng";
+}
+
+<section id="main-content">
+    <section class="wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        Xác nhận xóa đơn đặt hàng
+                    </header>
+                    <div class="panel-body">
+                        <h3>Bạn có chắc chắn muốn xóa đơn đặt hàng này?</h3>
+                        <div class="form-horizontal">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Mã đơn hàng</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static">@Model.Order.MaDonDatHang</p>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Khách hàng</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static">@Model.Order.MaKhachHangNavigation?.TenKhachHang</p>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Dự án</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static">@Model..MaDuAnNavigation?.TenDuAn</p>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Ngày đặt hàng</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static">@Model.Order.NgayDatHang?.ToString("dd/MM/yyyy")</p>
+                                </div>
+                            </div>
+
+                            <form method="post">
+                                <input type="hidden" asp-for="Order.MaDonDatHang" />
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <button type="submit" class="btn btn-danger">
+                                            <i class="fa fa-trash"></i> Xác nhận xóa
+                                        </button>
+                                        <a asp-page="./Index" class="btn btn-default">
+                                            <i class="fa fa-arrow-left"></i> Quay lại
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+</section>

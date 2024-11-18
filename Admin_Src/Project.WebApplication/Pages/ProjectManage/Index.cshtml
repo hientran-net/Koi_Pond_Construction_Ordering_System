@@ -67,18 +67,18 @@
                                     <tr>
                                         <td>@items.MaDuAn</td>
                                         <td>@items.TenDuAn</td>
-                                        <td>@items.GiaDuAn</td>
+                                        <td>@items.GiaDuAn.Value.ToString("N0") VNĐ</td>
                                         <td>@items.SoNgayThiCongDuKien</td>
                                         <td>@items.MoTaDuAn</td>
                                         <td>@items.NgayThemDuAn</td>
                                         <td>@items.ThemBoi</td>
                                         <td>
-                                            <a asp-page="./Edit" asp-route-id="@items.MaDuAn" class="btn btn-warning">Chỉnh sửa</a>
-                                            <form method="post" asp-page="./Delete" asp-route-id="@items.MaDuAn"
-                                                  style="display: inline-block;"
-                                                  onsubmit="return confirm('Bạn có chắc muốn xóa dự án này?')">
-                                                <button type="submit" class="btn btn-danger">Xóa</button>
-                                            </form>
+                                            <a asp-page="./Edit" asp-route-id="@items.MaDuAn" class="btn btn-primary btn-xs">
+                                                <i class="fa fa-pencil"></i> Sửa
+                                            </a>
+                                            <a asp-page="./Delete" asp-route-id="@items.MaDuAn" class="btn btn-danger btn-xs">
+                                                <i class="fa fa-trash-o"></i> Xóa
+                                            </a>
                                         </td>
                                     </tr>
                                 }

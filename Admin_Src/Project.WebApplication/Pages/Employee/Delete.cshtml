@@ -4,24 +4,69 @@
     ViewData["Title"] = "Xóa nhân viên";
 }
 
-<h1>Xóa nhân viên</h1>
+<section id="main-content">
+    <section class="wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        Xác nhận xóa nhân viên
+                    </header>
+                    <div class="panel-body">
+                        <h3>Bạn có chắc chắn muốn xóa nhân viên này?</h3>
+                        <div class="form-horizontal">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Mã nhân viên</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static">@Model.NhanVien.MaNhanVien</p>
+                                </div>
+                            </div>
 
-<div class="alert alert-danger">
-    <h3>Bạn có chắc chắn muốn xóa nhân viên này?</h3>
-</div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Tên nhân viên</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static">@Model.NhanVien.HoTen</p>
+                                </div>
+                            </div>
 
-<div>
-    <dl class="row">
-        <dt class="col-sm-2">Mã nhân viên</dt>
-        <dd class="col-sm-10">@Model.NhanVien.MaNhanVien</dd>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Email</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static">@Model.NhanVien.Email</p>
+                                </div>
+                            </div>
 
-        <dt class="col-sm-2">Tên nhân viên</dt>
-        <dd class="col-sm-10">@Model.NhanVien.HoTen</dd>
-    </dl>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Địa chỉ</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static">@Model.NhanVien.DiaChia</p>
+                                </div>
+                            </div>
 
-    <form method="post">
-        <input type="hidden" asp-for="NhanVien.MaNhanVien" />
-        <button type="submit" class="btn btn-danger">Xác nhận xóa</button>
-        <a asp-page="./Index" class="btn btn-secondary">Quay lại</a>
-    </form>
-</div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Ngày sinh</label>
+                                <div class="col-sm-10">
+                                    <p class="form-control-static">@Model.NhanVien.NgayThangNamSinh</p>
+                                </div>
+                            </div>
+
+                            <form method="post">
+                                <input type="hidden" asp-for="NhanVien.MaNhanVien" />
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <button type="submit" class="btn btn-danger">
+                                            <i class="fa fa-trash"></i> Xác nhận xóa
+                                        </button>
+                                        <a asp-page="./Index" class="btn btn-default">
+                                            <i class="fa fa-arrow-left"></i> Quay lại
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+</section>

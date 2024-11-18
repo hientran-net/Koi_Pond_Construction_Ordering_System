@@ -15,7 +15,7 @@ namespace Project.WebApplication.Pages.Employee
         }
 
         [BindProperty]
-        public NhanVien NhanVien { get; set; } = default!;
+        public NhanVien NhanVien { get; set; } = new NhanVien();
 
         public async Task<IActionResult> OnPostAsync(string id)
         {

@@ -22,9 +22,17 @@ builder.Services.AddScoped<AccountService>();
 builder.Services.AddScoped<INhanVienRepository, NhanVienRepository>();
 builder.Services.AddScoped<INhanVienService, NhanVienService>();
 
-//Employee
+//Project
 builder.Services.AddScoped<IDuAnRepository, DuAnRepository>();
 builder.Services.AddScoped<IDuAnService, DuAnService>();
+
+//Order
+builder.Services.AddScoped<IDonDatHangRepository, DonDatHangRepository>();
+builder.Services.AddScoped<IDonDatHangService, DonDatHangService>();
+
+//Customer
+builder.Services.AddScoped<IKhachHangRepository, KhachHangRepository>();
+builder.Services.AddScoped<IKhachHangService, KhachHangService>();
 
 // Add services to the container.
 builder.Services.AddRazorPages();
@@ -35,12 +43,11 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     {
         options.LoginPath = "/Login";
         options.LogoutPath = "/Logout";
-        options.Cookie.Name = "X_KoiAdminCookie"; // Đặt tên cookie của bạn
+        options.Cookie.Name = "X_KoiAdminCookie";
         options.ExpireTimeSpan = TimeSpan.FromHours(24);
         options.SlidingExpiration = true;
         options.Cookie.HttpOnly = true;
-        // Thêm các options bảo mật
-        options.Cookie.SecurePolicy = CookieSecurePolicy.Always; // Nếu dùng HTTPS
+        options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
     });
 
 builder.Services.AddAuthorization();

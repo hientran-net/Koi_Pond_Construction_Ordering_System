@@ -1,0 +1,84 @@
+﻿@page
+@model Project.WebApplication.Pages.CustomerManage.EditModel
+@{
+    ViewData["Title"] = "Chỉnh sửa thông tin khách hàng";
+}
+
+<section id="main-content">
+    <section class="wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        Chỉnh sửa thông tin khách hàng
+                    </header>
+                    <div class="panel-body">
+                        <div class="form">
+                            <form method="post" class="form-horizontal">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                                <input type="hidden" asp-for="KhachHang.MaKhachHang" />
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Mã khách hàng</label>
+                                    <div class="col-sm-10">
+                                        <input asp-for="KhachHang.MaKhachHang" class="form-control" readonly />
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Tên khách hàng</label>
+                                    <div class="col-sm-10">
+                                        <input asp-for="KhachHang.TenKhachHang" class="form-control" />
+                                        <span asp-validation-for="KhachHang.TenKhachHang" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Địa chỉ</label>
+                                    <div class="col-sm-10">
+                                        <input asp-for="KhachHang.DiaChi" class="form-control" />
+                                        <span asp-validation-for="KhachHang.DiaChi" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Số điện thoại</label>
+                                    <div class="col-sm-10">
+                                        <input asp-for="KhachHang.SoDienThoai" class="form-control" />
+                                        <span asp-validation-for="KhachHang.SoDienThoai" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Email</label>
+                                    <div class="col-sm-10">
+                                        <input asp-for="KhachHang.Email" class="form-control" type="email" />
+                                        <span asp-validation-for="KhachHang.Email" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <button type="submit" class="btn btn-primary">
+                                            <i class="fa fa-save"></i> Lưu thay đổi
+                                        </button>
+                                        <a asp-page="./Index" class="btn btn-default">
+                                            <i class="fa fa-arrow-left"></i> Quay lại
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+</section>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
