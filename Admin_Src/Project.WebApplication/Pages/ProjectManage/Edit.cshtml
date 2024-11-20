@@ -28,6 +28,12 @@
                     </div>
 
                     <div class="form-group">
+                        <label asp-for="DuAn.DiaDiem" class="control-label">Địa điểm</label>
+                        <input type="text" asp-for="DuAn.DiaDiem" class="form-control" required />
+                        <span asp-validation-for="DuAn.DiaDiem" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
                         <label asp-for="DuAn.SoNgayThiCongDuKien" class="control-label">Số ngày thi công dự kiến</label>
                         <input type="number" min="1" asp-for="DuAn.SoNgayThiCongDuKien" class="form-control" required />
                         <span asp-validation-for="DuAn.SoNgayThiCongDuKien" class="text-danger"></span>
@@ -38,6 +44,25 @@
                         <textarea asp-for="DuAn.MoTaDuAn" class="form-control" rows="4"></textarea>
                         <span asp-validation-for="DuAn.MoTaDuAn" class="text-danger"></span>
                     </div>
+
+                    <div class="form-group">
+                        <label asp-for="DuAn.HinhAnhPath" class="control-label">Hình ảnh dự án</label>
+                        <div class="input-group">
+                            <input type="text" asp-for="DuAn.HinhAnhPath" class="form-control" id="imageUrl"
+                                   placeholder="Nhập link chia sẻ từ Google Drive" onchange="updatePreview()" />
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-info" onclick="updatePreview()">
+                                    <i class="fa fa-eye"></i> Xem trước
+                                </button>
+                            </span>
+                        </div>
+                        <div id="imagePreview" class="mt-2" style="display: none;">
+                            <iframe id="preview" width="100%" height="400" frameborder="0"
+                                    allowfullscreen="true" style="border: 1px solid #ddd;"></iframe>
+                        </div>
+                        <span asp-validation-for="DuAn.HinhAnhPath" class="text-danger"></span>
+                    </div>
+
 
                     <div class="form-group mt-3">
                         <input type="submit" value="Lưu thay đổi" class="btn btn-primary" />

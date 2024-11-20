@@ -54,7 +54,7 @@ namespace ConstructionOrdering.Service.Service
         async Task<List<DuAn>> IDuAnService.GetAllProject()
         {
             var projects = await _duAnRepository.GetAllProjects();
-            Console.WriteLine($"Retrieved {projects.Count} projects in service"); // Log để debug
+            Console.WriteLine($"Retrieved {projects.Count} projects in service"); 
             return projects;
         }
     }

@@ -1,7 +1,24 @@
+using MainSite.Repositories.Entities;
+using MainSite.Repositories.Interface;
+using MainSite.Repositories.Repository;
+using MainSite.Service.Interface;
+using MainSite.Service.Service;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<AdminDbConsturctionOderingSystemContext>(option =>
+{
+    option.UseSqlServer("DefaultConnection");
+});
+
+builder.Services.AddScoped<IDuAnRepository, DuAnRepository>();
+builder.Services.AddScoped<IDuAnService, DuAnService>();
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+
 
 var app = builder.Build();
 

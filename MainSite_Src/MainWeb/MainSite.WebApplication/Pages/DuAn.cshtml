@@ -1,13 +1,12 @@
 ﻿@page
 @model MainSite.WebApplication.Pages.DuAnModel
 @{
-    ViewData["Title"] = "Du An";
+    ViewData["Title"] = "Dụ án";
     Layout = "_Layout";
 }
 
 <!-- Breadcrumb Begin -->
-<div class="breadcrumb-option spad set-bg"
-     data-setbg=@Url.Content("~/img/test_background.png")>
+<div class="breadcrumb-option spad set-bg" data-setbg="@Url.Content("~/img/test_background.png")">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -26,189 +25,90 @@
 <!-- Portfolio Section Begin -->
 <section class="portfolio spad">
     <div class="container">
-        <!-- <div class="row">
-          <div class="col-lg-12">
-            <ul class="portfolio__filter">
-              <li class="active" data-filter="*">All</li>
-              <li data-filter=".branding">Branding</li>
-              <li data-filter=".digital-marketing">Digital marketing</li>
-              <li data-filter=".web">Web</li>
-              <li data-filter=".photography">Photography</li>
-              <li data-filter=" .ecommerce">eCommerce</li>
-            </ul>
-          </div>
-        </div> -->
-        <!-- popup begin -->
-        <div id="popup" class="popup">
-            <div class="popup-content">
-                <span class="close-btn">&times;</span>
-                <img id="popupImage" src="" alt="Popup Image" />
+        <!-- Popup Begin -->
+        <div id="projectPopup" class="popup" style="display:none; position:fixed; z-index:1000; left:0; top:0; width:100%; height:100%; overflow:auto; background-color:rgba(0,0,0,0.4);">
+            <div class="popup-content" style="background-color:#fefefe; margin:15% auto; padding:20px; border:1px solid #888; width:80%; max-width:600px;">
+                <span class="close-btn" style="color:#aaa; float:right; font-size:28px; font-weight:bold; cursor:pointer;">&times;</span>
+
+                <!-- Sử dụng iframe thay cho img -->
+                <iframe id="popupImage"
+                        style="width:100%; max-height:300px; border:none;"
+                        src=""
+                        allowfullscreen>
+                </iframe>
+
                 <h3 id="popupTitle"></h3>
+                <p id="popupLocation"></p>
+                <p id="popupPrice"></p>
                 <p id="popupDescription"></p>
             </div>
         </div>
-        <!-- popup end -->
+        <!-- Popup End -->
+
         <div class="row portfolio__gallery">
-            <div class="col-lg-4 col-md-6 col-sm-6 mix branding">
-                <div class="portfolio__item">
-                    <div class="gallery">
-                        <img src="~/img/portfolio/farmstay1.jpg"
-                             alt="Image 1"
-                             data-title="Beautiful Landscape"
-                             data-description="This is a stunning view of a landscape." />
-                    </div>
-                    <div class="portfolio__item__text">
-                        <h4>Farmstay</h4>
-                        <ul>
-                            <li>Phú Quốc</li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 mix digital-marketing">
-                <div class="portfolio__item">
-                    <div class="gallery">
-                        <img src="~/img/portfolio/du_lich1.jpg"
-                             alt="Image 1"
-                             data-title="Beautiful Landscape"
-                             data-description="This is a stunning view of a landscape." />
-                    </div>
-                    <div class="portfolio__item__text">
-                        <h4>Khu Du Lịch</h4>
-                        <span>Bắc Giang</span>
+            @foreach (var project in Model.DuAns)
+            {
+                <div class="col-lg-4 col-md-6 col-sm-6 mix branding project-item"
+                     data-id="@project.MaDuAn"
+                     data-title="@project.TenDuAn"
+                     data-location="@project.DiaDiem"
+                     data-price="@project.GiaDuAn.Value.ToString("N0") VNĐ"
+                     data-description="@project.MoTaDuAn"
+                     data-image="@project.HinhAnhPath">
+                    <div class="portfolio__item">
+                        <div class="gallery">
+                            <!-- Sử dụng iframe thay cho img -->
+                            <iframe src="@project.HinhAnhPath"
+                                    style="width:100%; height:250px; border:none;"
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="portfolio__item__text">
+                            <h4>@project.TenDuAn</h4>
+                            <ul>
+                                <li>@project.DiaDiem</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 mix web">
-                <div class="portfolio__item">
-                    <div class="gallery">
-                        <img src="~/img/portfolio/nha_vuon1.jpg"
-                             alt="Image 1"
-                             data-title="Beautiful Landscape"
-                             data-description="This is a stunning view of a landscape." />
-                    </div>
-                    <div class="portfolio__item__text">
-                        <h4>Nhà Vườn</h4>
-                        <ul>
-                            <li>Thành phố Hồ Chí Minh</li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 mix photography">
-                <div class="portfolio__item">
-                    <div class="gallery">
-                        <img src="~/img/portfolio/ho_ca1.jpg"
-                             alt="Image 1"
-                             data-title="Beautiful Landscape"
-                             data-description="This is a stunning view of a landscape." />
-                    </div>
-                    <div class="portfolio__item__text">
-                        <h4>Sân Vườn</h4>
-                        <ul>
-                            <li>Hải Phòng</li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 mix ecommerce">
-                <div class="portfolio__item">
-                    <div class="gallery">
-                        <img src="~/img/portfolio/san_vuon1.jpg"
-                             alt="Image 1"
-                             data-title="Beautiful Landscape"
-                             data-description="This is a stunning view of a landscape." />
-                    </div>
-                    <div class="portfolio__item__text">
-                        <h4>Farmstay</h4>
-                        <span>Quảng Ninh</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 mix branding">
-                <div class="portfolio__item">
-                    <div class="gallery">
-                        <img src="~/img/portfolio/san_vuon1.jpg"
-                             alt="Image 1"
-                             data-title="Beautiful Landscape"
-                             data-description="This is a stunning view of a landscape." />
-                    </div>
-                    <div class="portfolio__item__text">
-                        <h4>Sân Vườn</h4>
-                        <ul>
-                            <li>Nghệ An</li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 mix web">
-                <div class="portfolio__item">
-                    <div class="gallery">
-                        <img src="~/img/portfolio/san_vuon2.jpg"
-                             alt="Image 1"
-                             data-title="Beautiful Landscape"
-                             data-description="This is a stunning view of a landscape." />
-                    </div>
-                    <div class="portfolio__item__text">
-                        <h4>Nhà Vườn</h4>
-                        <ul>
-                            <li>Bình Phước</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 mix photography">
-                <div class="portfolio__item">
-                    <div class="gallery">
-                        <img src="~/img/portfolio/ho_ca1.jpg"
-                             alt="Image 1"
-                             data-title="Beautiful Landscape"
-                             data-description="This is a stunning view of a landscape." />
-                    </div>
-                    <div class="portfolio__item__text">
-                        <h4>Hồ Cá</h4>
-                        <span>Bến Tre</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 mix ecommerce">
-                <div class="portfolio__item">
-                    <div class="gallery">
-                        <img src="~/img/portfolio/ho_ca2.jpg"
-                             alt="Image 1"
-                             data-title="Beautiful Landscape"
-                             data-description="This is a stunning view of a landscape." />
-                    </div>
-                    <div class="portfolio__item__text">
-                        <h4>Hồ Cá</h4>
-                        <ul>
-                            <li>Nha Trang</li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            }
         </div>
-
-
-        <!-- <div class="row">
-          <div class="col-lg-12">
-            <div class="pagination__option">
-              <a href="#" class="arrow__pagination left__arrow"
-                ><span class="arrow_left"></span> Prev</a
-              >
-              <a href="#" class="number__pagination">1</a>
-              <a href="#" class="number__pagination">2</a>
-              <a href="#" class="arrow__pagination right__arrow"
-                >Next <span class="arrow_right"></span
-              ></a>
-            </div>
-          </div>
-        </div> -->
     </div>
 </section>
 <!-- Portfolio Section End -->
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const projectItems = document.querySelectorAll('.project-item');
+        const popup = document.getElementById('projectPopup');
+        const closeBtn = document.querySelector('.close-btn');
+        const popupImage = document.getElementById('popupImage');
+        const popupTitle = document.getElementById('popupTitle');
+        const popupLocation = document.getElementById('popupLocation');
+        const popupPrice = document.getElementById('popupPrice');
+        const popupDescription = document.getElementById('popupDescription');
+
+        projectItems.forEach(item => {
+            item.addEventListener('click', function () {
+                // Điều chỉnh src của iframe
+                popupImage.src = this.getAttribute('data-image');
+                popupTitle.textContent = this.getAttribute('data-title');
+                popupLocation.textContent = 'Địa điểm: ' + this.getAttribute('data-location');
+                popupPrice.textContent = 'Giá: ' + this.getAttribute('data-price');
+                popupDescription.textContent = this.getAttribute('data-description');
+
+                popup.style.display = 'block';
+            });
+        });
+
+        closeBtn.onclick = function () {
+            popup.style.display = 'none';
+        }
+
+        window.onclick = function (event) {
+            if (event.target == popup) {
+                popup.style.display = 'none';
+            }
+        }
+    });
+</script>
