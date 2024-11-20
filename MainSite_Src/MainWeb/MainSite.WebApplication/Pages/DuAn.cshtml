@@ -1,11 +1,13 @@
 ﻿@page
 @model MainSite.WebApplication.Pages.DuAnModel
 @{
-    ViewData["Title"] = "Project List";
+    ViewData["Title"] = "Du An";
+    Layout = "_Layout";
 }
 
+<!-- Breadcrumb Begin -->
 <div class="breadcrumb-option spad set-bg"
-     data-setbg="img/test_background.png">
+     data-setbg=@Url.Content("~/img/test_background.png")>
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -36,16 +38,24 @@
             </ul>
           </div>
         </div> -->
+        <!-- popup begin -->
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close-btn">&times;</span>
+                <img id="popupImage" src="" alt="Popup Image" />
+                <h3 id="popupTitle"></h3>
+                <p id="popupDescription"></p>
+            </div>
+        </div>
+        <!-- popup end -->
         <div class="row portfolio__gallery">
             <div class="col-lg-4 col-md-6 col-sm-6 mix branding">
                 <div class="portfolio__item">
-                    <div class="portfolio__item__video set-bg"
-                         data-setbg="img/portfolio/farmstay1.jpg">
-                        <!-- <a
-                          href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                          class="play-btn video-popup"
-                          ><i class="fa fa-play"></i -->
-                        ></a>
+                    <div class="gallery">
+                        <img src="~/img/portfolio/farmstay1.jpg"
+                             alt="Image 1"
+                             data-title="Beautiful Landscape"
+                             data-description="This is a stunning view of a landscape." />
                     </div>
                     <div class="portfolio__item__text">
                         <h4>Farmstay</h4>
@@ -58,13 +68,11 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 mix digital-marketing">
                 <div class="portfolio__item">
-                    <div class="portfolio__item__video set-bg"
-                         data-setbg="img/portfolio/du_lich1.jpg">
-                        <!-- <a
-                          href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                          class="play-btn video-popup"
-                          ><i class="fa fa-play"></i -->
-                        ></a>
+                    <div class="gallery">
+                        <img src="~/img/portfolio/du_lich1.jpg"
+                             alt="Image 1"
+                             data-title="Beautiful Landscape"
+                             data-description="This is a stunning view of a landscape." />
                     </div>
                     <div class="portfolio__item__text">
                         <h4>Khu Du Lịch</h4>
@@ -74,13 +82,11 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 mix web">
                 <div class="portfolio__item">
-                    <div class="portfolio__item__video set-bg"
-                         data-setbg="img/portfolio/nha_vuon1.jpg">
-                        <!-- <a
-                          href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                          class="play-btn video-popup"
-                          ><i class="fa fa-play"></i -->
-                        ></a>
+                    <div class="gallery">
+                        <img src="~/img/portfolio/nha_vuon1.jpg"
+                             alt="Image 1"
+                             data-title="Beautiful Landscape"
+                             data-description="This is a stunning view of a landscape." />
                     </div>
                     <div class="portfolio__item__text">
                         <h4>Nhà Vườn</h4>
@@ -93,13 +99,11 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 mix photography">
                 <div class="portfolio__item">
-                    <div class="portfolio__item__video set-bg"
-                         data-setbg="img/portfolio/san_vuon1.jpg">
-                        <!-- <a
-                          href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                          class="play-btn video-popup"
-                          ><i class="fa fa-play"></i -->
-                        ></a>
+                    <div class="gallery">
+                        <img src="~/img/portfolio/ho_ca1.jpg"
+                             alt="Image 1"
+                             data-title="Beautiful Landscape"
+                             data-description="This is a stunning view of a landscape." />
                     </div>
                     <div class="portfolio__item__text">
                         <h4>Sân Vườn</h4>
@@ -112,13 +116,11 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 mix ecommerce">
                 <div class="portfolio__item">
-                    <div class="portfolio__item__video set-bg"
-                         data-setbg="img/portfolio/farmstay2.png">
-                        <!-- <a
-                          href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                          class="play-btn video-popup"
-                          ><i class="fa fa-play"></i -->
-                        ></a>
+                    <div class="gallery">
+                        <img src="~/img/portfolio/san_vuon1.jpg"
+                             alt="Image 1"
+                             data-title="Beautiful Landscape"
+                             data-description="This is a stunning view of a landscape." />
                     </div>
                     <div class="portfolio__item__text">
                         <h4>Farmstay</h4>
@@ -128,13 +130,11 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 mix branding">
                 <div class="portfolio__item">
-                    <div class="portfolio__item__video set-bg"
-                         data-setbg="img/portfolio/san_vuon2.jpg">
-                        <!-- <a
-                          href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                          class="play-btn video-popup"
-                          ><i class="fa fa-play"></i -->
-                        ></a>
+                    <div class="gallery">
+                        <img src="~/img/portfolio/san_vuon1.jpg"
+                             alt="Image 1"
+                             data-title="Beautiful Landscape"
+                             data-description="This is a stunning view of a landscape." />
                     </div>
                     <div class="portfolio__item__text">
                         <h4>Sân Vườn</h4>
@@ -147,13 +147,11 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 mix web">
                 <div class="portfolio__item">
-                    <div class="portfolio__item__video set-bg"
-                         data-setbg="img/portfolio/nha_vuon2.jpg">
-                        <!-- <a
-                          href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                          class="play-btn video-popup"
-                          ><i class="fa fa-play"></i -->
-                        ></a>
+                    <div class="gallery">
+                        <img src="~/img/portfolio/san_vuon2.jpg"
+                             alt="Image 1"
+                             data-title="Beautiful Landscape"
+                             data-description="This is a stunning view of a landscape." />
                     </div>
                     <div class="portfolio__item__text">
                         <h4>Nhà Vườn</h4>
@@ -165,13 +163,11 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 mix photography">
                 <div class="portfolio__item">
-                    <div class="portfolio__item__video set-bg"
-                         data-setbg="img/portfolio/ho_ca1.jpg">
-                        <!-- <a
-                          href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                          class="play-btn video-popup"
-                          ><i class="fa fa-play"></i -->
-                        ></a>
+                    <div class="gallery">
+                        <img src="~/img/portfolio/ho_ca1.jpg"
+                             alt="Image 1"
+                             data-title="Beautiful Landscape"
+                             data-description="This is a stunning view of a landscape." />
                     </div>
                     <div class="portfolio__item__text">
                         <h4>Hồ Cá</h4>
@@ -181,13 +177,11 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 mix ecommerce">
                 <div class="portfolio__item">
-                    <div class="portfolio__item__video set-bg"
-                         data-setbg="img/portfolio/ho_ca2.jpg">
-                        <!-- <a
-                          href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                          class="play-btn video-popup"
-                          ><i class="fa fa-play"></i -->
-                        ></a>
+                    <div class="gallery">
+                        <img src="~/img/portfolio/ho_ca2.jpg"
+                             alt="Image 1"
+                             data-title="Beautiful Landscape"
+                             data-description="This is a stunning view of a landscape." />
                     </div>
                     <div class="portfolio__item__text">
                         <h4>Hồ Cá</h4>

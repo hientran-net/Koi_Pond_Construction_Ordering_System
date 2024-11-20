@@ -6243,7 +6243,7 @@ header.blue-bg .search:focus {
 
 /* Styling for Modal */
 .modal-header {
-    background-color: #007bff;
+    background: #808080;
     color: white;
     border-bottom: 1px solid #dee2e6;
 }

@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
     },
     {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\css\\popup.css",
+      "PackagePath": "staticwebassets\\css\\popup.css"
+    },
+    {
       "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -593,8 +597,12 @@
       "PackagePath": "staticwebassets\\img\\team-bg.jpg"
     },
     {
-      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team\\huy.png",
-      "PackagePath": "staticwebassets\\img\\team\\huy.png"
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team\\hien2.png",
+      "PackagePath": "staticwebassets\\img\\team\\hien2.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team\\huy2.png",
+      "PackagePath": "staticwebassets\\img\\team\\huy2.png"
     },
     {
       "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team\\nhan-1.png",
@@ -603,22 +611,6 @@
     {
       "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team\\nhan.png",
       "PackagePath": "staticwebassets\\img\\team\\nhan.png"
-    },
-    {
-      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team\\team-1.jpg",
-      "PackagePath": "staticwebassets\\img\\team\\team-1.jpg"
-    },
-    {
-      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team\\team-2.jpg",
-      "PackagePath": "staticwebassets\\img\\team\\team-2.jpg"
-    },
-    {
-      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team\\team-3.jpg",
-      "PackagePath": "staticwebassets\\img\\team\\team-3.jpg"
-    },
-    {
-      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team\\team-4.jpg",
-      "PackagePath": "staticwebassets\\img\\team\\team-4.jpg"
     },
     {
       "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team\\team-hover.png",
@@ -711,6 +703,10 @@
     {
       "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\js\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\js\\popup.js",
+      "PackagePath": "staticwebassets\\js\\popup.js"
     },
     {
       "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\js\\site.js",

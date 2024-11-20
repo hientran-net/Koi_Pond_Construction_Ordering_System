@@ -53,6 +53,34 @@
                         <span asp-validation-for="DuAn.MoTaDuAn" class="text-danger"></span>
                     </div>
 
+                    <div class="form-group">
+                        <label asp-for="DuAn.HinhAnhPath" class="control-label">Hình ảnh dự án</label>
+                        <div class="input-group">
+                            <input type="text" asp-for="DuAn.HinhAnhPath" class="form-control" id="imageUrl" 
+                                   placeholder="Nhập link chia sẻ từ Google Drive" onchange="updatePreview()" />
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-info" onclick="updatePreview()">
+                                    <i class="fa fa-eye"></i> Xem trước
+                                </button>
+                            </span>
+                        </div>
+                        <div id="imagePreview" class="mt-2" style="display: none;">
+                            <iframe id="preview" width="100%" height="400" frameborder="0" 
+                                    allowfullscreen="true" style="border: 1px solid #ddd;"></iframe>
+                        </div>
+                        <span asp-validation-for="DuAn.HinhAnhPath" class="text-danger"></span>
+                        <small class="form-text text-muted">
+                            Hướng dẫn nhúng ảnh từ Google Drive:
+                            <ol>
+                                <li>Upload ảnh lên Google Drive</li>
+                                <li>Click chuột phải vào ảnh, chọn "Share"</li>
+                                <li>Đổi quyền truy cập thành "Anyone with the link"</li>
+                                <li>Click "Copy link"</li>
+                                <li>Chuyển đổi link thành dạng embed bằng cách thay đổi "/view" thành "/preview" trong URL</li>
+                            </ol>
+                        </small>
+                    </div>
+
                     <div class="form-group mt-3">
                         <input type="submit" value="Thêm mới" class="btn btn-primary" />
                         <a asp-page="Index" class="btn btn-secondary">Quay lại</a>
@@ -67,4 +95,47 @@
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
+        <script>
+            function updatePreview() {
+                var driveUrl = document.getElementById('imageUrl').value;
+                if (driveUrl) {
+                    // Convert Google Drive sharing link to embed link
+                    var embedUrl = convertToEmbedUrl(driveUrl);
+                    if (embedUrl) {
+                        document.getElementById('preview').src = embedUrl;
+                        document.getElementById('imagePreview').style.display = 'block';
+                        // Update the hidden input with the embed URL
+                        document.getElementById('imageUrl').value = embedUrl;
+                    }
+                }
+            }
+
+            function convertToEmbedUrl(url) {
+                // Handle different Google Drive URL formats
+                var fileId = '';
+
+                // Format: https://drive.google.com/file/d/{fileId}/view
+                if (url.includes('/file/d/')) {
+                    fileId = url.split('/file/d/')[1].split('/')[0];
+                }
+                // Format: https://drive.google.com/open?id={fileId}
+                else if (url.includes('id=')) {
+                    fileId = url.split('id=')[1].split('&')[0];
+                }
+
+                if (fileId) {
+                    return `https://drive.google.com/file/d/${fileId}/preview`;
+                }
+                return url; // Return original URL if conversion fails
+            }
+
+            // Validate form before submit
+            document.querySelector('form').addEventListener('submit', function(e) {
+                var imageUrl = document.getElementById('imageUrl').value;
+                if (imageUrl && !imageUrl.includes('drive.google.com')) {
+                    e.preventDefault();
+                    alert('Vui lòng sử dụng link Google Drive hợp lệ');
+                }
+            });
+        </script>
 }

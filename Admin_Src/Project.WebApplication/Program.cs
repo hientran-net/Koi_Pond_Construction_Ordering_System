@@ -17,7 +17,6 @@ builder.Services.AddDbContext<AdminDbConsturctionOderingSystemContext>(option =>
 builder.Services.AddScoped<UserRepository>();
 builder.Services.AddScoped<AccountService>();
 
-
 //Employee
 builder.Services.AddScoped<INhanVienRepository, NhanVienRepository>();
 builder.Services.AddScoped<INhanVienService, NhanVienService>();

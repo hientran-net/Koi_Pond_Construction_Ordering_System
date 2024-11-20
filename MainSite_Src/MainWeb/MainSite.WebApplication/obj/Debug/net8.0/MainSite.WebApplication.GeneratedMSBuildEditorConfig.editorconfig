@@ -18,6 +18,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\MainSite_Src\MainWeb\MainSite.WebApplication
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/MainSite_Src/MainWeb/MainSite.WebApplication/Pages/BaoGia/bao-gia-ho-ca-koi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFvR2lhXGJhby1naWEtaG8tY2Eta29pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/MainSite_Src/MainWeb/MainSite.WebApplication/Pages/BaoGia/bao-gia-thiet-ke-du-lich.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFvR2lhXGJhby1naWEtdGhpZXQta2UtZHUtbGljaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/MainSite_Src/MainWeb/MainSite.WebApplication/Pages/BaoGia/bao-gia-thiet-ke-farmstay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFvR2lhXGJhby1naWEtdGhpZXQta2UtZmFybXN0YXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/MainSite_Src/MainWeb/MainSite.WebApplication/Pages/BaoGia/bao-gia-thiet-ke-nha-vuon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFvR2lhXGJhby1naWEtdGhpZXQta2UtbmhhLXZ1b24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/MainSite_Src/MainWeb/MainSite.WebApplication/Pages/BaoGia/bao-gia-thiet-ke-san-vuon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFvR2lhXGJhby1naWEtdGhpZXQta2Utc2FuLXZ1b24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/MainSite_Src/MainWeb/MainSite.WebApplication/Pages/BaoGia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFvR2lhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/MainSite_Src/MainWeb/MainSite.WebApplication/Pages/DichVu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGljaFZ1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/MainSite_Src/MainWeb/MainSite.WebApplication/Pages/DuAn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHVBbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,8 +54,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/MainSite_Src/MainWeb/MainSite.WebApplication/Pages/GioiThieu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2lvaVRoaWV1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/MainSite_Src/MainWeb/MainSite.WebApplication/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/MainSite_Src/MainWeb/MainSite.WebApplication/Pages/LienHe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGllbkhlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/MainSite_Src/MainWeb/MainSite.WebApplication/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/University/CN2303CLCB_K23/Công_Nghệ_Phần_Mềm/Project/Main-Source-branch/Koi_Pond_Construction_Ordering_System/MainSite_Src/MainWeb/MainSite.WebApplication/Pages/Privacy.cshtml]

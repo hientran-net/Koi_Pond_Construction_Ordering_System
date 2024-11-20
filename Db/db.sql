@@ -83,3 +83,11 @@ ADD
     hinh_anh_path NVARCHAR(255),
     dia_diem NVARCHAR(255);
 GO
+
+CREATE TABLE Account
+(
+	Id INT PRIMARY KEY IDENTITY,
+	Username NVARCHAR(100) NOT NULL,
+	PasswordHash NVARCHAR(MAX) NOT NULL
+)
+GO

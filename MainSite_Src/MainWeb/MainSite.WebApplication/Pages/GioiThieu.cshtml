@@ -1,0 +1,324 @@
+﻿@page
+@model MainSite.WebApplication.Pages.GioiThieuModel
+@{
+    ViewData["Title"] = "Index bao gia";
+    Layout = "_Layout";
+}
+
+<!-- Breadcrumb Begin -->
+<div class="breadcrumb-option spad set-bg" data-setbg="@Url.Content("~/img/about/test_background.png")">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb__text">
+                    <h2>Giới Thiệu</h2>
+                    <div class="breadcrumb__links">
+                        <a style="font-weight: 600;" href="/Index">Trang Chủ</a>
+                        <span style="font-weight:600;">Giới Thiệu</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Breadcrumb End -->
+<!-- About Section Begin -->
+<section class="about spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="about__pic">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="about__pic__item about__pic__item--large set-bg"
+                                 data-setbg="@Url.Content("~/img/about/test1.png")"></div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="about__pic__item set-bg" data-setbg="img/about/test2.png"></div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="about__pic__item set-bg" data-setbg="img/about/test3.jpg"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about__text">
+                    <div class="section-title">
+                        <span>Chúng tôi là ai?</span>
+                        <h2>X Koi</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="services__item">
+                                <div class="services__item__icon">
+                                    <img src="~/img/icons/counter_section_icon2.png" width="50px" alt="">
+                                </div>
+                                <h4>Thiết Kế</h4>
+                                <p>Tư vấn, thiết kế theo sở thích và yêu cầu của bạn</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="services__item">
+                                <div class="services__item__icon">
+                                    <img src="~/img/icons/counter_service_icon3.png" width="60px" alt="">
+                                </div>
+                                <h4>Thi Công</h4>
+                                <p>Sở hữu đội ngũ thi công có thể hoàn thiện mọi loại hồ cá koi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__text__desc">
+                        <p>Được thành lập 2024 bởi Hiền Trần, Minh Huy, Viết Thiện và Hùng Nhân khi quá out trình trong lĩnh vực thi công hồ cá koi </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Section End -->
+<!-- Testimonial Section Begin -->
+<section class="testimonial spad set-bg" data-setbg="img/about/koi_testimonial_background.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title center-title">
+                    <span>Được tin dùng bởi khách hàng</span>
+                    <h2>Đánh giá của khách hàng</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="testimonial__slider owl-carousel">
+                <div class="col-lg-4">
+                    <div class="testimonial__item">
+                        <div class="testimonial__text">
+                            <p>
+                                X Koi đã mang đến cho tôi một hồ cá Koi không chỉ đẹp mắt mà còn hài hòa phong thủy. Đội ngũ làm việc rất chuyên nghiệp,
+                                luôn chú ý đến từng chi tiết nhỏ. Tôi rất ấn tượng!
+                            </p>
+                        </div>
+                        <div class="testimonial__author">
+                            <!-- <div class="testimonial__author__pic">
+                                <img src="img/testimonial/ta-1.jpg" alt="">
+                            </div> -->
+                            <div class="testimonial__author__text">
+                                <h5>Nguyễn Văn Nam</h5>
+                                <span>Kiến trúc sư</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial__item">
+                        <div class="testimonial__text">
+                            <p>
+                                Dịch vụ của X Koi thực sự xuất sắc! Hồ cá Koi mà công ty thiết kế cho gia đình tôi không chỉ là một tác phẩm nghệ
+                                thuật mà còn tạo nên không gian sống thư thái, đẳng cấp.
+                            </p>
+                        </div>
+                        <div class="testimonial__author">
+                            <!-- <div class="testimonial__author__pic">
+                                <img src="img/testimonial/ta-2.jpg" alt="">
+                            </div> -->
+                            <div class="testimonial__author__text">
+                                <h5>Trần Thị Hoa</h5>
+                                <span>Doanh nhân</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial__item">
+                        <div class="testimonial__text">
+                            <p>
+                                Là một người kỹ tính, tôi rất hài lòng với sự tỉ mỉ và sáng tạo của X Koi.
+                                Hồ cá Koi của tôi không chỉ đẹp mà còn rất bền vững, đáp ứng mọi yêu cầu về chất lượng.
+                            </p>
+                        </div>
+                        <div class="testimonial__author">
+                            <!-- <div class="testimonial__author__pic">
+                                <img src="img/testimonial/ta-3.jpg" alt="">
+                            </div> -->
+                            <div class="testimonial__author__text">
+                                <h5>Lê Hoàng Long</h5>
+                                <span>Kỹ sư xây dựng</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial__item">
+                        <div class="testimonial__text">
+                            <p>
+                                Hồ cá Koi của X Koi thực sự là điểm nhấn cho khu vườn nhỏ của tôi.
+                                Thiết kế tinh tế, dịch vụ tận tâm, và đội ngũ thi công rất nhiệt tình.
+                                Rất đáng tin cậy!
+                            </p>
+                        </div>
+                        <div class="testimonial__author">
+                            <!-- <div class="testimonial__author__pic">
+                                <img src="img/testimonial/ta-1.jpg" alt="">
+                            </div> -->
+                            <div class="testimonial__author__text">
+                                <h5>Phạm Minh Phương</h5>
+                                <span>Giáo viên</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial__item">
+                        <div class="testimonial__text">
+                            <p>
+                                Cảm ơn X Koi đã thiết kế một hồ cá tuyệt đẹp cho quán cà phê của tôi.
+                                Khách hàng luôn bị thu hút bởi không gian thư giãn và độc đáo này.
+                                Rất hài lòng!
+                            </p>
+                        </div>
+                        <div class="testimonial__author">
+                            <!-- <div class="testimonial__author__pic">
+                                <img src="img/testimonial/ta-2.jpg" alt="">
+                            </div> -->
+                            <div class="testimonial__author__text">
+                                <h5>Hoàng Hải Yến</h5>
+                                <span>Chủ quán cà phê</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Testimonial Section End -->
+<!-- Counter Section Begin -->
+<section class="counter">
+    <div class="container">
+        <div class="counter__content">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter__item">
+                        <div class="counter__item__text">
+                            <img src="~/img/icons/counter_section_icon1.png" width="75px" alt="" />
+                            <h2 class="counter_num">Tư Vấn</h2>
+                            <p style="font-size: 20px">Bước 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter__item second__item">
+                        <div class="counter__item__text">
+                            <img src="~/img/icons/counter_section_icon2.png" width="75px" alt="" />
+                            <h2 class="counter_num">Thiết Kế</h2>
+                            <p style="font-size: 20px">Bước 2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter__item third__item">
+                        <div class="counter__item__text">
+                            <img src="~/img/icons/counter_service_icon3.png" width="115px" alt="" />
+                            <h2 class="counter_num">Thi Công</h2>
+                            <p style="font-size: 20px">Bước 3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="counter__item four__item">
+                        <div class="counter__item__text">
+                            <img src="~/img/icons/counter_service_icon4.png" width="125px" alt="" />
+                            <h2 class="counter_num">Hoàn Thiện</h2>
+                            <p style="font-size: 20px">Bước 4</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Counter Section End -->
+<!-- Team Section Begin -->
+<section class="team spad set-bg" data-setbg="@Url.Content("~/img/home_page/teambg.png")">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title team__title">
+                    <span>Thành Viên Của Đội</span>
+                    <h2>X Koi</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 p-0">
+                <div class="team__item set-bg" data-setbg="@Url.Content("~/img/team/hien2.png")">
+                    <div class="team__item__text">
+                        <h4>Trần Minh Hiền</h4>
+                        <p>Leader</p>
+                        <div class="team__item__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 p-0">
+                <div class="team__item team__item--second set-bg"
+                     data-setbg="@Url.Content("~/img/team/huy2.png")">
+                    <div class="team__item__text">
+                        <h4>Lê Minh Huy</h4>
+                        <p>Dev</p>
+                        <div class="team__item__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 p-0">
+                <div class="team__item team__item--third set-bg"
+                     data-setbg="@Url.Content("~/img/team/nhan.png")">
+                    <div class="team__item__text">
+                        <h4>Nguyễn Phạm Hùng Nhân</h4>
+                        <p>Dev</p>
+                        <div class="team__item__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 p-0">
+                <div class="team__item team__item--four set-bg"
+                     data-setbg="@Url.Content("~/img/team/thien.png")">
+                    <div class="team__item__text">
+                        <h4>Lê Viết thiện</h4>
+                        <p>Xách nước bổ cam</p>
+                        <div class="team__item__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 p-0">
+                <div class="team__btn">
+                    <a href="#" class="primary-btn">Hân Hạnh Đưoc Gặp Bạn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Team Section End -->
