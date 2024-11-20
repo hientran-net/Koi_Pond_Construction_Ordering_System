@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A13781BF-CA7E-4D48-9076-7949B22CF7D9}|MainSite.WebApplication\\MainSite.WebApplication.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\mainsite_src\\mainweb\\mainsite.webapplication\\pages\\lienhe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A13781BF-CA7E-4D48-9076-7949B22CF7D9}|MainSite.WebApplication\\MainSite.WebApplication.csproj|solutionrelative:mainsite.webapplication\\pages\\lienhe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A13781BF-CA7E-4D48-9076-7949B22CF7D9}|MainSite.WebApplication\\MainSite.WebApplication.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\mainsite_src\\mainweb\\mainsite.webapplication\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A13781BF-CA7E-4D48-9076-7949B22CF7D9}|MainSite.WebApplication\\MainSite.WebApplication.csproj|solutionrelative:mainsite.webapplication\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A13781BF-CA7E-4D48-9076-7949B22CF7D9}|MainSite.WebApplication\\MainSite.WebApplication.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\mainsite_src\\mainweb\\mainsite.webapplication\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A13781BF-CA7E-4D48-9076-7949B22CF7D9}|MainSite.WebApplication\\MainSite.WebApplication.csproj|solutionrelative:mainsite.webapplication\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A13781BF-CA7E-4D48-9076-7949B22CF7D9}|MainSite.WebApplication\\MainSite.WebApplication.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\mainsite_src\\mainweb\\mainsite.webapplication\\pages\\duan.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A13781BF-CA7E-4D48-9076-7949B22CF7D9}|MainSite.WebApplication\\MainSite.WebApplication.csproj|solutionrelative:mainsite.webapplication\\pages\\duan.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A13781BF-CA7E-4D48-9076-7949B22CF7D9}|MainSite.WebApplication\\MainSite.WebApplication.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\mainsite_src\\mainweb\\mainsite.webapplication\\pages\\baogia\\bao-gia-ho-ca-koi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A13781BF-CA7E-4D48-9076-7949B22CF7D9}|MainSite.WebApplication\\MainSite.WebApplication.csproj|solutionrelative:mainsite.webapplication\\pages\\baogia\\bao-gia-ho-ca-koi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A13781BF-CA7E-4D48-9076-7949B22CF7D9}|MainSite.WebApplication\\MainSite.WebApplication.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\mainsite_src\\mainweb\\mainsite.webapplication\\pages\\duan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A13781BF-CA7E-4D48-9076-7949B22CF7D9}|MainSite.WebApplication\\MainSite.WebApplication.csproj|solutionrelative:mainsite.webapplication\\pages\\duan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -26,11 +46,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LienHe.cshtml",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\Pages\\LienHe.cshtml",
+              "RelativeDocumentMoniker": "MainSite.WebApplication\\Pages\\LienHe.cshtml",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\Pages\\LienHe.cshtml",
+              "RelativeToolTip": "MainSite.WebApplication\\Pages\\LienHe.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAYwFIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T17:11:27.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "MainSite.WebApplication\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\Pages\\Index.cshtml",
+              "RelativeToolTip": "MainSite.WebApplication\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T15:56:10.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "MainSite.WebApplication\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "MainSite.WebApplication\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:56:06.94Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "DuAn.cshtml.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\Pages\\DuAn.cshtml.cs",
+              "RelativeDocumentMoniker": "MainSite.WebApplication\\Pages\\DuAn.cshtml.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\Pages\\DuAn.cshtml.cs",
+              "RelativeToolTip": "MainSite.WebApplication\\Pages\\DuAn.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:56:03.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "bao-gia-ho-ca-koi.cshtml",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\Pages\\BaoGia\\bao-gia-ho-ca-koi.cshtml",
+              "RelativeDocumentMoniker": "MainSite.WebApplication\\Pages\\BaoGia\\bao-gia-ho-ca-koi.cshtml",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\Pages\\BaoGia\\bao-gia-ho-ca-koi.cshtml",
+              "RelativeToolTip": "MainSite.WebApplication\\Pages\\BaoGia\\bao-gia-ho-ca-koi.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-20T15:56:01.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "DuAnService.cs",
               "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.Service\\Service\\DuAnService.cs",
               "RelativeDocumentMoniker": "MainSite.Service\\Service\\DuAnService.cs",
@@ -38,12 +120,11 @@
               "RelativeToolTip": "MainSite.Service\\Service\\DuAnService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T15:02:02.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T15:02:02.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "DuAnRepository.cs",
               "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.Repositories\\Repository\\DuAnRepository.cs",
               "RelativeDocumentMoniker": "MainSite.Repositories\\Repository\\DuAnRepository.cs",
@@ -51,12 +132,11 @@
               "RelativeToolTip": "MainSite.Repositories\\Repository\\DuAnRepository.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAAACUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T14:58:32.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T14:58:32.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "IDuAnService.cs",
               "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.Service\\Interface\\IDuAnService.cs",
               "RelativeDocumentMoniker": "MainSite.Service\\Interface\\IDuAnService.cs",
@@ -64,21 +144,19 @@
               "RelativeToolTip": "MainSite.Service\\Interface\\IDuAnService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T15:02:00.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T15:02:00.94Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "DuAn.cshtml",
               "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\Pages\\DuAn.cshtml",
               "RelativeDocumentMoniker": "MainSite.WebApplication\\Pages\\DuAn.cshtml",
               "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\Pages\\DuAn.cshtml",
               "RelativeToolTip": "MainSite.WebApplication\\Pages\\DuAn.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAEMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAADwv0MAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T14:51:25.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T14:51:25.745Z"
             }
           ]
         }

@@ -80,22 +80,18 @@ namespace Project.WebApplication.Pages.OrderManage
         {
             try
             {
-                // Lấy toàn bộ dự án từ database
                 var projects = await _donDatHangService.GetAllOrders();
 
-                // Nếu chưa có dự án nào
                 if (!projects.Any())
                 {
                     return "DDA_01";
                 }
 
-                // Lấy danh sách các số đã sử dụng
                 var existingNumbers = projects
                     .Select(p => int.Parse(p.MaDonDatHang.Split('_')[1]))
                     .OrderBy(x => x)
                     .ToList();
 
-                // Tìm số còn thiếu đầu tiên
                 for (int i = 1; i <= existingNumbers.Count + 1; i++)
                 {
                     if (!existingNumbers.Contains(i))
@@ -109,7 +105,7 @@ namespace Project.WebApplication.Pages.OrderManage
             catch (Exception ex)
             {
                 Console.WriteLine($"Error generating project ID: {ex.Message}");
-                return "DDA_01"; // Trường hợp có lỗi
+                return "DDA_01";
             }
         }
 
@@ -120,7 +116,6 @@ namespace Project.WebApplication.Pages.OrderManage
                 _logger.LogInformation("Starting OnPostAsync");
                 _logger.LogInformation($"Form data: {System.Text.Json.JsonSerializer.Serialize(DonDatHang)}");
 
-                // Validate model state
                 if (!ModelState.IsValid)
                 {
                     _logger.LogWarning("ModelState is invalid");
@@ -140,7 +135,6 @@ namespace Project.WebApplication.Pages.OrderManage
                     DonDatHang.NgayDatHang = DateTime.Now;
                 }
 
-                // Validate required fields
                 if (string.IsNullOrEmpty(DonDatHang.MaKhachHang) || string.IsNullOrEmpty(DonDatHang.MaDuAn))
                 {
                     ModelState.AddModelError(string.Empty, "Vui lòng chọn khách hàng và dự án");
@@ -148,7 +142,6 @@ namespace Project.WebApplication.Pages.OrderManage
                     return Page();
                 }
 
-                // Validate dates
                 if (DonDatHang.NgayBatDauThiCong == default || DonDatHang.NgayKetThucThiCong == default)
                 {
                     ModelState.AddModelError(string.Empty, "Vui lòng chọn ngày bắt đầu và kết thúc");
@@ -163,7 +156,6 @@ namespace Project.WebApplication.Pages.OrderManage
                     return Page();
                 }
 
-                // Validate customer exists
                 var khachHang = await _khachHangService.GetCustomerById(DonDatHang.MaKhachHang);
                 if (khachHang == null)
                 {
@@ -172,7 +164,6 @@ namespace Project.WebApplication.Pages.OrderManage
                     return Page();
                 }
 
-                // Validate project exists
                 var duAn = await _duAnService.GetProjectById(DonDatHang.MaDuAn);
                 if (duAn == null)
                 {
@@ -181,14 +172,12 @@ namespace Project.WebApplication.Pages.OrderManage
                     return Page();
                 }
 
-                // Set order details
                 
                 if (string.IsNullOrEmpty(DonDatHang.MaDonDatHang))
                 {
                     DonDatHang.MaDonDatHang = await GenerateNextOrderId();
                 }
 
-                // Add order
                 _logger.LogInformation($"Attempting to add order: {DonDatHang.MaDonDatHang}");
                 var result = await _donDatHangService.AddOrder(DonDatHang);
 

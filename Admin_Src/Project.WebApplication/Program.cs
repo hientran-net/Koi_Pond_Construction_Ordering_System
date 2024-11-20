@@ -33,7 +33,6 @@ builder.Services.AddScoped<IDonDatHangService, DonDatHangService>();
 builder.Services.AddScoped<IKhachHangRepository, KhachHangRepository>();
 builder.Services.AddScoped<IKhachHangService, KhachHangService>();
 
-// Add services to the container.
 builder.Services.AddRazorPages();
 
 // xác thực với cookies
@@ -53,7 +52,6 @@ builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");

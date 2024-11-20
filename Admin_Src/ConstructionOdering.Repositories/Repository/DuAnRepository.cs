@@ -36,11 +36,11 @@ namespace ConstructionOdering.Repositories.Repository
         {
             // Thêm log để kiểm tra
             var projects = await _dbContext.DuAns
-                .AsNoTracking()  // Thêm dòng này để tối ưu performance
-                .OrderByDescending(x => x.MaDuAn)  // Sắp xếp theo MaDuAn mới nhất
+                .AsNoTracking()
+                .OrderByDescending(x => x.MaDuAn)
                 .ToListAsync();
 
-            Console.WriteLine($"Found {projects.Count} projects in repository"); // Log để debug
+            Console.WriteLine($"Found {projects.Count} projects in repository");
             return projects;
         }
 
@@ -70,9 +70,9 @@ namespace ConstructionOdering.Repositories.Repository
 
         public async Task<DuAn> GetLastProject()
         {
-            using (var context = new AdminDbConsturctionOderingSystemContext()) // Thay DataContext bằng tên DbContext của bạn
+            using (var context = new AdminDbConsturctionOderingSystemContext())
             {
-                return await context.DuAns // Thay DuAn bằng tên DbSet của bạn
+                return await context.DuAns 
                     .OrderByDescending(x => x.MaDuAn)
                     .FirstOrDefaultAsync();
             }

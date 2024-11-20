@@ -159,7 +159,6 @@
         }
 
         $(document).ready(function() {
-            // Search functionality
             $("#searchInput").on("keyup", function() {
                 var value = $(this).val().toLowerCase();
                 $("table tbody tr").filter(function() {
@@ -167,7 +166,6 @@
                 });
             });
 
-            // Department filter
             $("#departmentFilter").change(function() {
                 var value = $(this).val().toLowerCase();
                 if (value) {

@@ -126,8 +126,6 @@
         <!--sidebar end-->
         @RenderBody()
     </section>
-
-    <!-- js placed at the end of the document so the pages load faster -->
     <script src="~/js/jquery.js"></script>
     <script src="~/js/bootstrap.min.js"></script>
     <script class="include" type="text/javascript" src="~/js/jquery.dcjqaccordion.2.7.js"></script>
@@ -139,20 +137,15 @@
     <script src="~/js/jquery.customSelect.min.js"></script>
     <script src="~/js/respond.min.js"></script>
 
-    <!--right slidebar-->
     <script src="~/js/slidebars.min.js"></script>
 
-    <!--common script for all pages-->
     <script src="~/js/common-scripts.js"></script>
 
-    <!--script for this page-->
     <script src="~/js/sparkline-chart.js"></script>
     <script src="~/js/easy-pie-chart.js"></script>
     <script src="~/js/count.js"></script>
 
     <script>
-
-        //owl carousel
 
         $(document).ready(function() {
             $("#owl-demo").owlCarousel({
@@ -164,8 +157,6 @@
 
             });
         });
-
-        //custom select box
 
         $(function(){
             $('select.styled').customSelect();
@@ -189,6 +180,4 @@
     @RenderSection("Styles", required: false)
     @RenderSection("Scripts", required: false)
 </body>
-
-<!-- Mirrored from thevectorlab.net/flatlab/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Aug 2015 03:43:32 GMT -->
 </html>

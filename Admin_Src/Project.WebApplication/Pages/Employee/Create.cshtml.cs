@@ -20,46 +20,28 @@ namespace Project.WebApplication.Pages.Employee
 
         public async Task<IActionResult> OnGetAsync()
         {
-            // Tạo mã nhân viên tự động
             string nextId = await GenerateNextEmployeeId();
             NhanVien.MaNhanVien = nextId;
             return Page();
         }
 
-        //private async Task<string> GenerateNextEmployeeId()
-        //{
-        //    try
-        //    {
-        //        var employees = await _nhanVienService.GetAllEmployees();
-        //        int count = employees.Count + 1;
-        //        return $"NV_{count:D2}"; // D2 sẽ format số thành 2 chữ số, thêm 0 vào trước nếu cần
-        //    }
-        //    catch
-        //    {
-        //        return "NV_01"; // Trường hợp chưa có nhân viên hoặc có lỗi
-        //    }
-        //}
 
         private async Task<string> GenerateNextEmployeeId()
         {
             try
             {
-                // Lấy toàn bộ dự án từ database
                 var projects = await _nhanVienService.GetAllEmployees();
 
-                // Nếu chưa có dự án nào
                 if (!projects.Any())
                 {
                     return "NV_01";
                 }
 
-                // Lấy danh sách các số đã sử dụng
                 var existingNumbers = projects
                     .Select(p => int.Parse(p.MaNhanVien.Split('_')[1]))
                     .OrderBy(x => x)
                     .ToList();
 
-                // Tìm số còn thiếu đầu tiên
                 for (int i = 1; i <= existingNumbers.Count + 1; i++)
                 {
                     if (!existingNumbers.Contains(i))
@@ -68,13 +50,12 @@ namespace Project.WebApplication.Pages.Employee
                     }
                 }
 
-                // Trường hợp dự phòng (không khả thi nhưng vẫn an toàn)
                 return $"NV_{existingNumbers.Count + 1:D2}";
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error generating project ID: {ex.Message}");
-                return "NV_01"; // Trường hợp có lỗi
+                return "NV_01";
             }
         }
 
@@ -87,7 +68,6 @@ namespace Project.WebApplication.Pages.Employee
 
             try
             {
-                // Kiểm tra xem mã đã tồn tại chưa
                 var existingEmployee = await _nhanVienService.GetEmployeeById(NhanVien.MaNhanVien);
                 if (existingEmployee != null)
                 {

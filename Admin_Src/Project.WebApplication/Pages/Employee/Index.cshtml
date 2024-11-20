@@ -99,11 +99,6 @@
                 <p>Bạn có chắc chắn muốn xóa nhân viên này không?</p>
             </div>
             <div class="modal-footer">
-                @* <form id="deleteForm" method="post">
-                    @Html.AntiForgeryToken()
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Hủy</button>
-                    <button type="submit" class="btn btn-danger">Xóa</button>
-                </form> *@
             </div>
         </div>
     </div>
@@ -117,7 +112,6 @@
         }
 
         $(document).ready(function() {
-            // Search functionality
             $("#searchInput").on("keyup", function() {
                 var value = $(this).val().toLowerCase();
                 $("table tbody tr").filter(function() {
@@ -125,7 +119,6 @@
                 });
             });
 
-            // Department filter
             $("#departmentFilter").change(function() {
                 var value = $(this).val().toLowerCase();
                 if (value) {

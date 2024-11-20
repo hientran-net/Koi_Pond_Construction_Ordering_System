@@ -9,10 +9,8 @@ namespace Project.WebApplication.Pages
     {
         public async Task<IActionResult> OnGet()
         {
-            // Xóa cookie authentication
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 
-            // Chuyển hướng về trang login
             return RedirectToPage("/Login");
         }
     }

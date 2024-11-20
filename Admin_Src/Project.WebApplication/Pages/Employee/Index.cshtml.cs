@@ -10,7 +10,6 @@ namespace Project.WebApplication.Pages.Employee
     {
         private readonly INhanVienService _nhanVienService;
 
-        // Chỉ giữ một constructor duy nhất
         public IndexModel(INhanVienService nhanVienService)
         {
             _nhanVienService = nhanVienService;

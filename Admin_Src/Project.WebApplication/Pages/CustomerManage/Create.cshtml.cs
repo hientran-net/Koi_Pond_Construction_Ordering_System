@@ -29,22 +29,16 @@ namespace Project.WebApplication.Pages.CustomerManage
         {
             try
             {
-                // Lấy toàn bộ dự án từ database
                 var projects = await _khachHangService.GetAllCustomers();
-
-                // Nếu chưa có dự án nào
                 if (!projects.Any())
                 {
                     return "KH_01";
                 }
-
-                // Lấy danh sách các số đã sử dụng
                 var existingNumbers = projects
                     .Select(p => int.Parse(p.MaKhachHang.Split('_')[1]))
                     .OrderBy(x => x)
                     .ToList();
 
-                // Tìm số còn thiếu đầu tiên
                 for (int i = 1; i <= existingNumbers.Count + 1; i++)
                 {
                     if (!existingNumbers.Contains(i))
@@ -53,29 +47,14 @@ namespace Project.WebApplication.Pages.CustomerManage
                     }
                 }
 
-                // Trường hợp dự phòng (không khả thi nhưng vẫn an toàn)
                 return $"KH_{existingNumbers.Count + 1:D2}";
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error generating project ID: {ex.Message}");
-                return "KH_01"; // Trường hợp có lỗi
+                return "KH_01";
             }
         }
-
-        //private async Task<string> GenerateNextCustomerId()
-        //{
-        //    try
-        //    {
-        //        var customerId = await _khachHangService.GetAllCustomers();
-        //        int count = customerId.Count + 1;
-        //        return $"KH_{count:D2}"; // D2 sẽ format số thành 2 chữ số, thêm 0 vào trước nếu cần
-        //    }
-        //    catch
-        //    {
-        //        return "KH_01"; // Trường hợp chưa có nhân viên hoặc có lỗi
-        //    }
-        //}
 
         public async Task<IActionResult> OnPostAsync()
         {

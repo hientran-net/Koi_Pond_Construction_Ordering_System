@@ -34,26 +34,6 @@ namespace Project.WebApplication.Pages.OrderManage
             return Page();
         }
 
-        //public async Task<IActionResult> OnPostAsync()
-        //{
-        //    if (Order.MaDonDatHang == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    try
-        //    {
-        //        await _orderService.DeleteOrder(Order.MaDonDatHang);
-        //        TempData["SuccessMessage"] = "Xóa đơn đặt hàng thành công!";
-        //        return RedirectToPage("./Index");
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        TempData["ErrorMessage"] = "Có lỗi xảy ra khi xóa đơn đặt hàng.";
-        //        return RedirectToPage("./Index");
-        //    }
-        //}
-
 
         public async Task<IActionResult> OnPostAsync(string id)
         {

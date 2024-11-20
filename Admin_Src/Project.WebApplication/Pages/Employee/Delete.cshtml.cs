@@ -1,5 +1,6 @@
 ﻿using ConstructionOdering.Repositories.Entities;
 using ConstructionOrdering.Service.Interface;
+using ConstructionOrdering.Service.Service;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -16,6 +17,23 @@ namespace Project.WebApplication.Pages.Employee
 
         [BindProperty]
         public NhanVien NhanVien { get; set; } = new NhanVien();
+
+        public async Task<IActionResult> OnGetAsync(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var nhanVien = await _nhanVienService.GetEmployeeById(id);
+            if (nhanVien == null)
+            {
+                return NotFound();
+            }
+
+            NhanVien = nhanVien;
+            return Page();
+        }
 
         public async Task<IActionResult> OnPostAsync(string id)
         {

@@ -47,8 +47,6 @@
                         <span asp-validation-for="NhanVien.NgayThangNamSinh" class="text-danger"></span>
                     </div>
 
-                    <!-- Thêm các trường khác của nhân viên tại đây -->
-
                     <div class="form-group mt-3">
                         <input type="submit" value="Lưu" class="btn btn-primary" />
                         <a asp-page="./Index" class="btn btn-secondary">Quay lại</a>
@@ -58,3 +56,9 @@
         </div>
     </section>
 </section>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

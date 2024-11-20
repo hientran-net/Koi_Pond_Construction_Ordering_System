@@ -14,7 +14,6 @@
                     </header>
                     <div class="panel-body">
                         <div class="form">
-                            <!-- Thêm div hiển thị lỗi -->
                             @if (!ViewData.ModelState.IsValid)
                             {
                                 <div class="alert alert-danger">
@@ -34,7 +33,6 @@
                                 @Html.AntiForgeryToken()
                                 <div asp-validation-summary="All" class="text-danger"></div>
 
-                                <!-- Form fields như cũ -->
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">Mã đơn hàng</label>
                                     <div class="col-sm-10">
@@ -119,13 +117,11 @@
                     return false;
                 }
 
-                // Log form data
                 var formData = new FormData(this);
                 for (var pair of formData.entries()) {
                     console.log(pair[0] + ': ' + pair[1]);
                 }
                 
-                // Disable submit button to prevent double submission
                 $('#submitBtn').prop('disabled', true);
             });
         });

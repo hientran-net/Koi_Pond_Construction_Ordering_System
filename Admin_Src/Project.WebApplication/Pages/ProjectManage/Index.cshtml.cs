@@ -20,11 +20,10 @@ namespace Project.WebApplication.Pages.ProjectManage
         {
             try
             {
-                Console.WriteLine("Getting projects in Index page..."); // Log để debug
+                Console.WriteLine("Getting projects in Index page..."); 
                 DuAns = await _duAnService.GetAllProject();
-                Console.WriteLine($"Loaded {DuAns.Count} projects in Index page"); // Log để debug
+                Console.WriteLine($"Loaded {DuAns.Count} projects in Index page"); 
 
-                // Kiểm tra dữ liệu
                 foreach (var project in DuAns)
                 {
                     Console.WriteLine($"Project ID: {project.MaDuAn}, Name: {project.TenDuAn}");
@@ -32,7 +31,7 @@ namespace Project.WebApplication.Pages.ProjectManage
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error loading projects: {ex.Message}"); // Log lỗi nếu có
+                Console.WriteLine($"Error loading projects: {ex.Message}");
                 DuAns = new List<DuAn>();
             }
         }

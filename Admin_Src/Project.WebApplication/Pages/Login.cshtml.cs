@@ -47,7 +47,7 @@ namespace Project.WebApplication.Pages
 
             var authProperties = new AuthenticationProperties
             {
-                IsPersistent = true, // Cookie sẽ được lưu giữ sau khi đóng trình duyệt
+                IsPersistent = true,
                 ExpiresUtc = DateTimeOffset.UtcNow.AddHours(24)
             };
 

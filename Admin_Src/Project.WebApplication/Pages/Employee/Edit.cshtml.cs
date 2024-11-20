@@ -19,7 +19,7 @@ namespace Project.WebApplication.Pages.Employee
 
         public async Task<IActionResult> OnGetAsync(string? id)
         {
-            if (string.IsNullOrEmpty(id))
+            if (id == null)
             {
                 return NotFound();
             }
@@ -43,19 +43,6 @@ namespace Project.WebApplication.Pages.Employee
 
             try
             {
-                var existingEmployee = await _nhanVienService.GetEmployeeById(NhanVien.MaNhanVien);
-                if (existingEmployee == null)
-                {
-                    return NotFound();
-                }
-
-                // Đảm bảo không thay đổi MaNhanVien
-                if (existingEmployee.MaNhanVien != NhanVien.MaNhanVien)
-                {
-                    ModelState.AddModelError("", "Không được phép thay đổi mã nhân viên!");
-                    return Page();
-                }
-
                 var result = await _nhanVienService.UpdateEmployee(NhanVien);
                 if (result)
                 {

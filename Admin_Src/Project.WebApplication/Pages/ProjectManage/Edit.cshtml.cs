@@ -37,7 +37,6 @@ namespace Project.WebApplication.Pages.ProjectManage
 
             try
             {
-                // Cập nhật thông tin chỉnh sửa
                 DuAn.NgayChinhSua = DateTime.Now;
                 DuAn.ChinhSuaBoi = User.Identity?.Name ?? "System";
 
