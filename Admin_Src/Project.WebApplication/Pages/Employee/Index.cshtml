@@ -4,21 +4,7 @@
     ViewData["Title"] = "Danh sách nhân viên";
 }
 
-@if (TempData["SuccessMessage"] != null)
-{
-    <div class="alert alert-success alert-dismissible fade show" role="alert">
-        @TempData["SuccessMessage"]
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
-}
 
-@if (TempData["ErrorMessage"] != null)
-{
-    <div class="alert alert-danger alert-dismissible fade show" role="alert">
-        @TempData["ErrorMessage"]
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
-}
 
 
 <!--main content start-->
@@ -34,6 +20,19 @@
                         </a>
                     </header>
                     <div class="panel-body">
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success" role="alert">
+                                @TempData["SuccessMessage"]
+                            </div>
+                        }
+
+                        @if (TempData["ErrorMessage"] != null)
+                        {
+                            <div class="alert alert-success" role="alert">
+                                @TempData["ErrorMessage"]
+                            </div>
+                        }
                         <!-- Search and Filter Section -->
                         <div class="row mb-3">
                             <div class="col-md-6">

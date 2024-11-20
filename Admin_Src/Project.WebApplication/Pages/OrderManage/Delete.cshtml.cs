@@ -1,5 +1,6 @@
 ﻿using ConstructionOdering.Repositories.Entities;
 using ConstructionOrdering.Service.Interface;
+using ConstructionOrdering.Service.Service;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -33,24 +34,47 @@ namespace Project.WebApplication.Pages.OrderManage
             return Page();
         }
 
-        public async Task<IActionResult> OnPostAsync()
-        {
-            if (Order.MaDonDatHang == null)
-            {
-                return NotFound();
-            }
+        //public async Task<IActionResult> OnPostAsync()
+        //{
+        //    if (Order.MaDonDatHang == null)
+        //    {
+        //        return NotFound();
+        //    }
 
+        //    try
+        //    {
+        //        await _orderService.DeleteOrder(Order.MaDonDatHang);
+        //        TempData["SuccessMessage"] = "Xóa đơn đặt hàng thành công!";
+        //        return RedirectToPage("./Index");
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        TempData["ErrorMessage"] = "Có lỗi xảy ra khi xóa đơn đặt hàng.";
+        //        return RedirectToPage("./Index");
+        //    }
+        //}
+
+
+        public async Task<IActionResult> OnPostAsync(string id)
+        {
             try
             {
-                await _orderService.DeleteOrder(Order.MaDonDatHang);
-                TempData["SuccessMessage"] = "Xóa đơn đặt hàng thành công!";
-                return RedirectToPage("./Index");
+                var result = await _orderService.DeleteOrder(id);
+                if (result)
+                {
+                    TempData["SuccessMessage"] = "Xóa dự án thành công!";
+                }
+                else
+                {
+                    TempData["ErrorMessage"] = "Không thể xóa dự án. Vui lòng thử lại.";
+                }
             }
             catch (Exception ex)
             {
-                TempData["ErrorMessage"] = "Có lỗi xảy ra khi xóa đơn đặt hàng.";
-                return RedirectToPage("./Index");
+                TempData["ErrorMessage"] = $"Lỗi khi xóa dự án: {ex.Message}";
             }
+
+            return RedirectToPage("./Index");
         }
     }
 }

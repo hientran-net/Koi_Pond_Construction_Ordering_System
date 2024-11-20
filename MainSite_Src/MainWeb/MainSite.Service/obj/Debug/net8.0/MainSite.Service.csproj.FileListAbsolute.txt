@@ -1,0 +1,16 @@
+D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\MainSite_Src\MainWeb\MainSite.Service\bin\Debug\net8.0\MainSite.Service.deps.json
+D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\MainSite_Src\MainWeb\MainSite.Service\bin\Debug\net8.0\MainSite.Service.dll
+D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\MainSite_Src\MainWeb\MainSite.Service\bin\Debug\net8.0\MainSite.Service.pdb
+D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\MainSite_Src\MainWeb\MainSite.Service\bin\Debug\net8.0\MainSite.Repositories.dll
+D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\MainSite_Src\MainWeb\MainSite.Service\bin\Debug\net8.0\MainSite.Repositories.pdb
+D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\MainSite_Src\MainWeb\MainSite.Service\obj\Debug\net8.0\MainSite.Service.csproj.AssemblyReference.cache
+D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\MainSite_Src\MainWeb\MainSite.Service\obj\Debug\net8.0\MainSite.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\MainSite_Src\MainWeb\MainSite.Service\obj\Debug\net8.0\MainSite.Service.AssemblyInfoInputs.cache
+D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\MainSite_Src\MainWeb\MainSite.Service\obj\Debug\net8.0\MainSite.Service.AssemblyInfo.cs
+D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\MainSite_Src\MainWeb\MainSite.Service\obj\Debug\net8.0\MainSite.Service.csproj.CoreCompileInputs.cache
+D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\MainSite_Src\MainWeb\MainSite.Service\obj\Debug\net8.0\MainSite.Service.sourcelink.json
+D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\MainSite_Src\MainWeb\MainSite.Service\obj\Debug\net8.0\MainSite.394F1DD0.Up2Date
+D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\MainSite_Src\MainWeb\MainSite.Service\obj\Debug\net8.0\MainSite.Service.dll
+D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\MainSite_Src\MainWeb\MainSite.Service\obj\Debug\net8.0\refint\MainSite.Service.dll
+D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\MainSite_Src\MainWeb\MainSite.Service\obj\Debug\net8.0\MainSite.Service.pdb
+D:\University\CN2303CLCB_K23\Công_Nghệ_Phần_Mềm\Project\Main-Source-branch\Koi_Pond_Construction_Ordering_System\MainSite_Src\MainWeb\MainSite.Service\obj\Debug\net8.0\ref\MainSite.Service.dll

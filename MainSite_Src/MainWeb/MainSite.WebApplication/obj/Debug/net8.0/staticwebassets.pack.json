@@ -1,0 +1,965 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MainSite.WebApplication.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MainSite.WebApplication.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\css\\elegant-icons.css",
+      "PackagePath": "staticwebassets\\css\\elegant-icons.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\css\\flaticon.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\1348333.png",
+      "PackagePath": "staticwebassets\\img\\1348333.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\203467.jpg",
+      "PackagePath": "staticwebassets\\img\\203467.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\398781.jpg",
+      "PackagePath": "staticwebassets\\img\\398781.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\about\\about-1.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\about-1.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\about\\about-2.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\about-2.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\about\\about-3.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\about-3.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\about\\koi_testimonial_background.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\koi_testimonial_background.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\about\\test1.png",
+      "PackagePath": "staticwebassets\\img\\about\\test1.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\about\\test2.png",
+      "PackagePath": "staticwebassets\\img\\about\\test2.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\about\\test3.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\test3.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\about\\test_background.png",
+      "PackagePath": "staticwebassets\\img\\about\\test_background.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\bao_gia\\bao_gia_bg.jpg",
+      "PackagePath": "staticwebassets\\img\\bao_gia\\bao_gia_bg.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\bao_gia\\bao_gia_bg.png",
+      "PackagePath": "staticwebassets\\img\\bao_gia\\bao_gia_bg.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\bao_gia\\bao_gia_testbg.jpg",
+      "PackagePath": "staticwebassets\\img\\bao_gia\\bao_gia_testbg.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\bao_gia\\bao_gia_testbg2.jpg",
+      "PackagePath": "staticwebassets\\img\\bao_gia\\bao_gia_testbg2.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\bao_gia\\bao_gia_testbg3.webp",
+      "PackagePath": "staticwebassets\\img\\bao_gia\\bao_gia_testbg3.webp"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\bao_gia_bg.avif",
+      "PackagePath": "staticwebassets\\img\\bao_gia_bg.avif"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\blog\\blog-hero.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-hero.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\blog\\next.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\next.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\blog\\prev.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\prev.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\blog\\ri-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\ri-1.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\blog\\ri-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\ri-2.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\blog\\ri-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\ri-3.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\breadcrumb-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\breadcrumb-bg.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\callto-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\callto-bg.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\callto_bg.png",
+      "PackagePath": "staticwebassets\\img\\callto_bg.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\calltos-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\calltos-bg.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\dich vu\\icon\\service_icon2.png",
+      "PackagePath": "staticwebassets\\img\\dich vu\\icon\\service_icon2.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\dich vu\\icon\\service_icon3.png",
+      "PackagePath": "staticwebassets\\img\\dich vu\\icon\\service_icon3.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\dich vu\\icon\\service_icon4.png",
+      "PackagePath": "staticwebassets\\img\\dich vu\\icon\\service_icon4.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\dich vu\\icon\\service_icon5.png",
+      "PackagePath": "staticwebassets\\img\\dich vu\\icon\\service_icon5.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\dich vu\\icon\\service_icon6.png",
+      "PackagePath": "staticwebassets\\img\\dich vu\\icon\\service_icon6.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\dich vu\\logo\\service_logo1.png",
+      "PackagePath": "staticwebassets\\img\\dich vu\\logo\\service_logo1.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\dich vu\\logo\\service_logo2.png",
+      "PackagePath": "staticwebassets\\img\\dich vu\\logo\\service_logo2.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\dich vu\\logo\\service_logo3.png",
+      "PackagePath": "staticwebassets\\img\\dich vu\\logo\\service_logo3.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\dich vu\\logo\\service_logo4.png",
+      "PackagePath": "staticwebassets\\img\\dich vu\\logo\\service_logo4.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\dich vu\\logo\\service_logo5.png",
+      "PackagePath": "staticwebassets\\img\\dich vu\\logo\\service_logo5.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\dich vu\\logo\\service_logo6.png",
+      "PackagePath": "staticwebassets\\img\\dich vu\\logo\\service_logo6.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_.jpg",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\android-icon-144x144.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\android-icon-144x144.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\android-icon-192x192.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\android-icon-192x192.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\android-icon-36x36.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\android-icon-36x36.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\android-icon-48x48.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\android-icon-48x48.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\android-icon-72x72.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\android-icon-72x72.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\android-icon-96x96.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\android-icon-96x96.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\apple-icon-114x114.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\apple-icon-114x114.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\apple-icon-120x120.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\apple-icon-120x120.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\apple-icon-144x144.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\apple-icon-144x144.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\apple-icon-152x152.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\apple-icon-152x152.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\apple-icon-180x180.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\apple-icon-180x180.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\apple-icon-57x57.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\apple-icon-57x57.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\apple-icon-60x60.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\apple-icon-60x60.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\apple-icon-72x72.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\apple-icon-72x72.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\apple-icon-76x76.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\apple-icon-76x76.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\apple-icon-precomposed.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\apple-icon-precomposed.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\apple-icon.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\apple-icon.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\browserconfig.xml",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\browserconfig.xml"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\favicon-16x16.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\favicon-32x32.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\favicon-96x96.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\favicon-96x96.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\favicon.ico"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\manifest.json",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\manifest.json"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\ms-icon-144x144.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\ms-icon-144x144.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\ms-icon-150x150.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\ms-icon-150x150.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\ms-icon-310x310.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\ms-icon-310x310.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\favico\\logo_favico\\ms-icon-70x70.png",
+      "PackagePath": "staticwebassets\\img\\favico\\logo_favico\\ms-icon-70x70.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\hero\\hero-1.jpg",
+      "PackagePath": "staticwebassets\\img\\hero\\hero-1.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\home_page\\logo_X_koi_full.png",
+      "PackagePath": "staticwebassets\\img\\home_page\\logo_X_koi_full.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\home_page\\teambg.png",
+      "PackagePath": "staticwebassets\\img\\home_page\\teambg.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\home_page\\test_background.png",
+      "PackagePath": "staticwebassets\\img\\home_page\\test_background.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\home_page\\test_background2.png",
+      "PackagePath": "staticwebassets\\img\\home_page\\test_background2.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\home_page\\test_background3.jpg",
+      "PackagePath": "staticwebassets\\img\\home_page\\test_background3.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\icons\\ci-1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\ci-1.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\icons\\ci-2.png",
+      "PackagePath": "staticwebassets\\img\\icons\\ci-2.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\icons\\ci-3.png",
+      "PackagePath": "staticwebassets\\img\\icons\\ci-3.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\icons\\ci-4.png",
+      "PackagePath": "staticwebassets\\img\\icons\\ci-4.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\icons\\counter_section_icon1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\counter_section_icon1.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\icons\\counter_section_icon2.png",
+      "PackagePath": "staticwebassets\\img\\icons\\counter_section_icon2.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\icons\\counter_service_icon3.png",
+      "PackagePath": "staticwebassets\\img\\icons\\counter_service_icon3.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\icons\\counter_service_icon4.png",
+      "PackagePath": "staticwebassets\\img\\icons\\counter_service_icon4.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\icons\\service_icon1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\service_icon1.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\icons\\service_logo2.png",
+      "PackagePath": "staticwebassets\\img\\icons\\service_logo2.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\icons\\service_logo3.png",
+      "PackagePath": "staticwebassets\\img\\icons\\service_logo3.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\icons\\service_logo4.png",
+      "PackagePath": "staticwebassets\\img\\icons\\service_logo4.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\icons\\si-1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\si-1.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\icons\\si-2.png",
+      "PackagePath": "staticwebassets\\img\\icons\\si-2.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\icons\\si-3.png",
+      "PackagePath": "staticwebassets\\img\\icons\\si-3.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\icons\\si-4.png",
+      "PackagePath": "staticwebassets\\img\\icons\\si-4.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\img-logo\\backgroud 1.jpg",
+      "PackagePath": "staticwebassets\\img\\img-logo\\backgroud 1.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\img-logo\\backgroud.jpg",
+      "PackagePath": "staticwebassets\\img\\img-logo\\backgroud.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\img-logo\\backgroud_2.jpg",
+      "PackagePath": "staticwebassets\\img\\img-logo\\backgroud_2.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\img-logo\\ca_koi.jpg",
+      "PackagePath": "staticwebassets\\img\\img-logo\\ca_koi.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\img-logo\\pexels-themob000-28428592.jpg",
+      "PackagePath": "staticwebassets\\img\\img-logo\\pexels-themob000-28428592.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\img-logo\\thành-phố-về-đêm.jpg",
+      "PackagePath": "staticwebassets\\img\\img-logo\\thành-phố-về-đêm.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\koi_4k.png",
+      "PackagePath": "staticwebassets\\img\\koi_4k.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\koi_background_test.png",
+      "PackagePath": "staticwebassets\\img\\koi_background_test.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\koi_fish.png",
+      "PackagePath": "staticwebassets\\img\\koi_fish.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\koi_login.jpg",
+      "PackagePath": "staticwebassets\\img\\koi_login.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\logo\\logo-1.png",
+      "PackagePath": "staticwebassets\\img\\logo\\logo-1.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\logo\\logo-2.png",
+      "PackagePath": "staticwebassets\\img\\logo\\logo-2.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\logo\\logo-3.png",
+      "PackagePath": "staticwebassets\\img\\logo\\logo-3.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\logo\\logo-4.png",
+      "PackagePath": "staticwebassets\\img\\logo\\logo-4.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\logo\\logo-5.png",
+      "PackagePath": "staticwebassets\\img\\logo\\logo-5.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\logo\\logo-6.png",
+      "PackagePath": "staticwebassets\\img\\logo\\logo-6.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\logo_X_koi_full.png",
+      "PackagePath": "staticwebassets\\img\\logo_X_koi_full.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\portfolio\\du_lich1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\du_lich1.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\portfolio\\farmstay1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\farmstay1.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\portfolio\\farmstay2.png",
+      "PackagePath": "staticwebassets\\img\\portfolio\\farmstay2.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\portfolio\\ho_ca1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\ho_ca1.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\portfolio\\ho_ca2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\ho_ca2.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\portfolio\\nha_vuon1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\nha_vuon1.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\portfolio\\nha_vuon2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\nha_vuon2.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\portfolio\\portfolio-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-1.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\portfolio\\portfolio-2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-2.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\portfolio\\portfolio-3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-3.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\portfolio\\portfolio-4.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-4.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\portfolio\\portfolio-5.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-5.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\portfolio\\portfolio-6.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-6.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\portfolio\\portfolio-7.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-7.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\portfolio\\portfolio-8.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-8.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\portfolio\\portfolio-9.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\portfolio-9.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\portfolio\\san_vuon1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\san_vuon1.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\portfolio\\san_vuon2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio\\san_vuon2.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\team-bg.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team\\huy.png",
+      "PackagePath": "staticwebassets\\img\\team\\huy.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team\\nhan-1.png",
+      "PackagePath": "staticwebassets\\img\\team\\nhan-1.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team\\nhan.png",
+      "PackagePath": "staticwebassets\\img\\team\\nhan.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-1.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-2.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-3.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team-4.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team\\team-hover.png",
+      "PackagePath": "staticwebassets\\img\\team\\team-hover.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\team\\thien.png",
+      "PackagePath": "staticwebassets\\img\\team\\thien.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\test_background.jpg",
+      "PackagePath": "staticwebassets\\img\\test_background.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\test_background.png",
+      "PackagePath": "staticwebassets\\img\\test_background.png"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\testimonial-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-bg.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\testimonial\\ta-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial\\ta-1.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\testimonial\\ta-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial\\ta-2.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\testimonial\\ta-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial\\ta-3.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\work\\work-1.jpg",
+      "PackagePath": "staticwebassets\\img\\work\\work-1.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\work\\work-2.jpg",
+      "PackagePath": "staticwebassets\\img\\work\\work-2.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\work\\work-3.jpg",
+      "PackagePath": "staticwebassets\\img\\work\\work-3.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\work\\work-4.jpg",
+      "PackagePath": "staticwebassets\\img\\work\\work-4.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\work\\work-5.jpg",
+      "PackagePath": "staticwebassets\\img\\work\\work-5.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\work\\work-6.jpg",
+      "PackagePath": "staticwebassets\\img\\work\\work-6.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\img\\work\\work-7.jpg",
+      "PackagePath": "staticwebassets\\img\\work\\work-7.jpg"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\js\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\js\\mixitup.min.js",
+      "PackagePath": "staticwebassets\\js\\mixitup.min.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\University\\CN2303CLCB_K23\\Công_Nghệ_Phần_Mềm\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\MainSite_Src\\MainWeb\\MainSite.WebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MainSite.WebApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MainSite.WebApplication.props",
+      "PackagePath": "build\\MainSite.WebApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MainSite.WebApplication.props",
+      "PackagePath": "buildMultiTargeting\\MainSite.WebApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MainSite.WebApplication.props",
+      "PackagePath": "buildTransitive\\MainSite.WebApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

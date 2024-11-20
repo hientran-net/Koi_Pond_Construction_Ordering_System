@@ -23,5 +23,9 @@ public partial class DuAn
 
     public string? ChinhSuaBoi { get; set; }
 
+    public string? HinhAnhPath { get; set; }
+
+    public string? DiaDiem { get; set; }
+
     public virtual ICollection<DonDatHang> DonDatHangs { get; set; } = new List<DonDatHang>();
 }

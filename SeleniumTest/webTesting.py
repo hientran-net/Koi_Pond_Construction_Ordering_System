@@ -14,7 +14,7 @@ class ChromeSearch(unittest.TestCase):
         
         # Tìm element username bằng ID
         userName = driver.find_element(By.ID, "userName")
-        userName.send_keys("hien")
+        userName.send_keys("admin")
         time.sleep(3)
         
         # Tìm element password bằng ID
@@ -24,25 +24,25 @@ class ChromeSearch(unittest.TestCase):
         password.send_keys(Keys.RETURN)
         time.sleep(3)
 
-        driver.get("http://localhost:5233/Employee/Index")
+        driver.get("http://localhost:5233/CustomerManage/Index")
         time.sleep(3)
-        driver.get("http://localhost:5233/Employee/Create")
+        driver.get("http://localhost:5233/CustomerManage/Create")
         time.sleep(3)
 
-        enterName = driver.find_element(By.ID, "NhanVien_HoTen")
-        enterName.send_keys("Trần Minh Hiền")
+        enterName = driver.find_element(By.ID, "KhachHang_TenKhachHang")
+        enterName.send_keys("Đỗ Đức Anh")
         time.sleep(3)
         
-        enterMail = driver.find_element(By.ID, "NhanVien_Email")
-        enterMail.send_keys("hientm0978@ut.edu.vn")
+        enterMail = driver.find_element(By.ID, "KhachHang_DiaChi")
+        enterMail.send_keys("112 Đường Láng Hạ, Quận Đống Đa, Hà Nội")
         time.sleep(3)
 
-        enterPhonenumber = driver.find_element(By.ID, "NhanVien_SoDienThoai")
-        enterPhonenumber.send_keys("0559800767")
+        enterPhonenumber = driver.find_element(By.ID, "KhachHang_SoDienThoai")
+        enterPhonenumber.send_keys("0989012345")
         time.sleep(3)
 
-        enterAddress = driver.find_element(By.ID, "NhanVien_DiaChia")
-        enterAddress.send_keys("Bến Tre")
+        enterAddress = driver.find_element(By.ID, "KhachHang_Email")
+        enterAddress.send_keys("ducanh.do@gmail.com")
         time.sleep(3)
 
 

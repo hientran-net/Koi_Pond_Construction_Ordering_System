@@ -84,9 +84,15 @@ public partial class AdminDbConsturctionOderingSystemContext : DbContext
             entity.Property(e => e.ChinhSuaBoi)
                 .HasMaxLength(255)
                 .HasColumnName("chinh_sua_boi");
+            entity.Property(e => e.DiaDiem)
+                .HasMaxLength(255)
+                .HasColumnName("dia_diem");
             entity.Property(e => e.GiaDuAn)
                 .HasColumnType("decimal(10, 0)")
                 .HasColumnName("gia_du_an");
+            entity.Property(e => e.HinhAnhPath)
+                .HasMaxLength(255)
+                .HasColumnName("hinh_anh_path");
             entity.Property(e => e.MoTaDuAn).HasColumnName("mo_ta_du_an");
             entity.Property(e => e.NgayChinhSua)
                 .HasDefaultValueSql("(getdate())")

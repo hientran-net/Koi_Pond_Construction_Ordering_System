@@ -1,5 +1,6 @@
 ﻿using ConstructionOdering.Repositories.Entities;
 using ConstructionOrdering.Service.Interface;
+using ConstructionOrdering.Service.Service;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -75,36 +76,22 @@ namespace Project.WebApplication.Pages.OrderManage
             }
         }
 
-        //private async Task<string> GenerateNextOrderId()
-        //{
-        //    try
-        //    {
-        //        var orderId = await _donDatHangService.GetAllOrders();
-        //        int count = orderId.Count + 1;
-        //        return $"DA_{count:D2}"; // D2 sẽ format số thành 2 chữ số, thêm 0 vào trước nếu cần
-        //    }
-        //    catch
-        //    {
-        //        return "DA_01"; // Trường hợp chưa có nhân viên hoặc có lỗi
-        //    }
-        //}
-
         private async Task<string> GenerateNextOrderId()
         {
             try
             {
                 // Lấy toàn bộ dự án từ database
-                var projects = await _duAnService.GetAllProject();
+                var projects = await _donDatHangService.GetAllOrders();
 
                 // Nếu chưa có dự án nào
                 if (!projects.Any())
                 {
-                    return "DDA_";
+                    return "DDA_01";
                 }
 
                 // Lấy danh sách các số đã sử dụng
                 var existingNumbers = projects
-                    .Select(p => int.Parse(p.MaDuAn.Split('_')[1]))
+                    .Select(p => int.Parse(p.MaDonDatHang.Split('_')[1]))
                     .OrderBy(x => x)
                     .ToList();
 
@@ -117,13 +104,12 @@ namespace Project.WebApplication.Pages.OrderManage
                     }
                 }
 
-                // Trường hợp dự phòng (không khả thi nhưng vẫn an toàn)
                 return $"DDA_{existingNumbers.Count + 1:D2}";
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error generating project ID: {ex.Message}");
-                return "DDA_"; // Trường hợp có lỗi
+                return "DDA_01"; // Trường hợp có lỗi
             }
         }
 

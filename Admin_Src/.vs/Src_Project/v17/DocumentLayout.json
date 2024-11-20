@@ -3,8 +3,92 @@
   "WorkspaceRootPath": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0323E016-3834-4D99-B2C0-57C57D765440}|Project.WebApplication\\Project.WebApplication.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\project.webapplication\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0323E016-3834-4D99-B2C0-57C57D765440}|Project.WebApplication\\Project.WebApplication.csproj|solutionrelative:project.webapplication\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionordering.service\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|solutionrelative:constructionordering.service\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionordering.service\\service\\nhanvienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|solutionrelative:constructionordering.service\\service\\nhanvienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionordering.service\\service\\khachhangservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|solutionrelative:constructionordering.service\\service\\khachhangservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionordering.service\\service\\duanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|solutionrelative:constructionordering.service\\service\\duanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionordering.service\\service\\dondathangservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|solutionrelative:constructionordering.service\\service\\dondathangservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionordering.service\\service\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|solutionrelative:constructionordering.service\\service\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionordering.service\\interface\\inhanvienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|solutionrelative:constructionordering.service\\interface\\inhanvienservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionordering.service\\interface\\ikhachhangservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|solutionrelative:constructionordering.service\\interface\\ikhachhangservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionordering.service\\interface\\iduanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|solutionrelative:constructionordering.service\\interface\\iduanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionordering.service\\interface\\idondathangservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F11F1AB5-7D0A-41AE-9147-9C3906328051}|ConstructionOrdering.Service\\ConstructionOrdering.Service.csproj|solutionrelative:constructionordering.service\\interface\\idondathangservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionodering.repositories\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|solutionrelative:constructionodering.repositories\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionodering.repositories\\repository\\nhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|solutionrelative:constructionodering.repositories\\repository\\nhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionodering.repositories\\repository\\duanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|solutionrelative:constructionodering.repositories\\repository\\duanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionodering.repositories\\repository\\khachhangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|solutionrelative:constructionodering.repositories\\repository\\khachhangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionodering.repositories\\repository\\dondathangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|solutionrelative:constructionodering.repositories\\repository\\dondathangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionodering.repositories\\interface\\idondathangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|solutionrelative:constructionodering.repositories\\interface\\idondathangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionodering.repositories\\interface\\iduanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|solutionrelative:constructionodering.repositories\\interface\\iduanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionodering.repositories\\interface\\ikhachhangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|solutionrelative:constructionodering.repositories\\interface\\ikhachhangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionodering.repositories\\interface\\inhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|solutionrelative:constructionodering.repositories\\interface\\inhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionodering.repositories\\entities\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|solutionrelative:constructionodering.repositories\\entities\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\constructionodering.repositories\\entities\\duan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16BE4458-F2CE-46F5-AE42-F1AA7CECF37D}|ConstructionOdering.Repositories\\ConstructionOdering.Repositories.csproj|solutionrelative:constructionodering.repositories\\entities\\duan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0323E016-3834-4D99-B2C0-57C57D765440}|Project.WebApplication\\Project.WebApplication.csproj|d:\\university\\cn2303clcb_k23\\c\u00F4ng_ngh\u1EC7_ph\u1EA7n_m\u1EC1m\\project\\main-source-branch\\koi_pond_construction_ordering_system\\admin_src\\project.webapplication\\pages\\customermanage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0323E016-3834-4D99-B2C0-57C57D765440}|Project.WebApplication\\Project.WebApplication.csproj|solutionrelative:project.webapplication\\pages\\customermanage\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +98,292 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Entities\\KhachHang.cs",
+              "RelativeDocumentMoniker": "ConstructionOdering.Repositories\\Entities\\KhachHang.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Entities\\KhachHang.cs",
+              "RelativeToolTip": "ConstructionOdering.Repositories\\Entities\\KhachHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:28:31.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DuAn.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Entities\\DuAn.cs",
+              "RelativeDocumentMoniker": "ConstructionOdering.Repositories\\Entities\\DuAn.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Entities\\DuAn.cs",
+              "RelativeToolTip": "ConstructionOdering.Repositories\\Entities\\DuAn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:28:12.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Project.WebApplication\\Pages\\Index.cshtml",
-              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\Pages\\Index.cshtml",
-              "RelativeToolTip": "Project.WebApplication\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "ConstructionOrdering.Service\\Service\\UserService.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Service\\UserService.cs",
+              "RelativeToolTip": "ConstructionOrdering.Service\\Service\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:27:09.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NhanVienService.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Service\\NhanVienService.cs",
+              "RelativeDocumentMoniker": "ConstructionOrdering.Service\\Service\\NhanVienService.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Service\\NhanVienService.cs",
+              "RelativeToolTip": "ConstructionOrdering.Service\\Service\\NhanVienService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:27:07.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KhachHangService.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Service\\KhachHangService.cs",
+              "RelativeDocumentMoniker": "ConstructionOrdering.Service\\Service\\KhachHangService.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Service\\KhachHangService.cs",
+              "RelativeToolTip": "ConstructionOrdering.Service\\Service\\KhachHangService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA+wDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:27:01.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DonDatHangService.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Service\\DonDatHangService.cs",
+              "RelativeDocumentMoniker": "ConstructionOrdering.Service\\Service\\DonDatHangService.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Service\\DonDatHangService.cs",
+              "RelativeToolTip": "ConstructionOrdering.Service\\Service\\DonDatHangService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:26:58.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DuAnService.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Service\\DuAnService.cs",
+              "RelativeDocumentMoniker": "ConstructionOrdering.Service\\Service\\DuAnService.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Service\\DuAnService.cs",
+              "RelativeToolTip": "ConstructionOrdering.Service\\Service\\DuAnService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAxwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:26:55.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Service\\AccountService.cs",
+              "RelativeDocumentMoniker": "ConstructionOrdering.Service\\Service\\AccountService.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Service\\AccountService.cs",
+              "RelativeToolTip": "ConstructionOrdering.Service\\Service\\AccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:26:50.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IKhachHangService.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Interface\\IKhachHangService.cs",
+              "RelativeDocumentMoniker": "ConstructionOrdering.Service\\Interface\\IKhachHangService.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Interface\\IKhachHangService.cs",
+              "RelativeToolTip": "ConstructionOrdering.Service\\Interface\\IKhachHangService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:26:47.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "INhanVienService.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Interface\\INhanVienService.cs",
+              "RelativeDocumentMoniker": "ConstructionOrdering.Service\\Interface\\INhanVienService.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Interface\\INhanVienService.cs",
+              "RelativeToolTip": "ConstructionOrdering.Service\\Interface\\INhanVienService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:26:44.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDuAnService.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Interface\\IDuAnService.cs",
+              "RelativeDocumentMoniker": "ConstructionOrdering.Service\\Interface\\IDuAnService.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Interface\\IDuAnService.cs",
+              "RelativeToolTip": "ConstructionOrdering.Service\\Interface\\IDuAnService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:26:40.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDonDatHangService.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Interface\\IDonDatHangService.cs",
+              "RelativeDocumentMoniker": "ConstructionOrdering.Service\\Interface\\IDonDatHangService.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOrdering.Service\\Interface\\IDonDatHangService.cs",
+              "RelativeToolTip": "ConstructionOrdering.Service\\Interface\\IDonDatHangService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:26:36.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ConstructionOdering.Repositories\\Repository\\UserRepository.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "ConstructionOdering.Repositories\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:26:33.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NhanVienRepository.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Repository\\NhanVienRepository.cs",
+              "RelativeDocumentMoniker": "ConstructionOdering.Repositories\\Repository\\NhanVienRepository.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Repository\\NhanVienRepository.cs",
+              "RelativeToolTip": "ConstructionOdering.Repositories\\Repository\\NhanVienRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAxwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:26:30.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "KhachHangRepository.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Repository\\KhachHangRepository.cs",
+              "RelativeDocumentMoniker": "ConstructionOdering.Repositories\\Repository\\KhachHangRepository.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Repository\\KhachHangRepository.cs",
+              "RelativeToolTip": "ConstructionOdering.Repositories\\Repository\\KhachHangRepository.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAswEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:26:27.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DuAnRepository.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Repository\\DuAnRepository.cs",
+              "RelativeDocumentMoniker": "ConstructionOdering.Repositories\\Repository\\DuAnRepository.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Repository\\DuAnRepository.cs",
+              "RelativeToolTip": "ConstructionOdering.Repositories\\Repository\\DuAnRepository.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAxwF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:26:24.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DonDatHangRepository.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Repository\\DonDatHangRepository.cs",
+              "RelativeDocumentMoniker": "ConstructionOdering.Repositories\\Repository\\DonDatHangRepository.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Repository\\DonDatHangRepository.cs",
+              "RelativeToolTip": "ConstructionOdering.Repositories\\Repository\\DonDatHangRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAywEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:26:22.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "INhanVienRepository.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Interface\\INhanVienRepository.cs",
+              "RelativeDocumentMoniker": "ConstructionOdering.Repositories\\Interface\\INhanVienRepository.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Interface\\INhanVienRepository.cs",
+              "RelativeToolTip": "ConstructionOdering.Repositories\\Interface\\INhanVienRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:26:18.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IKhachHangRepository.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Interface\\IKhachHangRepository.cs",
+              "RelativeDocumentMoniker": "ConstructionOdering.Repositories\\Interface\\IKhachHangRepository.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Interface\\IKhachHangRepository.cs",
+              "RelativeToolTip": "ConstructionOdering.Repositories\\Interface\\IKhachHangRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:26:16.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IDuAnRepository.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Interface\\IDuAnRepository.cs",
+              "RelativeDocumentMoniker": "ConstructionOdering.Repositories\\Interface\\IDuAnRepository.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Interface\\IDuAnRepository.cs",
+              "RelativeToolTip": "ConstructionOdering.Repositories\\Interface\\IDuAnRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:26:13.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IDonDatHangRepository.cs",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Interface\\IDonDatHangRepository.cs",
+              "RelativeDocumentMoniker": "ConstructionOdering.Repositories\\Interface\\IDonDatHangRepository.cs",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\ConstructionOdering.Repositories\\Interface\\IDonDatHangRepository.cs",
+              "RelativeToolTip": "ConstructionOdering.Repositories\\Interface\\IDonDatHangRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T07:26:08.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\Pages\\CustomerManage\\Create.cshtml",
+              "RelativeDocumentMoniker": "Project.WebApplication\\Pages\\CustomerManage\\Create.cshtml",
+              "ToolTip": "D:\\University\\CN2303CLCB_K23\\C\u00F4ng_Ngh\u1EC7_Ph\u1EA7n_M\u1EC1m\\Project\\Main-Source-branch\\Koi_Pond_Construction_Ordering_System\\Admin_Src\\Project.WebApplication\\Pages\\CustomerManage\\Create.cshtml",
+              "RelativeToolTip": "Project.WebApplication\\Pages\\CustomerManage\\Create.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAADwv0oAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T15:52:36.778Z",
+              "WhenOpened": "2024-11-20T05:45:47.935Z",
               "EditorCaption": ""
             }
           ]

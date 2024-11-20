@@ -77,3 +77,9 @@ CREATE TABLE Users (
     PasswordHash NVARCHAR(256) NOT NULL
 )
 GO
+
+ALTER TABLE Du_An
+ADD 
+    hinh_anh_path NVARCHAR(255),
+    dia_diem NVARCHAR(255);
+GO

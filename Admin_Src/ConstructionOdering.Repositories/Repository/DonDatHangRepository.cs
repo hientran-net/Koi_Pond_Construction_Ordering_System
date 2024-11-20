@@ -34,7 +34,7 @@ namespace ConstructionOdering.Repositories.Repository
         async Task<bool> IDonDatHangRepository.DeleteOrder(string id)
         {
             var order = await _dbContext.DonDatHangs.FindAsync(id);
-            if(order != null)
+            if (order != null)
             {
                 _dbContext.DonDatHangs.Remove(order);
                 await _dbContext.SaveChangesAsync();
