@@ -1,0 +1,188 @@
+﻿@page
+@model Project.WebApplication.Pages.ProjectManage.IndexModel
+@{
+    ViewData["Title"] = "Danh sách dự án";
+}
+
+
+
+
+
+<!--main content start-->
+<section id="main-content">
+    <section class="wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        Quản lý dự án
+                        <a href="/ProjectManage/Create" class="btn btn-success pull-right" style="margin-top: -5px;">
+                            <i class="fa fa-plus"></i> Thêm mới
+                        </a>
+                    </header>
+                    <div class="panel-body">
+
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success" role="alert">
+                                @TempData["SuccessMessage"]
+                            </div>
+                        }
+
+                        @if (TempData["ErrorMessage"] != null)
+                        {
+                            <div class="alert alert-success" role="alert">
+                                @TempData["ErrorMessage"]
+                            </div>
+                        }
+                        <!-- Search and Filter Section -->
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="input-group">
+                                    <input type="text" id="searchInput" class="form-control" placeholder="Tìm kiếm dự án...">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Employee Table -->
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Hình ảnh</th>
+                                    <th>Tên dự án</th>
+                                    <th>Giá dự kiến</th>
+                                    <th>Số ngày thi công</th>
+                                    <th>Địa điểm</th>
+                                    <th>Mô tả</th>
+                                    <th>Ngày thêm dự án</th>
+                                    <th>Dự án được thêm bởi</th>
+                                    <th>Thao tác</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var items in Model.DuAns)
+                                {
+                                    <tr>
+                                        <td>@items.MaDuAn</td>
+                                        <td style="width: 150px;">
+                                            @if (!string.IsNullOrEmpty(items.HinhAnhPath))
+                                            {
+                                                <div style="width: 150px; height: 100px; overflow: hidden;">
+                                                    <iframe src="@items.HinhAnhPath" 
+                                                            width="150" 
+                                                            height="100" 
+                                                            frameborder="0"
+                                                            allowfullscreen="true"
+                                                            onclick="showFullImage('@items.HinhAnhPath', '@items.TenDuAn')"
+                                                            style="pointer-events: none;">
+                                                    </iframe>
+                                                </div>
+                                                <button class="btn btn-sm btn-info mt-1" 
+                                                        onclick="showFullImage('@items.HinhAnhPath', '@items.TenDuAn')">
+                                                    <i class="fa fa-expand"></i> Xem
+                                                </button>
+                                            }
+                                        </td>
+                                        <td>@items.TenDuAn</td>
+                                        <td>@items.GiaDuAn.Value.ToString("N0") VNĐ</td>
+                                        <td>@items.SoNgayThiCongDuKien</td>
+                                        <td>@items.DiaDiem</td>
+                                        <td>@items.MoTaDuAn</td>
+                                        <td>@items.NgayThemDuAn</td>
+                                        <td>@items.ThemBoi</td>
+                                        <td>
+                                            <a asp-page="./Edit" asp-route-id="@items.MaDuAn" class="btn btn-primary btn-xs">
+                                                <i class="fa fa-pencil"></i> Sửa
+                                            </a>
+                                            <a asp-page="./Delete" asp-route-id="@items.MaDuAn" class="btn btn-danger btn-xs">
+                                                <i class="fa fa-trash-o"></i> Xóa
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+</section>
+
+<!-- Delete Confirmation Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Xác nhận xóa</h4>
+            </div>
+            <div class="modal-body">
+                <p>Bạn có chắc chắn muốn xóa dự án này không?</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* Modal xem ảnh full size *@
+<div class="modal fade" id="imageModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="imageModalTitle"></h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body p-3" style="background-color: #f8f9fa;">
+                <div class="iframe-container" style="border: 3px solid #808080; border-radius: 4px; overflow: hidden;">
+                    <iframe id="fullSizeFrame" 
+                            width="100%" 
+                            height="600" 
+                            frameborder="0"
+                            allowfullscreen="true">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+        function confirmDelete(id) {
+            $('#deleteForm').attr('action', '/ProjectManage/Delete/' + id);
+            $('#deleteModal').modal('show');
+        }
+
+        $(document).ready(function() {
+            $("#searchInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("table tbody tr").filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+
+            $("#departmentFilter").change(function() {
+                var value = $(this).val().toLowerCase();
+                if (value) {
+                    $("table tbody tr").filter(function() {
+                        $(this).toggle($(this).find("td:eq(5)").text().toLowerCase() === value)
+                    });
+                } else {
+                    $("table tbody tr").show();
+                }
+            });
+        });
+    </script>
+    <script>
+        function showFullImage(embedUrl, title) {
+            document.getElementById('fullSizeFrame').src = embedUrl;
+            document.getElementById('imageModalTitle').textContent = title;
+            $('#imageModal').modal('show');
+        }
+    </script>
+}

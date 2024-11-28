@@ -1,0 +1,68 @@
+﻿@page 
+@model IndexModel
+@{
+    ViewData["Title"] = "Danh sách đơn đặt hàng";
+}
+
+<section id="main-content">
+    <section class="wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        Danh sách đơn đặt hàng
+                        <a asp-page="Create" class="btn btn-success pull-right">
+                            <i class="fa fa-plus"></i> Thêm mới
+                        </a>
+                    </header>
+                    <div class="panel-body">
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+                        }
+                        @if (TempData["ErrorMessage"] != null)
+                        {
+                            <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+                        }
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Mã đơn hàng</th>
+                                    <th>Khách hàng</th>
+                                    <th>Dự án</th>
+                                    <th>Ngày đặt hàng</th>
+                                    <th>Ngày bắt đầu</th>
+                                    <th>Ngày kết thúc</th>
+                                    <th>Ngày kết thúc thực tế</th>
+                                    <th>Thao tác</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.DonDatHangs)
+                                {
+                                    <tr>
+                                        <td>@item.MaDonDatHang</td>
+                                        <td>@item.MaKhachHangNavigation?.TenKhachHang</td>
+                                        <td>@item.MaDuAnNavigation?.TenDuAn</td>
+                                        <td>@item.NgayDatHang?.ToString("dd/MM/yyyy")</td>
+                                        <td>@item.NgayBatDauThiCong?.ToString("dd/MM/yyyy")</td>
+                                        <td>@item.NgayKetThucThiCong?.ToString("dd/MM/yyyy")</td>
+                                        <td>@item.NgayKetThucThucTe?.ToString("dd/MM/yyyy")</td>
+                                        <td>
+                                            <a asp-page="./Edit" asp-route-id="@item.MaDonDatHang" class="btn btn-primary btn-xs">
+                                                <i class="fa fa-pencil"></i> Sửa
+                                            </a>
+                                            <a asp-page="./Delete" asp-route-id="@item.MaDonDatHang" class="btn btn-danger btn-xs">
+                                                <i class="fa fa-trash-o"></i> Xóa
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+</section>

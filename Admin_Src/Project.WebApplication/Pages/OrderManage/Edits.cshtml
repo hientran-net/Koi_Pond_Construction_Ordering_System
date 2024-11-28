@@ -1,0 +1,108 @@
+﻿@page
+@model Project.WebApplication.Pages.OrderManage.EditsModel
+@{
+    ViewData["Title"] = "Chỉnh sửa đơn đặt hàng";
+}
+
+<!--main content start-->
+<section id="main-content">
+    <section class="wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        Chỉnh sửa thông tin đơn đặt hàng
+                    </header>
+                    <div class="panel-body">
+                        <div class="form">
+                            <form method="post" class="form-horizontal">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <input type="hidden" asp-for="DonDatHang.MaDonDatHang" />
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Mã đơn đặt hàng</label>
+                                    <div class="col-sm-10">
+                                        <input asp-for="DonDatHang.MaDonDatHang" class="form-control" readonly />
+                                        <span asp-validation-for="DonDatHang.MaDonDatHang" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <!-- Phần khách hàng -->
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Khách hàng</label>
+                                    <div class="col-sm-10">
+                                        <select asp-for="DonDatHang.MaKhachHang" class="form-control"
+                                                asp-items="@Model.CustomersSelectList">
+                                            <option value="">-- Chọn khách hàng --</option>
+                                        </select>
+                                        <span asp-validation-for="DonDatHang.MaKhachHang" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <!-- Phần dự án -->
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Dự án</label>
+                                    <div class="col-sm-10">
+                                        <select asp-for="DonDatHang.MaDuAn" class="form-control"
+                                                asp-items="@Model.ProjectsSelectList">
+                                            <option value="">-- Chọn dự án --</option>
+                                        </select>
+                                        <span asp-validation-for="DonDatHang.MaDuAn" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Ngày đặt hàng</label>
+                                    <div class="col-sm-10">
+                                        <input asp-for="DonDatHang.NgayDatHang" class="form-control" type="date" />
+                                        <span asp-validation-for="DonDatHang.NgayDatHang" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Ngày bắt đầu thi công</label>
+                                    <div class="col-sm-10">
+                                        <input asp-for="DonDatHang.NgayBatDauThiCong" class="form-control" type="date" />
+                                        <span asp-validation-for="DonDatHang.NgayBatDauThiCong" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Ngày kết thúc dự kiến</label>
+                                    <div class="col-sm-10">
+                                        <input asp-for="DonDatHang.NgayKetThucThiCong" class="form-control" type="date" />
+                                        <span asp-validation-for="DonDatHang.NgayKetThucThiCong" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Ngày hoàn thành thực tế</label>
+                                    <div class="col-sm-10">
+                                        <input asp-for="DonDatHang.NgayKetThucThucTe" class="form-control" type="date" />
+                                        <span asp-validation-for="DonDatHang.NgayKetThucThucTe" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <button type="submit" class="btn btn-primary">
+                                            <i class="fa fa-save"></i> Lưu thay đổi
+                                        </button>
+                                        <a asp-page="./Index" class="btn btn-default">
+                                            <i class="fa fa-arrow-left"></i> Quay lại
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+</section>
+<!--main content end-->
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

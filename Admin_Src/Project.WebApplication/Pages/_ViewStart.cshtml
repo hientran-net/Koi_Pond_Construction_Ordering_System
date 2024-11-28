@@ -1,0 +1,14 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+@{
+    if (Context.Request.Path.Value.Contains("/Login"))
+    {
+        Layout = "_LoginLayout";
+    }
+    else
+    {
+        Layout = "_Layout";
+    }
+}
